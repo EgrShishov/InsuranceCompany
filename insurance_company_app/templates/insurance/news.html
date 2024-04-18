@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'common/layout.html' %}
 
-</body>
-</html>
+{% block content %}
+    <div class="joke">
+        <h2 style="text-align:center;">Joke of the day</h2>
+        <h3 style="text-align:center;">{{joke.setup}}</h3>
+        <h3 style="text-align:center;">{{joke.punchline}}</h3>
+        <h2 style="text-align:center;">Funny fact about cats:</h2>
+        <h3 style="text-align:center;">{{cat_facts.fact}} - {{cat_facts.length}}</h3>
+    </div>
+{% endblock %}

@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required, permission_required
 from django.shortcuts import render
 from django.http import HttpResponseRedirect, HttpResponseNotFound
 from ..models.insurance_agent import InsuranceAgent
@@ -8,6 +9,8 @@ def index(request):
     return render(request, "index.html", {"agents": agents})
 
 
+@login_required
+@permission_required('insurance_company_app.add_insuranceagent')
 def create(request):
     if request.method == "POST":
         insurance_agent = InsuranceAgent()
@@ -22,6 +25,8 @@ def create(request):
     return HttpResponseRedirect("/")
 
 
+@login_required
+@permission_required('insurance_company_app.change_insuranceagent')
 def edit(request, id):
     try:
         insurance_agent = InsuranceAgent.objects.get(id=id)
@@ -42,6 +47,8 @@ def edit(request, id):
         return HttpResponseNotFound("<h2>Person not found</h2>")
 
 
+@login_required
+@permission_required('insurance_company_app.delete_insuranceagent')
 def delete(request, id):
     try:
         insurance_agent = InsuranceAgent.objects.get(id=id)

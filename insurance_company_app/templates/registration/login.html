@@ -5,13 +5,15 @@
     <title>Title</title>
 </head>
 <body>
-  <div class="log-form">
+    <div class="log-form">
     <h2>Login to your account</h2>
-    <form>
-      <input type="text" title="username" placeholder="username" />
-      <input type="password" title="username" placeholder="password" />
+    <form method="post">
+      {% csrf_token %}
+      <input type="text" name="username" title="username" placeholder="username" />
+      <input type="password" name="password" title="username" placeholder="password" />
       <button type="submit" class="btn">Login</button>
       <a class="forgot" href="#">Forgot Username?</a>
+      {{ form.errors }}
     </form>
   </div>
 </body>

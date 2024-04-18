@@ -9,6 +9,8 @@ def index(request):
     return render(request, "company_branch/index.html", {"branches": branches})
 
 
+@login_required
+@permission_required('insurance_company_app.add_companybranch')
 def create(request):
     if request.method == "GET":
         return render(request, "company_branch/create.html")
@@ -22,11 +24,11 @@ def create(request):
 
 
 @login_required
-@permission_required('insurance_company_app.edit_branch')
+@permission_required('insurance_company_app.change_companybranch')
 def edit(request, id):
     try:
         company_branch = CompanyBranch.objects.get(id=id)
-        if not request.user.has_perm('your_app.edit_product', company_branch):
+        if not request.user.has_perm('your_app.change_companybranch', company_branch):
             return HttpResponseForbidden("You don't have permission to edit this company branch.")
         if request.method == "POST":
             company_branch.name = request.POST.get("name")
@@ -41,7 +43,7 @@ def edit(request, id):
 
 
 @login_required
-@permission_required('insurance_company_app.delete_branch')
+@permission_required('insurance_company_app.delete_companybranch')
 def delete(request, id):
     try:
         company_branch = CompanyBranch.objects.get(id=id)

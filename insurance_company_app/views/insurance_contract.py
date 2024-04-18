@@ -6,11 +6,14 @@ from django.utils import timezone
 
 
 @login_required
+@permission_required('insurance_company_app.view_insurancecontract')
 def index(request):
     contracts = InsuranceContract.objects.all()
     return render(request, "insurance_contract/index.html", {"contracts": contracts})
 
 
+@login_required
+@permission_required('insurance_company_app.add_insurancecontract')
 def create(request):
     if request.method == "GET":
         return render(request, "insurance_contract/create.html")
@@ -26,7 +29,7 @@ def create(request):
 
 
 @login_required
-@permission_required('insurance_company_app.edit_contract')
+@permission_required('insurance_company_app.change_insurancecontract')
 def edit(request, id):
     try:
         contract = InsuranceContract.objects.get(id=id)
@@ -47,7 +50,7 @@ def edit(request, id):
 
 
 @login_required
-@permission_required('insurance_company_app.delete_contract')
+@permission_required('insurance_company_app.delete_insurancecontract')
 def delete(request, id):
     try:
         contract = InsuranceContract.objects.get(id=id)

@@ -1,5 +1,5 @@
-from django.urls import path, include
-from .views import news, company_branches, account
+from django.urls import path
+from .views import news, company_branches, insurance_contract, accounts
 
 urlpatterns = [
     path('', news.news_view, name='main_page'),
@@ -7,6 +7,8 @@ urlpatterns = [
     path('branches/create/', company_branches.create, name='create_branch'),
     path('branches/edit/<int:id>/', company_branches.edit, name='edit_branch'),
     path('branches/delete/<int:id>', company_branches.delete, name='delete_branch'),
-    path('account/', account.index, name='account'),
-    path('register/', account.register, name='register')
+    path('contracts/', insurance_contract.index, name='contracts'),
+    path('accounts/profile/', accounts.profile, name='profile'),
+    path('accounts/logout/', accounts.logout_view, name='logout'),
+    path('register/', accounts.register, name='register')
 ]
