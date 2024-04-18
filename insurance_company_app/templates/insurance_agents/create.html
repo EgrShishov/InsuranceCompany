@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="POST" action="create/">
+        {% csrf_token %}
+        <p>
+            <label>Введите имя сотрудника</label><br>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label>Введите фамилию сотрудника</label><br>
+            <input type="text" name="surname" />
+        </p>
+        <p>
+            <label>Введите отчество сотрудника</label><br>
+            <input type="text" name="second_name" />
+        </p>
+        <p>
+            <label>Введите возраст сотрудника</label><br>
+            <input type="text" name="age" />
+        </p>
+        <p>
+            <label>Введите адрес сотрудника</label><br>
+            <input type="text" name="address" />
+        </p>
+        <p>
+            <label>Выберите филиал</label>
+            <input type="text" name="branch_name">
+        </p>
+        <p>
+            <label>Введите номер телефона сотрудника</label>
+            <input type="text" name="phone_number">
+        </p>
+        <input type="submit" value="Сохранить" >
+    </form>
+</body>
+</html>

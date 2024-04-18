@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% block content %}
+        <form method="post">
+            {% csrf_token %}
+            {{ form.name }} <br>
+            {{ form.address }} <br>
+            {{ form.phone_number }} <br>
+            <button type="submit">Add company branch</button>
+        </form>
+    {% endblock %}
+</body>
+</html>
