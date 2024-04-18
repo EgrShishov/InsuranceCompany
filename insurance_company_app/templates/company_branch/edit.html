@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8" />
+    <title>Edit branch</title>
 </head>
 <body>
-
+    <form method="POST">
+        {% csrf_token %}
+        <p>
+            <label>Введите название филиала</label><br>
+            <input type="text" name="name" value="{{company_branch.name}}"/>
+        </p>
+        <p>
+            <label>Введите адресс</label><br>
+            <input type="text" name="address" value="{{company_branch.address]}"/>
+        </p>
+        <p>
+            <label>Введите телефон</label><br>
+            <input type="text" name="phone_number" value="{{company_branch.phone_number}}" />
+        </p>
+        <input type="submit" value="Сохранить" >
+    </form>
 </body>
 </html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <div class="reg-form">
+        <h2>Login to your account</h2>
+        <form>
+            <input type="text" name="username" title="username" placeholder="username" />
+            <input type="password" name="password" title="password" placeholder="password" />
+            <input type="text" name="email" title="email" placeholder="email">
+            <button type="submit" class="btn">Login</button>
+            <a class="forgot" href="#">Forgot Username?</a>
+        </form>
+        </div>
+    </form>
+</body>
+</html>

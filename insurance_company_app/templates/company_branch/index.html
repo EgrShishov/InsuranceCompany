@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>List of Branches</title>
-</head>
-<body>
+{% extends 'common/layout.html' %}
+
+{% block content %}
     <h1>List of Branches</h1>
     <ul>
         {% for branch in branches %}
             <li>{{ branch.name }} - {{ branch.address }} - {{ branch.phone_number }}</li>
         {% endfor %}
     </ul>
-</body>
-</html>
+{% endblock %}

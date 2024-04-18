@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Create branch</title>
 </head>
 <body>
-    <form method="POST" action="create/">
+    <form method="POST">
         {% csrf_token %}
         <p>
             <label>Введите название филиала</label><br>
@@ -16,9 +16,10 @@
             <input type="text" name="address" />
         </p>
         <p>
-            <label>Введите адрес</label><br>
-            <input type="text" name="address" />
+            <label>Введите номер телефона</label><br>
+            <input type="text" name="phone_number" />
         </p>
+
         <input type="submit" value="Сохранить" >
     </form>
 </body>

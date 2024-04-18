@@ -1,0 +1,10 @@
+{% extends 'common/layout.html' %}
+
+{% block content %}
+    <h1>List of contracts</h1>
+    <ul>
+        {% for contract in contracts %}
+            <li>{{ contract.date }} - {{ contract.sum }} - {{ contract.tarrif_rate }} - {{ contract.insurance_sum }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
