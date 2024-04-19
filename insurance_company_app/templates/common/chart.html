@@ -1,0 +1,6 @@
+{% extends 'layout.html' %}
+
+{ % content block % }
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <div id="chart">{{ chart_div|safe }}</div>
+{ % endblock %}

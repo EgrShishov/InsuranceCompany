@@ -1,0 +1,12 @@
+Watching for file changes with StatReloader
+"GET /admin/auth/user/ HTTP/1.1" 200 15376
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+- Broken pipe from ('127.0.0.1', 55934)
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+Not Found: /
+"GET / HTTP/1.1" 404 4038
+"GET /home/ HTTP/1.1" 200 6874
+Watching for file changes with StatReloader

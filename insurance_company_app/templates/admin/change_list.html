@@ -1,0 +1,8 @@
+{% extends "admin/change_list.html" %}
+
+{% block object-tools-items %}
+    {{ block.super }}
+    <li>
+        <a href="{% url 'common/superuser_statistics.html' %}" class="button">Custom Button</a>
+    </li>
+{% endblock %}

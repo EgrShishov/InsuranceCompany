@@ -1,4 +1,7 @@
 from django.contrib import admin
+from django.contrib.admin import AdminSite
+from django.shortcuts import render
+from django.urls import re_path
 from .models.company_branch import CompanyBranch
 from .models.insurance_agent import InsuranceAgent
 from .models.insurance_contract import InsuranceContract
@@ -7,10 +10,18 @@ from .models.insurance_client import InsuranceClient
 from .models.insurance_type import InsuranceType
 
 
+def show_additional_information(modeladmin, request, queryset):
+    return 0
+
+
+show_additional_information.short_description = "Shows information abount company"
+
+
 @admin.register(CompanyBranch)
 class CompanyBranchAdmin(admin.ModelAdmin):
     list_display = ('name', 'address', 'phone_number')
     list_filter = ('name', 'address', 'phone_number')
+    actions = [show_additional_information]
     #list_editable = ('name', 'address', 'phone_number')
 
 
@@ -56,3 +67,4 @@ class InsuranceContractAdmin(admin.ModelAdmin):
     list_filter = ('date', 'insurance_type', 'insurance_sum', 'tariff_rate', 'branch_name')
     list_editable = ('insurance_type', 'insurance_sum', 'tariff_rate', 'branch_name')
     list_display_links = ('date', )
+

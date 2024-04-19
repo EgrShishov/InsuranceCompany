@@ -16,6 +16,21 @@
                 <a href="{% url 'register' %}">Register</a>
             {% endif %}
         </nav>
+        <div class="additional_info">
+            <table class="calendar" style="display: inline-block;">
+                {% for row in request.text_calendar %}
+                    <tr>
+                        {% for cell in row.split %}
+                            {% if cell %}
+                                <td>{{ cell }}</td>
+                            {% endif %}
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </table>
+            <p style="display: inline-block;">Current Date and Time: {{ request.current_datetime }}</p>
+            <p style="display: inline-block;">Current user time zone: {{ request.current_timezone }}</p>
+        </div>
     </header>
     <main>
         {% block content %}
