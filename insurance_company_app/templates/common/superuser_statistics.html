@@ -2,9 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <title>Title</title>
 </head>
 <body>
     <h1>superuser statistics</h1>
+    <div class="sales_statistics">
+        <table>
+            <tr>
+                <p>Average: {{ sales_statistics.avg_sales }}</p>
+            </tr>
+            <tr>
+                <p>Total: {{ sales_statistics.total_sales }}</p>
+            </tr>
+        </table>
+    </div>
+    <p>Total sales per company: {{ total_sales }} </p>
+    <p>Most popular insurance type: {{ most_popular_insurance.insurance_type__name }} - Total: {{ most_popular_insurance.total_sum }} </p>
+    <p>Clients stats: average age {{ clients_age_statistics.avg_age }}, median age {{ clients_age_statistics.median_age }}</p>
+    <p>Stats per agent</p>
+    {% if agents %}
+        <div class="agent_stats">
+           <table>
+            <thead>
+                <tr>
+                    <th>Agent</th>
+                    <th>Total Contracts</th>
+                    <th>Total Sales</th>
+                    <th>Average Sale</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for agent in agents %}
+                    <tr>
+                        <td>{{ agent.surname }} {{ agent.name }} {{ agent.second_name }}</td>
+                        <td>{{ agent.total_contracts }}</td>
+                        {% if agent.total_sales %}
+                            <td>{{ agent.total_sales }}</td>
+                        {% else %}
+                            <td> - </td>
+                        {% endif %}
+                        {% if agent.average_sale %}
+                            <td>{{ agent.average_sale }}</td>
+                        {% else %}
+                            <td> - </td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        </div>
+    {% endif %}
+    <p>Chart: </p>
+    <div id="chart_div">{{ chart_div|safe }}</div>
+    <div id="client_age_chart_div">{{ client_age_chart|safe }}</div>
 </body>
 </html>

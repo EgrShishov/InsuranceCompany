@@ -1,0 +1,12 @@
+{% extends 'common/layout.html' %}
+
+{% block content %}
+  <p>Insurance types: </p>
+  <ul>
+    {% if types %}
+      {% for type in types %}
+        <li>{{type.name}} - {{type.description}}</li>
+      {% endfor %}
+    {% endif %}
+  </ul>
+{% endblock %}

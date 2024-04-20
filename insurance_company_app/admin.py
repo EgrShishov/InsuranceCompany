@@ -1,27 +1,18 @@
 from django.contrib import admin
-from django.contrib.admin import AdminSite
-from django.shortcuts import render
-from django.urls import re_path
 from .models.company_branch import CompanyBranch
 from .models.insurance_agent import InsuranceAgent
 from .models.insurance_contract import InsuranceContract
 from .models.insurance_object import InsuranceObject
 from .models.insurance_client import InsuranceClient
 from .models.insurance_type import InsuranceType
-
-
-def show_additional_information(modeladmin, request, queryset):
-    return 0
-
-
-show_additional_information.short_description = "Shows information abount company"
+from .models.review import Review
+from .models.promocode import Promocode
 
 
 @admin.register(CompanyBranch)
 class CompanyBranchAdmin(admin.ModelAdmin):
     list_display = ('name', 'address', 'phone_number')
     list_filter = ('name', 'address', 'phone_number')
-    actions = [show_additional_information]
     #list_editable = ('name', 'address', 'phone_number')
 
 
@@ -37,12 +28,10 @@ class InsuranceTypeAdmin(admin.ModelAdmin):
 
 @admin.register(InsuranceClient)
 class InsuranceClientAdmin(admin.ModelAdmin):
-    list_display = ('name', 'get_description')
-    list_filter = ('name', )
-    list_display_links = ('name', )
-
-    def get_description(self, obj):
-        return obj.description
+    list_display = ('name', 'surname', 'second_name', 'address', 'phone_number', 'age')
+    list_filter = ('surname', 'age', 'address')
+    list_display_links = ('surname', )
+    list_editable = ('name', 'address', 'phone_number', 'age', 'second_name')
 
 
 @admin.register(InsuranceObject)
@@ -68,3 +57,20 @@ class InsuranceContractAdmin(admin.ModelAdmin):
     list_editable = ('insurance_type', 'insurance_sum', 'tariff_rate', 'branch_name')
     list_display_links = ('date', )
 
+
+@admin.register(Promocode)
+class PromocodeAdmin(admin.ModelAdmin):
+    list_display = ('name','discount', 'is_active', 'expiration_date', 'get_usages')
+    list_filter = ('name','discount', 'is_active', 'expiration_date')
+    list_display_links = ('name',)
+    list_editable = ('discount', 'is_active', 'expiration_date')
+
+    def get_usages(self, obj):
+        return obj.usage_count
+
+
+@admin.register(Review)
+class ReviewAdmin(admin.ModelAdmin):
+    list_display = ('text','author', 'rating')
+    list_filter = ('text','author', 'rating')
+    list_display_links = ('text',)

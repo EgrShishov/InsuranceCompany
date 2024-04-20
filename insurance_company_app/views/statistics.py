@@ -1,27 +1,11 @@
+import logging
+
 from django.contrib.auth.decorators import login_required, permission_required
 from django.shortcuts import render
 from django.db.models import Sum, Avg, Count
-from django.utils import timezone
-import statistics
+from statistics import *
 import plotly.graph_objs as go
 from ..models import InsuranceAgent, InsuranceContract, InsuranceClient
-
-
-@login_required
-@permission_required('insurance_company_app.view_statistics')
-def statistics(request):
-    total_sales = get_total_sales()
-    sales_statistics = get_sales_statistics()
-    clients_age_statistics = get_clients_age_statistics()
-    most_popular_insurance_type = get_most_popular_insurance_type()
-    agent_statistics = get_agent_statistics()
-
-    return render(request, 'common/statistics.html',
-                  {"total_sales": total_sales,
-                   "sales_statistics": sales_statistics,
-                   "clients_age_statistics": clients_age_statistics,
-                   "most_popular_insurance_type": most_popular_insurance_type,
-                   "agent_statistics": agent_statistics})
 
 
 def get_total_sales():
@@ -38,10 +22,13 @@ def get_sales_statistics():
 
 
 def get_clients_age_statistics():
+    all_ages = InsuranceClient.objects.values_list('age', flat=True)
+    median_age = median(all_ages)
+
     age_stats = InsuranceClient.objects.aggregate(
         avg_age=Avg('age'),
-        median_age=statistics.median('age')
     )
+    age_stats['median_age'] = median_age
     return age_stats
 
 
@@ -61,7 +48,7 @@ def get_agent_statistics():
     return agent_stats
 
 
-def visualize_sales_per_agent(request):
+def visualize_sales_per_agent():
     agent_stats = InsuranceAgent.objects.annotate(
         total_sales=Sum('insurancecontract__insurance_sum')
     )
@@ -83,5 +70,27 @@ def visualize_sales_per_agent(request):
     )
     fig = go.Figure(data=data, layout=layout)
     chart = fig.to_html(full_html=False)
+    return chart
 
-    return render(request, 'common/chart.html', {"chart_div": chart})
+
+def visualize_statistics_per_clients_group():
+    age_groups = [
+        (0, 18),  # Дети
+        (19, 35),  # Молодежь
+        (36, 60),  # Взрослые
+        (61, 100)  # Пожилые
+    ]
+
+    clients_in_group = [
+        InsuranceClient.objects.filter(age__range=(lower_bound, upper_bound)).count()
+        for lower_bound, upper_bound in age_groups
+    ]
+
+    labels = ['Дети (0-18)', 'Молодежь(19-35)', 'Взрослые(36-60)', 'Пожилые(61-100)']
+    values = clients_in_group
+
+    fig = go.Figure(data=[go.Pie(labels=labels, values=values)])
+    fig.update_layout(title='Распределение клиентов по возрасту')
+
+    chart = fig.to_html(full_html=False)
+    return chart

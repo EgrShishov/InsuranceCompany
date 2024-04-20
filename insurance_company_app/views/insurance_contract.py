@@ -2,6 +2,7 @@ from django.contrib.auth.decorators import login_required, permission_required
 from django.shortcuts import render
 from django.http import HttpResponseRedirect, HttpResponseNotFound, HttpResponseForbidden
 from ..models.insurance_contract import InsuranceContract
+from ..forms.insurance_contract import InsuranceContractForm
 from django.utils import timezone
 
 
@@ -16,7 +17,10 @@ def index(request):
 @permission_required('insurance_company_app.add_insurancecontract')
 def create(request):
     if request.method == "GET":
-        return render(request, "insurance_contract/create.html")
+        context = {
+            'form': InsuranceContractForm(),
+        }
+        return render(request, "insurance_contract/create.html", context)
     if request.method == "POST":
         contract = InsuranceContract()
         contract.date = timezone.now()

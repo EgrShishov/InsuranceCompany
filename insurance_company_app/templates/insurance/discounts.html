@@ -1,0 +1,13 @@
+{% extends 'common/layout.html' %}
+
+{% block content %}
+    {% if promocodes %}
+        <ul>
+            {% for promocode in promocodes %}
+                {% if promocode.is_active %}
+                    <li>{{ promocode.name }} - {{ promocode.discount }} - {{ promocode.expiration_date }}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}
