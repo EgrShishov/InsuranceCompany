@@ -1,0 +1,15 @@
+{% extends 'common/layout.html' %}
+
+{% block content %}
+    {% if faqs %}
+        <ul>
+            {% for faq in faqs %}
+                 <li class="faq-item">
+                    <div class="question">{{ faq.question }}</div>
+                    <div class="answer">{{ faq.answer }}</div>
+                    <div class="added-at">Added at: {{ faq.added_at }}</div>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}

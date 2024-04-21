@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'common/layout.html' %}
 
-</body>
-</html>
+{% block content %}
+    {% if vacancies %}
+        <ul>
+            {% for vacancy in vacancies %}
+                 <li class="vacancy-item">
+                     <div class="position">Position: {{ vacancy.position_name }}</div>
+                     <div class="description">{{ vacancy.vacancy_description }}</div>
+                     <div class="salary">Salary: {{ vacancy.salary }}</div>
+                     <div class="vacancy-branch">Branch: {{ vacancy.branch.name }}</div>
+                     <button class="interested-btn">I'm interested</button>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}

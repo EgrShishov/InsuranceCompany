@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'common/layout.html' %}
 
-</body>
-</html>
+{% block content %}
+    {% if reviews %}
+        <ul>
+           {% for review in reviews %}
+               <li class="review-item">
+                    <div class="text">{{ review.text }}</div>
+                    <div class="author_info">{{ review.author.surname }} {{ review.author.name }} {{ review.author.second_name }}</div>
+                    <div class="rate">Rate: {{ review.rating }}</div>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}

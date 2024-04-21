@@ -18,6 +18,7 @@ class InsuranceAgent(BaseModel):
     address = models.CharField(max_length=80)
     phone_number = models.CharField(max_length=20)
     branch_name = models.ForeignKey(CompanyBranch, on_delete=models.CASCADE)
+    job_position = models.CharField(max_length=100)
 
     class Meta:
         verbose_name = 'Страховой агент'

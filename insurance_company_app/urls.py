@@ -1,5 +1,8 @@
 from django.urls import re_path
-from .views import news, company_branches, insurance_contract, accounts, insurance_types, discounts
+from django.conf import settings
+from django.conf.urls.static import static
+from .views import news, company_branches, insurance_contract, accounts, insurance_types, \
+    discounts, reviews, faq, vacancies, news, about_company
 
 branches_patterns = [
     re_path(r'^branches/$', company_branches.index, name='company_branches'),
@@ -19,11 +22,21 @@ accounts_patterns = [
     re_path(r'^register/$', accounts.register, name='register')
 ]
 
-urlpatterns = [
-    re_path(r'^home/$', news.news_view, name='main_page'),
-    re_path(r'^information/$', accounts.superuser_extra_view, name='superuser_extra_information'),
-    re_path(r'^insurance_types/$', insurance_types.index, name='insurance_types'),
-    re_path(r'^discounts/$', discounts.index, name='special_offers&discounts')
+review_patterns = [
+    re_path(r'^reviews/$', reviews.index, name='all_reviews'),
+    re_path(r'^reviews/make/$', reviews.create, name='create_review')
 ]
 
-urlpatterns += branches_patterns + contracts_patterns + accounts_patterns
+urlpatterns = [
+    re_path(r'^home/$', news.home, name='main_page'),
+    re_path(r'^information/$', accounts.superuser_extra_view, name='superuser_extra_information'),
+    re_path(r'^insurance_types/$', insurance_types.index, name='insurance_types'),
+    re_path(r'^discounts/$', discounts.index, name='special_offers&discounts'),
+    re_path(r'^faq/$', faq.index, name='faq'),
+    re_path(r'^vacancies/$', vacancies.index, name='vacancies'),
+    re_path(r'^news/$', news.index, name='all_news'),
+    re_path(r'^news/details/(?P<id>\d+)/$', news.details, name='news_details'),
+    re_path(r'^about_company/$', about_company.index, name='about_company')
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns += branches_patterns + contracts_patterns + accounts_patterns + review_patterns

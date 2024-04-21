@@ -1,0 +1,15 @@
+{% extends 'common/layout.html' %}
+
+{% block content %}
+    {% if details %}
+        <li class="news-details-item">
+             <div class="title">{{ details.title }}</div>
+             <div class="text">{{ details.text }}</div>
+             <div class="news-image">
+                 <img src="{{ details.image.url }}" alt="News Image" width="300" height="300">
+             </div>
+             <div class="publish_date">Published at: {{ details.publish_date }}</div>
+             <div class="published-author">Published by: {{ details.author.surname }} {{ details.author.name }} {{ details.author.second_name }}, {{ details.author.job_position }}</div>
+        </li>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'common/layout.html' %}
+
+{% block content %}
+    {% if news %}
+         <li class="news-item">
+             <div class="title">{{ news.title }}</div>
+             <div class="text">{{ news.text|truncatechars:60 }}</div>
+             <div class="publish_date">Published at: {{ news.publish_date }}</div>
+              <a href="{% url 'news_details' news.id %}"><button>See details</button></a>
+        </li>
+    {% endif %}
+    <div class="joke">
+        <h2 style="text-align:center;">Joke of the day</h2>
+        <h3 style="text-align:center;">{{joke.setup}}</h3>
+        <h3 style="text-align:center;">{{joke.punchline}}</h3>
+        <h2 style="text-align:center;">Funny fact about cats:</h2>
+        <h3 style="text-align:center;">{{cat_facts.fact}} - {{cat_facts.length}}</h3>
+    </div>
+{% endblock %}
