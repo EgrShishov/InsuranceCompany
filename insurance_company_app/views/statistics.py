@@ -2,7 +2,7 @@ import logging
 
 from django.contrib.auth.decorators import login_required, permission_required
 from django.shortcuts import render
-from django.db.models import Sum, Avg, Count
+from django.db.models import Sum, Avg, Count, F
 from statistics import *
 import plotly.graph_objs as go
 from ..models import InsuranceAgent, InsuranceContract, InsuranceClient
@@ -43,7 +43,8 @@ def get_agent_statistics():
     agent_stats = InsuranceAgent.objects.annotate(
         total_contracts=Count('insurancecontract'),
         total_sales=Sum('insurancecontract__insurance_sum'),
-        average_sale=Avg('insurancecontract__insurance_sum')
+        average_sale=Avg('insurancecontract__insurance_sum'),
+        salary=F('insurancecontract__insurance_type__percentage') * F('insurancecontract__insurance_sum') * F('insurancecontract__tariff_rate')
     )
     return agent_stats
 

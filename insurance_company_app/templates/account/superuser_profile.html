@@ -1,0 +1,79 @@
+{% extends 'common/layout.html' %}
+
+{% block content %}
+    <h1>Admin profile</h1>
+    <h2>Welcome back, {{ user }} {{ user.surname }} {{ user.name }} {{ user.second_name }} , our best company {{ user.job_position }}</h2>
+
+    <a href="/accounts/superuser_profile/statistics/"><button>View company statistics</button></a>
+    <h1>Company branches: </h1>
+    {% if branches %}
+        <ul>
+            {% for branch in branches %}
+                <li>
+                    <strong>Address:</strong> {{ branch.address }}<br>
+                    <strong>Branch Name:</strong> {{ branch.name }}<br>
+                    <strong>Phone Number:</strong> {{ branch.phone_number }}<br>
+                    {% if branch.agents %}
+                        <hr/>
+                        <p>List of employees</p>
+                            {% for agent in branch.agents %}
+                                <li class="agent-item">{{ agent.surname }} {{ agent.name }} {{ agent.second_name }}</li>
+                                <a href="/employee/details/{{ agent.id }}"><button>See details</button></a>
+                            {% endfor %}
+                        <hr/>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <h1>Current contracts</h1>
+    {% if contracts %}
+        <ul>
+            {% for contract in contracts %}
+               <li>
+                    <strong>Insurance type:</strong> {{ contract.insurance_type.name }}<br>
+                    <strong>Tariff rate:</strong> {{ contract.tariff_rate }}<br>
+                    <strong>Date:</strong> {{ contract.date }}<br>
+                    <strong>Branch Name:</strong> {{ contract.branch_name }}<br>
+                    <strong>Insurance Object:</strong> {{ contract.insurance_object.name }}<br>
+                    <strong>Insurance Sum:</strong> {{ contract.insurance_sum }}<br>
+                    <strong>Client:</strong> {{ contract.client.surname }} {{ contract.client.name }} {{ contract.client.second_name }}<br>
+                    <strong>Agent:</strong> {{ contract.agent.surname }} {{ contract.agent.name }} {{ contract.agent.second_name }}<br>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <h1>Agent's statistics</h1>
+    {% if agents_details %}
+       <ul>
+            {% for agent in agents_details %}
+               <li>
+                    <strong>Agent :</strong> {{ agent.surname }} {{ agent.name }} {{ agent.second_name }}<br>
+                    <strong>Tariff rate:</strong> {{ contract.tariff_rate }}<br>
+                    <strong>Date:</strong> {{ contract.date }}<br>
+                    <strong>Branch Name:</strong> {{ agent.branch_name }}<br>
+                    <strong>Insurance Object:</strong> {{ contract.insurance_object.name }}<br>
+                    <strong>Insurance Sum:</strong> {{ contract.insurance_sum }}<br>
+                    <strong>Salary:</strong> {{ agent.salary }} <br>
+                    <strong>Agent:</strong> {{ contract.agent.surname }} {{ contract.agent.name }} {{ contract.agent.second_name }}<br>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <h1>Insurance types: </h1>
+    {% if insurance_types %}
+         <ul>
+            {% for type in insurance_types %}
+               <li>
+                    <strong>Insurance type:</strong> {{ type.name }}<br>
+                    <strong>Tariff rate:</strong> {{ type.percentage }}<br>
+                    <strong>Description:</strong> {{ type.description }}<br>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+{% endblock %}

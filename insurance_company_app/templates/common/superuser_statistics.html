@@ -30,6 +30,7 @@
                     <th>Total Contracts</th>
                     <th>Total Sales</th>
                     <th>Average Sale</th>
+                    <th>Salary</th>
                 </tr>
             </thead>
             <tbody>
@@ -46,6 +47,11 @@
                             <td>{{ agent.average_sale }}</td>
                         {% else %}
                             <td> - </td>
+                        {% endif %}
+                        {% if agent.salary %}
+                            <td>{{ agent.salary }}</td>
+                        {% else %}
+                            <td> -</td>
                         {% endif %}
                     </tr>
                 {% endfor %}

@@ -9,8 +9,10 @@
     {% endif %}
 
     {% if video %}
+        <div class="video">
+            <video src="{{ video.url }}" width="600" height="400"></video>
+        </div>
     {% endif %}
-
     {% if history %}
         <h1>History of our company</h1>
         <p>{{ history }}</p>

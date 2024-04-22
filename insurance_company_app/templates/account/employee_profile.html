@@ -1,0 +1,24 @@
+{% extends 'common/layout.html' %}
+
+{% block content %}
+    <h1>Employee profile</h1>
+    <h2>Welcome back, {{ user.surname }} {{ user.name }} {{ user.second_name }} , our best {{ user.job_position }}</h2>
+
+    <div class="employee-contracts-list">
+        {% if contracts %}
+        <ul>
+            {% for contract in contracts %}
+               <li>
+                    <strong>Date:</strong> {{ contract.date }}<br>
+                    <strong>Branch Name:</strong> {{ contract.branch_name }}<br>
+                    <strong>Insurance Object:</strong> {{ contract.insurance_object.name }}<br>
+                    <strong>Insurance Sum:</strong> {{ contract.insurance_sum }}<br>
+                    <strong>Client:</strong> {{ contract.client.surname }} {{ contract.client.name }} {{ contract.client.second_name }}<br>
+                    <strong>Phone Number:</strong> {{ contract.client.phone_number }}<br>
+                    <strong>Email:</strong> {{ contract.client.user.email }}<br>
+                </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+{% endblock %}

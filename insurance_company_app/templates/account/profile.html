@@ -3,4 +3,26 @@
 {% block content %}
     <h1>Your profile</h1>
     <h2>Welcome, {{ user.username }}</h2>
+
+    <div class="account-cart">
+        <table>
+             <tr>
+                <th>Contract date</th>
+                <th>Company branch</th>
+                <th>Insurance object</th>
+                <th>Insurance sum</th>
+                <th>Insurance agent</th>
+             </tr>
+            {% if contracts %}
+                {% for contract in contracts %}
+                    <td>{{ contract.date }}</td>
+                    <td>{{ contract.branch_name }}</td>
+                    <td>{{ contract.insurance_object.name }}</td>
+                    <td>{{ contract.insurance_sum }}</td>
+                    <td>{{ contract.agent.surname }} {{ contract.agent.name }} {{ contract.agent.second_name }}</td>
+                {% endfor %}
+            {% endif %}
+        </table>
+    </div>
+    <a href="/contracts/make/"><button>Make a new contract</button></a>
 {% endblock %}

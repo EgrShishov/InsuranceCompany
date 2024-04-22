@@ -17,9 +17,13 @@ contracts_patterns = [
 ]
 
 accounts_patterns = [
-    re_path(r'^accounts/profile/$', accounts.profile, name='profile'),
+    re_path(r'^accounts/profile/$', accounts.user_profile_view, name='user_profile_view'),
+    re_path(r'^accounts/employee_profile/$', accounts.employee_profile_view, name='employee_profile_view'),
+    re_path(r'^accounts/superuser_profile/$', accounts.superuser_profile_view, name='superuser_profile'),
+    re_path(r'^accounts/superuser_profile/statistics/$', accounts.superuser_extra_view, name='superuser_extra_view'),
     re_path(r'^accounts/logout/$', accounts.logout_view, name='logout'),
-    re_path(r'^register/$', accounts.register, name='register')
+    re_path(r'^register/$', accounts.register, name='register'),
+    re_path(r'^login/$', accounts.custom_login, name='login')
 ]
 
 review_patterns = [
@@ -29,7 +33,6 @@ review_patterns = [
 
 urlpatterns = [
     re_path(r'^home/$', news.home, name='main_page'),
-    re_path(r'^information/$', accounts.superuser_extra_view, name='superuser_extra_information'),
     re_path(r'^insurance_types/$', insurance_types.index, name='insurance_types'),
     re_path(r'^discounts/$', discounts.index, name='special_offers&discounts'),
     re_path(r'^faq/$', faq.index, name='faq'),

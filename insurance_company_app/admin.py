@@ -57,8 +57,8 @@ class InsuranceAgentAdmin(admin.ModelAdmin):
 
 @admin.register(InsuranceContract)
 class InsuranceContractAdmin(admin.ModelAdmin):
-    list_display = ('date', 'insurance_type', 'insurance_sum', 'tariff_rate', 'branch_name')
-    list_filter = ('date', 'insurance_type', 'insurance_sum', 'tariff_rate', 'branch_name')
+    list_display = ('date', 'insurance_type', 'insurance_sum', 'tariff_rate', 'branch_name', 'insurance_object')
+    list_filter = ('date', 'insurance_type', 'insurance_sum', 'tariff_rate', 'branch_name', 'insurance_object')
     list_editable = ('insurance_type', 'insurance_sum', 'tariff_rate', 'branch_name')
     list_display_links = ('date', )
 
