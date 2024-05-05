@@ -1,42 +1,57 @@
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.auth import logout, authenticate, login
 from django.contrib.auth.models import User, Group
-from django.db.models import ExpressionWrapper
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 from .statistics import *
 from .insurance_contract import InsuranceContract
 from ..models import CompanyBranch, InsuranceType
 from ..models.insurance_client import InsuranceClient
+from ..forms.authorization import RegistrationForm, LoginForm
 
 
 def register(request):
     if request.method == 'GET':
-        return render(request, 'registration/registration.html')
+        form = RegistrationForm()
+        return render(request, 'registration/registration.html', {'form': form})
     if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-        name = request.POST.get('name')
-        surname = request.POST.get('surname')
-        second_name = request.POST.get('second_name')
-        email = request.POST.get('email')
-        age = request.POST.get('age')
-        phone_number = request.POST.get('phone_number')
-        address = request.POST.get('address')
+        form = RegistrationForm(request.POST)
+        if form.is_valid():
+            password = request.POST.get('password')
+            password_confirm = request.POST.get('password_confirm')
+            name = request.POST.get('name')
+            surname = request.POST.get('surname')
+            second_name = request.POST.get('second_name')
+            email = request.POST.get('email')
+            age = request.POST.get('age')
+            phone_number = request.POST.get('phone_number')
+            address = request.POST.get('address')
+            if password_confirm != password:
+                form = RegistrationForm(request.POST)
+                error = 'Passwords must be equal'
+                context = {
+                    'form': form,
+                    'error': error
+                }
+                return render(request, 'registration/registration.html', context)
 
-        user = User.objects.create_user(username, email, password)
-        client = InsuranceClient()
-        client.user = user
-        client.name = name
-        client.second_name = second_name
-        client.surname = surname
-        client.age = age
-        client.phone_number = phone_number
-        client.address = address
-        client.save()
+            username = f'{surname} {name} {second_name}'
+            user = User.objects.create_user(username, email, password)
+            client = InsuranceClient()
+            client.user = user
+            client.name = name
+            client.second_name = second_name
+            client.surname = surname
+            client.age = age
+            client.phone_number = phone_number
+            client.address = address
+            client.save()
 
-        user.groups.add(Group.objects.get(name='User'))
-        user.save()
+            user.groups.add(Group.objects.get(name='User'))
+            user.save()
+        else:
+            form = RegistrationForm(request.POST)
+            return render(request, 'registration/registration.html', {'form': form})
         return HttpResponseRedirect('/home')
 
 
@@ -45,13 +60,24 @@ def custom_login(request):
         username = request.POST.get('username')
         password = request.POST.get('password')
         user = authenticate(request, username=username, password=password)
+        print(user)
         if user is not None:
             login(request, user)
             if user.groups.filter(name='Employee').exists():
                 return HttpResponseRedirect(reverse('employee_profile_view'))
-            else:
+            elif user.groups.filter(name='User').exists():
                 return HttpResponseRedirect(reverse('user_profile_view'))
-    return render(request, 'registration/login.html')
+        else:
+            form = LoginForm(request.POST)
+            error = 'User not found'
+            context = {
+                'form': form,
+                'error': error
+            }
+            return render(request, 'registration/login.html', context)
+    else:
+        form = LoginForm()
+        return render(request, 'registration/login.html', {'form': form})
 
 
 def logout_view(request):

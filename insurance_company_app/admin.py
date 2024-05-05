@@ -49,10 +49,10 @@ class InsuranceObjectAdmin(admin.ModelAdmin):
 
 @admin.register(InsuranceAgent)
 class InsuranceAgentAdmin(admin.ModelAdmin):
-    list_display = ('name', 'surname', 'second_name', 'age', 'address', 'phone_number', 'branch_name')
+    list_display = ('name', 'surname', 'second_name', 'age', 'address', 'phone_number', 'branch_name', 'photo')
     list_filter = ('name', 'surname', 'second_name', 'age', 'address', 'phone_number', 'branch_name')
     list_display_links = ('name', )
-    list_editable = ('surname', 'second_name', 'age', 'address', 'phone_number', 'branch_name')
+    list_editable = ('surname', 'second_name', 'age', 'address', 'phone_number', 'branch_name', 'photo')
 
 
 @admin.register(InsuranceContract)

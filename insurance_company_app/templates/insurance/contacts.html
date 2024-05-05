@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'common/layout.html' %}
 
-</body>
-</html>
+{% block content %}
+    {% load static %}
+     <h2>Employees</h2>
+    {% for employee in employees %}
+            <div align="center">
+                {% if employee.photo %}
+                    <img src="{{ employee.photo.url }}" alt="{{ employee.name }} Photo" width="300" height="300" style="object-fit:cover;">
+                {% else %}
+                    <img src="{% static 'images/default_profile.svg' %}" alt="Default Photo" width="300" height="300" style="object-fit: cover;">
+                {% endif %}
+                <h2><strong>{{ employee.surname }} {{ employee.name }} {{ employee.second_name }}</strong></h2><br>
+                <strong>Job Position:</strong> {{ employee.job_position }}<br>
+                <strong>Age:</strong> {{ employee.age }}<br>
+                <strong>Address:</strong> {{ employee.address }}<br>
+                <strong>Phone Number:</strong> {{ employee.phone_number }}<br>
+                <strong>Branch Name:</strong> {{ employee.branch_name }}<br>
+                <hr/>
+            </div>
+    {% endfor %}
+{% endblock %}

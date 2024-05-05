@@ -1,3 +1,5 @@
+import re
+
 from django.db import models
 from django.core.validators import MinValueValidator
 from django.core.exceptions import ValidationError
@@ -19,6 +21,7 @@ class InsuranceAgent(BaseModel):
     phone_number = models.CharField(max_length=20)
     branch_name = models.ForeignKey(CompanyBranch, on_delete=models.CASCADE)
     job_position = models.CharField(max_length=100)
+    photo = models.ImageField(upload_to='images/agents_photos')
 
     class Meta:
         verbose_name = 'Страховой агент'
