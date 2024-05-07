@@ -26,6 +26,7 @@ def register(request):
             age = request.POST.get('age')
             phone_number = request.POST.get('phone_number')
             address = request.POST.get('address')
+            login = request.POST.get('login')
             if password_confirm != password:
                 form = RegistrationForm(request.POST)
                 error = 'Passwords must be equal'
@@ -35,7 +36,7 @@ def register(request):
                 }
                 return render(request, 'registration/registration.html', context)
 
-            username = f'{surname} {name} {second_name}'
+            username = login
             user = User.objects.create_user(username, email, password)
             client = InsuranceClient()
             client.user = user
@@ -57,9 +58,10 @@ def register(request):
 
 def custom_login(request):
     if request.method == 'POST':
-        username = request.POST.get('username')
+        username = request.POST.get('login')
         password = request.POST.get('password')
-        user = authenticate(request, username=username, password=password)
+        print(username, password)
+        user = authenticate(username=username, password=password)
         print(user)
         if user is not None:
             login(request, user)

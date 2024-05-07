@@ -10,17 +10,16 @@ def index(request):
     return render(request, 'insurance/reviews.html', {'reviews': reviews})
 
 
-@login_required
-def create(request):
-    if request.method == 'GET':
-        context = {
-            'form': MakeReview()
-        }
-        return render(request, 'insurance/make_review.html', context)
-    elif request.method == 'POST':
+@login_required(login_url='/login')
+def create_review(request):
+    if request.method == 'POST':
         form = MakeReview(request.POST)
         if form.is_valid():
             review = form.save(commit=False)
             review.user = request.user
             review.save()
         return HttpResponseRedirect('/home')
+    context = {
+        'form': MakeReview()
+    }
+    return render(request, 'insurance/make_review.html', context)

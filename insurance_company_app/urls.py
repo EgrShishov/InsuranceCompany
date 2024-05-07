@@ -28,7 +28,7 @@ accounts_patterns = [
 
 review_patterns = [
     re_path(r'^reviews/$', reviews.index, name='reviews'),
-    re_path(r'^reviews/make/$', reviews.create, name='create_review')
+    re_path(r'^reviews/make/$', reviews.create_review, name='create_review')
 ]
 
 urlpatterns = [

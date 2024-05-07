@@ -25,5 +25,6 @@ class InsuranceContractForm(forms.ModelForm):
 
         self.fields['agent'].queryset = InsuranceAgent.objects.all()
         self.fields['agent'].widget = forms.Select(
-            choices=[(agent.id, f'{agent.surname} {agent.name} {agent.second_name}') for agent in InsuranceAgent.objects.all()])
+            choices=[(agent.id, f'{agent.surname} {agent.name} {agent.second_name}')
+                     for agent in InsuranceAgent.objects.all()])
         self.fields['agent'].label = 'Insurance agent'
