@@ -1,7 +1,7 @@
 from django.contrib.auth.decorators import login_required, permission_required
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
-from ..models import Review
+from ..models import Review, InsuranceClient
 from ..forms.make_review import MakeReview
 
 
@@ -16,10 +16,13 @@ def create_review(request):
         form = MakeReview(request.POST)
         if form.is_valid():
             review = form.save(commit=False)
-            review.user = request.user
+            insurance_client = InsuranceClient.objects.get(user=request.user)
+            review.author = insurance_client
             review.save()
         return HttpResponseRedirect('/home')
+    else:
+        form = MakeReview()
     context = {
-        'form': MakeReview()
+        'form': form
     }
     return render(request, 'insurance/make_review.html', context)

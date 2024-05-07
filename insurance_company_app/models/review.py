@@ -2,6 +2,7 @@ from django.core.exceptions import ValidationError
 from django.db import models
 from .base_model import BaseModel
 from .insurance_client import InsuranceClient
+from django.contrib.auth import get_user_model
 
 
 class Review(BaseModel):
@@ -22,4 +23,9 @@ class Review(BaseModel):
 
         if not 11 > self.rating > 0:
             raise ValidationError('Rate must be in interval (0,10)')
+
+    def save(self, *args, **kwargs):
+        if not self.author:
+            self.author = get_user_model().objects.get(id=self.request.user.id)
+        super().save(*args, **kwargs)
 
