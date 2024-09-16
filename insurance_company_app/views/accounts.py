@@ -1,3 +1,4 @@
+import logging
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.auth import logout, authenticate, login
 from django.contrib.auth.models import User, Group
@@ -9,9 +10,12 @@ from ..models import CompanyBranch, InsuranceType
 from ..models.insurance_client import InsuranceClient
 from ..forms.authorization import RegistrationForm, LoginForm
 
+logger = logging.getLogger(__name__)
+
 
 def register(request):
     if request.method == 'GET':
+        logger.warning('INFO', 'USER REGISTER REQUEST')
         form = RegistrationForm()
         return render(request, 'registration/registration.html', {'form': form})
     if request.method == 'POST':
@@ -84,6 +88,9 @@ def custom_login(request):
 
 def logout_view(request):
     logout(request)
+    cart = request.session.get('cart', {})
+    cart.clear()
+    request.session.modified = True
     return HttpResponseRedirect('/home')
 
 
@@ -139,7 +146,8 @@ def user_profile_view(request):
 @user_passes_test(employee_check, login_url='/login/')
 def employee_profile_view(request):
     user = request.user
-    agent = InsuranceAgent.objects.filter(user=user).first()
+    agent = InsuranceAgent.objects.get(user=user)
+    print(agent)
     contracts = InsuranceContract.objects.filter(agent=agent)
     context = {
         'user': agent,

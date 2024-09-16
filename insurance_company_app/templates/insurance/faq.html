@@ -2,14 +2,17 @@
 
 {% block content %}
     {% if faqs %}
-        <ul>
+    <section>
+         <ul>
             {% for faq in faqs %}
                  <li class="faq-item">
-                    <div class="question">{{ faq.question }}</div>
-                    <div class="answer">{{ faq.answer }}</div>
-                    <div class="added-at">Added at: {{ faq.added_at }}</div>
+                    <div class="faq-question">{{ faq.question }}</div>
+                    <div class="faq-answer">{{ faq.answer }}</div>
+                    <div class="faq-added-at">Added at: {{ faq.added_at }}</div>
+                    <button>See details</button>
                 </li>
             {% endfor %}
         </ul>
+    </section>
     {% endif %}
 {% endblock %}

@@ -3,47 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport">
+    <meta
+    name="description"
+    content="Agenda Insurance is the best Polish Insurance Company" />
     <title>AgendaInsurance</title>
+    <link rel="icon" href="https://www.bsuir.by/m/12_100229_1_79523.jpg"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+      rel="stylesheet"
+      type="text/css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     {% load roles %}
     {% load static %}
 </head>
 <body>
     <header>
-        <h1>Agenda Insurance</h1>
         <nav>
-            <div class="buttons">
-            <a href="{% url 'home' %}"><button>Home</button></a>
-            <a href="{% url 'news' %}"><button>News</button></a>
-            <a href="{% url 'contacts' %}"><button>Contacts</button></a>
-            <a href="{% url 'about_company' %}"><button>About company</button></a>
-            <a href="{% url 'faq' %}"><button>FAQ</button></a>
-            <a href="{% url 'special_offers&discounts' %}"><button>Special offers</button></a>
-            <a href="{% url 'reviews' %}"><button>Our customers about us</button></a>
-            <a href="{% url 'vacancies' %}"><button>Vacancies</button></a>
+            <nav>
+                <a href="{% url 'home' %}"><h1 align="middle">Agenda Insurance</h1></a>
+                <a href="{% url 'home' %}"><img align="middle" src="{% static 'images/logo.jpg' %}" style="max-height:100px;"></a>
+                <a href="{% url 'home' %}"><button>Home</button></a>
+                <a href="{% url 'contacts' %}"><button>Contacts</button></a>
+                <a href="{% url 'news' %}"><button>News</button></a>
+                <a href="{% url 'about_company' %}"><button>About company</button></a>
+                <a href="{% url 'faq' %}"><button>FAQ</button></a>
+                <a href="{% url 'special_offers&discounts' %}"><button>Special offers</button></a>
+                <a href="{% url 'reviews' %}"><button>Our customers about us</button></a>
+                <a href="{% url 'vacancies' %}"><button>Vacancies</button></a>
+                <a href="{% url 'contracts' %}"><button>Contracts</button></a>
+                <a href="{% url 'privacy_policy' %}"><button>Privacy policy</button></a>
+            </nav>
+             <ul>
+                <li><a href="{% url 'home' %}"><button>Home</button></a></li>
+                <li><a href="{% url 'contacts' %}"><button>Contacts</button></a></li>
+                <li><a href="{% url 'news' %}"><button>News</button></a></li>
+                <li><a href="{% url 'about_company' %}"><button>About company</button></a></li>
+                <li><a href="{% url 'faq' %}"><button>FAQ</button></a></li>
+                <li><a href="{% url 'special_offers&discounts' %}"><button>Special offers</button></a></li>
+                <li><a href="{% url 'reviews' %}"><button>Our customers about us</button></a></li>
+                <li><a href="{% url 'vacancies' %}"><button>Vacancies</button></a></li>
+                <li><a href="{% url 'contracts' %}"><button>Contracts</button></a></li>
+                <li><a href="{% url 'privacy_policy' %}"><button>Privacy policy</button></a></li>
+             </ul>
+            <aside>
+                <nav>
+                    <a href="{% url 'home' %}"><button>Home</button></a>
+                    <a href="{% url 'contacts' %}"><button>Contacts</button></a>
+                    <a href="{% url 'news' %}"><button>News</button></a>
+                    <a href="{% url 'about_company' %}"><button>About company</button></a>
+                    <a href="{% url 'faq' %}"><button>FAQ</button></a>
+                    <a href="{% url 'special_offers&discounts' %}"><button>Special offers</button></a>
+                    <a href="{% url 'reviews' %}"><button>Our customers about us</button></a>
+                    <a href="{% url 'vacancies' %}"><button>Vacancies</button></a>
+                    <a href="{% url 'contracts' %}"><button>Contracts</button></a>
+                    <a href="{% url 'privacy_policy' %}"><button>Privacy policy</button></a>
+                </nav>
+            </aside>
+
+          <form>
+            <input type="search" name="q" placeholder="Search query" id="search" />
+            <input type="submit" value="Go!" />
+          </form>
 
             {% if user.is_authenticated %}
-                {% if user|is_employee %}
-                    <a href="{% url 'logout' %}"><button>Logout</button></a>
-                    <a href="{% url 'employee_profile_view' %}"><button>Account</button></a>
-                {% elif user|is_user %}
-                    <a href="{% url 'logout' %}"><button>Logout</button></a>
-                    <a href="{% url 'user_profile_view' %}"><button>Account</button></a>
-                {% elif user|is_superuser %}
-                    <a href="{% url 'logout' %}"><button>Logout</button></a>
-                    <a href="{% url 'superuser_extra_view' %}"><button>Statistics</button></a>
-                {% else %}
-                    <a href="{% url 'logout' %}"><button>Logout</button></a>
-                {% endif %}
+            {% if user|is_employee %}
+                <a href="{% url 'logout' %}"><button>Logout</button></a>
+                <a href="{% url 'employee_profile_view' %}"><button>Account</button></a>
+            {% elif user|is_user %}
+                <a href="{% url 'logout' %}"><button>Logout</button></a>
+                <a href="{% url 'user_profile_view' %}"><button>Account</button></a>
+                <a href="{% url 'cart' %}"><button>Cart</button></a>
+            {% elif user|is_superuser %}
+                <a href="{% url 'logout' %}"><button>Logout</button></a>
+                <a href="{% url 'superuser_extra_view' %}"><button>Statistics</button></a>
+            {% else %}
+                <a href="{% url 'logout' %}"><button>Logout</button></a>
+            {% endif %}
             {% else %}
                 <a href="{% url 'login' %}"><button>Log in</button></a>
                 <a href="{% url 'signin' %}"><button>Sign up</button></a>
             {% endif %}
 
-            <p style="display: inline-block;">Current Date and Time: {{ request.current_datetime }}</p>
+            <p style="display: inline-block;">Current Date and Time: {{ request.current_datetime|date:"d/m/Y" }}</p>
             <p style="display: inline-block;">Current user time zone: {{ request.current_timezone }}</p>
-        </div>
         </nav>
-        <div class="additional_info">
+
+        <div class="additional_info" title="additional info">
             <table class="calendar" style="display: inline-block;">
                 {% for row in request.text_calendar %}
                     <tr>
@@ -56,10 +102,16 @@
                 {% endfor %}
             </table>
         </div>
+
     </header>
+
     <main>
         {% block content %}
         {% endblock %}
     </main>
+
+    <footer>
+      <p>©Авторские права никому не принадлежат, 2024. Все права защищены.</p>
+    </footer>
 </body>
 </html>

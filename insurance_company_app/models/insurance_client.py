@@ -16,6 +16,7 @@ class InsuranceClient(BaseModel):
     age = models.IntegerField(validators=[MinValueValidator(18)])
     address = models.TextField()
     phone_number = models.CharField(max_length=20)
+    # cupons = models.ManyToManyField(Promocode)
 
     class Meta:
         verbose_name = 'Клиент'

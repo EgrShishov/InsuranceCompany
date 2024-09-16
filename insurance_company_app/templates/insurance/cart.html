@@ -1,0 +1,49 @@
+{% extends 'common/layout.html' %}
+{% block content%}
+<section class="cart">
+    <h1>Your Cart</h1>
+
+    {% if cart %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Insurance sum</th>
+                    <th>Agent</th>
+                    <th>Quantity</th>
+                    <th>Insurance object</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in cart %}
+                <tr>
+                    <td>${{ item.sum }}</td>
+                    <td>{{ item.agent }}</td>
+                    <td>{{ item.quantity }}</td>
+                    <td>{{ item.object }}</td>
+                    <td>
+                        <div align="right">
+                            <form method="POST" action="{% url 'remove_from_cart' item.id %}">
+                                {% csrf_token %}
+                                <button type="submit">Remove</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <p>Total: ${{ total_price }}</p>
+
+        <form method="POST" action="{% url 'checkout' %}">
+            {% csrf_token %}
+            <button type="submit">Proceed to Checkout</button>
+        </form>
+    {% else %}
+        <p>Your cart is empty.</p>
+    {% endif %}
+
+    <a href="javascript:history.back()">Back</a>
+</section>
+{% endblock %}

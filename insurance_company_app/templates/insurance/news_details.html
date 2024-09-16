@@ -2,6 +2,7 @@
 
 {% block content %}
     {% if details %}
+    <article>
         <li class="news-details-item">
              <div class="title">{{ details.title }}</div>
              <div class="text">{{ details.text }}</div>
@@ -11,5 +12,6 @@
              <div class="publish_date">Published at: {{ details.publish_date }}</div>
              <div class="published-author">Published by: {{ details.author.surname }} {{ details.author.name }} {{ details.author.second_name }}, {{ details.author.job_position }}</div>
         </li>
+    </article>
     {% endif %}
 {% endblock %}

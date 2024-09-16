@@ -2,23 +2,22 @@
 
 {% block content %}
     {% if news %}
+    <section>
+        <h1>News</h1>
         <ul>
             {% for item in news %}
-                 <li class="news-item">
-                     <div class="title">{{ item.title }}</div>
-                     <div class="text">{{ item.text|truncatechars:60 }}</div>
-                     <div class="publish_date">Published at: {{ item.publish_date }}</div>
-                     <div class="published-author">Published by: {{ item.author.surname }} {{ item.author.name }} {{ item.author.second_name }}</div>
+                 <article>
+                     <div class="news-title">{{ item.title }}</div>
+                     <div class="news-text">{{ item.text|truncatechars:60 }}</div>
+                     <div class="news-publish-date">Published at: {{ item.publish_date }}</div>
+                     <div class="news-image">
+                        <img src="{{ item.image.url }}" alt="News Image" width="300" height="300">
+                    </div>
+                     <div class="news-published-author">Published by: {{ item.author.surname }} {{ item.author.name }} {{ item.author.second_name }}</div>
                       <a href="{% url 'news_details' item.id %}"><button>See details</button></a>
-                </li>
+                </article>
             {% endfor %}
         </ul>
+    </section>
     {% endif %}
-    <div class="joke">
-        <h2 style="text-align:center;">Joke of the day</h2>
-        <h3 style="text-align:center;">{{joke.setup}}</h3>
-        <h3 style="text-align:center;">{{joke.punchline}}</h3>
-        <h2 style="text-align:center;">Funny fact about cats:</h2>
-        <h3 style="text-align:center;">{{cat_facts.fact}} - {{cat_facts.length}}</h3>
-    </div>
 {% endblock %}

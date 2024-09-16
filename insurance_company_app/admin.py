@@ -16,19 +16,16 @@ from .models.vacancy import Vacancy
 
 @admin.register(CompanyBranch)
 class CompanyBranchAdmin(admin.ModelAdmin):
-    list_display = ('name', 'address', 'phone_number')
+    list_display = ('id', 'name', 'address', 'phone_number','created_at', 'modified_at', 'created_at_withTZ', 'modified_at_withTZ')
     list_filter = ('name', 'address', 'phone_number')
-    # list_editable = ('name', 'address', 'phone_number')
+    list_editable = ('name', 'address', 'phone_number')
 
 
 @admin.register(InsuranceType)
 class InsuranceTypeAdmin(admin.ModelAdmin):
-    list_display = ('name', 'get_description')
-    list_filter = ('name',)
-    # list_editable = ('name', 'description')
-
-    def get_description(self, obj):
-        return obj.description
+    list_display = ('id', 'name', 'description', 'created_at', 'modified_at','created_at_withTZ', 'modified_at_withTZ')
+    list_filter = ('name', 'description')
+    list_editable = ('name', 'description')
 
 
 @admin.register(InsuranceClient)

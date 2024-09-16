@@ -5,7 +5,7 @@
         <ul>
            {% for review in reviews %}
                <li class="review-item">
-                    <div class="text">{{ review.text }}</div>
+                    <div class="text" >{{ review.text }}</div>
                     <div class="author_info">{{ review.author.surname }} {{ review.author.name }} {{ review.author.second_name }}</div>
                     <div class="rate">Rate: {{ review.rating }}</div>
                 </li>

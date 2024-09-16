@@ -8,6 +8,7 @@ from django.db.models.signals import post_save
 from django.dispatch import receiver
 
 from .company_branch import CompanyBranch
+from .promocode import Promocode
 from .base_model import BaseModel
 
 

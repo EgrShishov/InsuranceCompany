@@ -1,24 +1,38 @@
 {% extends 'common/layout.html' %}
-
+{% load static %}
 {% block content %}
     {% if logo %}
-        <p2>Our logo:</p2>
-         <div class="logo-image">
-             <img src="{{ logo.url }}" alt="logo Image" width="300" height="300">
-         </div>
+        <section class="company-logo">
+            <p2>Our logo:</p2>
+             <div class="logo-image">
+                 <img src="{% static 'images/logo.jpg' %}" alt="logo Image" width="300" height="300">
+             </div>
+        </section>
     {% endif %}
 
     {% if video %}
-        <div class="video">
-            <video src="{{ video.url }}" width="600" height="400"></video>
-        </div>
+        <section class="company-video">
+            <div class="video">
+                <video autoplay src="{% static 'video.mp4' %}" width="1280" height="720"></video>
+            </div>
+        </section>
     {% endif %}
+
     {% if history %}
-        <h1>History of our company</h1>
-        <p>{{ history }}</p>
+        <section class="company-history">
+            <h1>History of our company</h1>
+            <p>{{ history }}</p>
+        </section>
     {% endif %}
 
     {% if requestions %}
-        <p>You can reach us: {{ requestions }}</p>
+        <section class="contacts">
+                <p>You can reach us: {{ requestions }}</p>
+        </section>
     {% endif %}
+
+    <section>
+        <p>Мы настолько честны перед вами и прозрачны, что оставим вам здесь свидетельство о регистрации!</p>
+        <img src="{% static 'images/registration.jpg' %}" alt="registration">
+    </section>
 {% endblock %}

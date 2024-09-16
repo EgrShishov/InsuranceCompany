@@ -1,19 +1,60 @@
 {% extends 'common/layout.html' %}
-
+{% load static %}
 {% block content %}
+    <section class="company-video">
+        <div class="video" align="center">
+            <video autoplay controls src="{% static 'videos/video.mp4' %}" width="640" height="400"></video>
+        </div>
+    </section>
+    <aside>
+        <h2>Our partners: </h2>
+        <ul>
+            <li>
+                <a href="https://bns.by/"><img src="{% static 'images/BNS.jpg' %}" alt="BelNeftStrach"></a>
+            </li>
+            <li>
+                <a href="https://asoba.by/"><img src="{% static 'images/ASOBA.jpg' %}" alt="Asoba"></a>
+            </li>
+            <li>
+                <a href="https://bgs.by/"><img src="{% static 'images/BGS.png' %}" alt="BelGosStrach"></a>
+            </li>
+        </ul>
+    </aside>
+
+    <details>
+      <summary>Who is AgendaInsurance?</summary>
+      <p>Aboba and Agenda starts with the same letter, but in fact, it's differs in two ways: people and hardware. I prefer be with A.N. Markov rather than in Aboba's Company</p>
+    </details>
+
+    <figure>
+      <img src="{% static 'images/bannerWithAdd.jpg' %}" style="max-width:300px;" alt="AddBanner"
+        srcset="{% static 'images/bannerWithAdd.jpg' %} 1000w,
+                {% static 'images/bannerWithAdd.jpg' %} 1000w,
+                {% static 'images/bannerWithAdd.jpg' %} 1000w">
+      <figcaption>Fig. - Our best add you ever seen</figcaption>
+    </figure>
+
     {% if news %}
-         <li class="news-item">
-             <div class="title">{{ news.title }}</div>
-             <div class="text">{{ news.text|truncatechars:60 }}</div>
-             <div class="publish_date">Published at: {{ news.publish_date }}</div>
-              <a href="{% url 'news_details' news.id %}"><button>See details</button></a>
-        </li>
+    <article>
+        <div class="news-title">{{ news.title }}</div>
+        <p class="news-text">{{ news.text|truncatechars:60 }}</p>
+        <p class="news-publish-date">Published at: {{ news.publish_date }}</p>
+        <a href="{% url 'news_details' news.id %}"><button>See details</button></a>
+    </article>
     {% endif %}
-    <div class="joke">
+    <section class="extra-info">
         <h2 style="text-align:center;">Joke of the day</h2>
         <h3 style="text-align:center;">{{joke.setup}}</h3>
         <h3 style="text-align:center;">{{joke.punchline}}</h3>
         <h2 style="text-align:center;">Funny fact about cats:</h2>
         <h3 style="text-align:center;">{{cat_facts.fact}} - {{cat_facts.length}}</h3>
-    </div>
+    </section>
+    <figure>
+      <figcaption>Our music:</figcaption>
+      <audio autoplay>
+         <source src="{% static 'sounds/song.m4a' %}" type="audio/m4a">
+          Mama
+      </audio>
+      <a href="{% static 'sounds/song.m4a' %}"> Download audio </a>
+    </figure>
 {% endblock %}

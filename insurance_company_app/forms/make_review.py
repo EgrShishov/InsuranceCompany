@@ -1,7 +1,6 @@
 from django import forms
-from django.contrib.auth.mixins import LoginRequiredMixin
-from django.views.generic import CreateView
-from ..models import InsuranceClient, Review
+from django.core.validators import MinValueValidator, MaxValueValidator
+from ..models import Review
 
 
 class MakeReview(forms.ModelForm):
@@ -12,15 +11,6 @@ class MakeReview(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.fields['text'].label = 'Enter text'
+
         self.fields['rating'].label = 'Rate our service'
-
-
-
-# class CreateReviewView(LoginRequiredMixin, CreateView):
-#     template_name = 'insurance/make_review.html'
-#     form_class = MakeReview
-#     success_url = '/home'
-#
-#     def form_valid(self, form):
-#         form.instance.author = self.request.user
-#         return super().form_valid(form)
+        self.fields['rating'].validators = [MinValueValidator(0), MaxValueValidator(10)]

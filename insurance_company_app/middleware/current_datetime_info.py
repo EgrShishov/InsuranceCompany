@@ -11,13 +11,12 @@ class CurrentDateTimeMiddleware:
 
     def __call__(self, request):
         current_datetime = timezone.localtime(timezone.now())
-        formatted_datetime = dateformat.format(current_datetime, 'd/m/Y H:i:s')
         current_timezone = datetime.datetime.now(timezone.timezone.utc).astimezone().tzinfo
         text_calendar = calendar.TextCalendar(firstweekday=0)\
             .formatmonth(current_datetime.year, current_datetime.month)
         formatted_calendar_rows = text_calendar.split('\n')
 
-        request.current_datetime = formatted_datetime
+        request.current_datetime = current_datetime
         request.current_timezone = current_timezone
         request.text_calendar = formatted_calendar_rows
 

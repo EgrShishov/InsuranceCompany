@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 
-def privacy_policy_view(request):
-    pass
+def privacy_policy(request):
+    return render(request, 'insurance/privacy_policy.html')

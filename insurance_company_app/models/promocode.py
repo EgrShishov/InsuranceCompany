@@ -1,4 +1,5 @@
 import datetime
+import uuid
 from django.db import models
 from django.core.exceptions import ValidationError
 from .base_model import BaseModel
@@ -10,6 +11,7 @@ class Promocode(BaseModel):
     is_active = models.BooleanField(default=True)
     expiration_date = models.DateTimeField()
     usage_count = models.IntegerField(default=0)
+    code = models.UUIDField(default=uuid.uuid4, editable=False, unique=True)
 
     class Meta:
         verbose_name = 'Промокод'
