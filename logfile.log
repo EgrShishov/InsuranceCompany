@@ -11395,3 +11395,476 @@ Watching for file changes with StatReloader
 "GET /contracts/cart/ HTTP/1.1" 200 11581
 Not Found: /contracts/cart/style.css
 "GET /contracts/cart/style.css HTTP/1.1" 404 7921
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 7831
+"GET /home HTTP/1.1" 301 0
+"GET /home/ HTTP/1.1" 200 12525
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /static/images/bannerWithAdd.jpg HTTP/1.1" 304 0
+"GET /static/images/BGS.png HTTP/1.1" 304 0
+"GET /static/images/BNS.jpg HTTP/1.1" 304 0
+"GET /static/images/ASOBA.jpg HTTP/1.1" 304 0
+"GET /static/videos/video.mp4 HTTP/1.1" 304 0
+"GET /privacy_policy/ HTTP/1.1" 200 17234
+Not Found: /privacy_policy/style.css
+"GET /privacy_policy/style.css HTTP/1.1" 404 7921
+"GET /home/ HTTP/1.1" 200 12651
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /home/ HTTP/1.1" 200 12515
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /static/sounds/song.m4a HTTP/1.1" 200 441933
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 55094)
+"GET /privacy_policy/ HTTP/1.1" 200 17234
+Not Found: /privacy_policy/style.css
+"GET /privacy_policy/style.css HTTP/1.1" 404 7921
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000002743195EFF0>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002743195EFF0>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\news.py", line 8, in home
+    funny_joke = random_joke.RandomJokeService.get_random_joke()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\services\random_joke.py", line 7, in get_random_joke
+    return requests.get('https://official-joke-api.appspot.com/random_joke').json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002743195EFF0>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)"))
+"GET /home/ HTTP/1.1" 500 166660
+"GET /home/ HTTP/1.1" 200 12461
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /home/ HTTP/1.1" 200 12529
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /faq/ HTTP/1.1" 200 10717
+Not Found: /faq/style.css
+"GET /faq/style.css HTTP/1.1" 404 7888
+"GET /about_company/ HTTP/1.1" 200 15095
+Not Found: /about_company/style.css
+"GET /about_company/style.css HTTP/1.1" 404 7918
+"GET /static/images/registration.jpg HTTP/1.1" 200 183956
+"GET /static/video.mp4 HTTP/1.1" 404 1887
+"GET /news/ HTTP/1.1" 200 11821
+Not Found: /news/style.css
+"GET /news/style.css HTTP/1.1" 404 7891
+"GET /media/images/news/natamog.jpg HTTP/1.1" 200 16981
+"GET /media/images/news/photo_2023-03-17_22-16-50_uYm4MCy.jpg HTTP/1.1" 200 140767
+"GET /contracts/ HTTP/1.1" 200 10850
+Not Found: /contracts/style.css
+"GET /contracts/style.css HTTP/1.1" 404 7906
+"GET /privacy_policy/ HTTP/1.1" 200 17234
+Not Found: /privacy_policy/style.css
+"GET /privacy_policy/style.css HTTP/1.1" 404 7921
+"GET /contracts/cart/ HTTP/1.1" 200 11581
+Not Found: /contracts/cart/style.css
+"GET /contracts/cart/style.css HTTP/1.1" 404 7921
+"GET /home/ HTTP/1.1" 200 12491
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /news/ HTTP/1.1" 200 11821
+Not Found: /news/style.css
+"GET /news/style.css HTTP/1.1" 404 7891
+"GET /home/ HTTP/1.1" 200 12499
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /faq/ HTTP/1.1" 200 10717
+Not Found: /faq/style.css
+"GET /faq/style.css HTTP/1.1" 404 7888
+"GET /faq/ HTTP/1.1" 200 10734
+Not Found: /faq/style.css
+"GET /faq/style.css HTTP/1.1" 404 7888
+"GET /home/ HTTP/1.1" 200 12593
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /home/ HTTP/1.1" 200 12969
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /home/ HTTP/1.1" 200 12835
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /reviews/ HTTP/1.1" 200 11012
+Not Found: /reviews/style.css
+"GET /reviews/style.css HTTP/1.1" 404 7900
+"GET /contacts/ HTTP/1.1" 200 17374
+Not Found: /contacts/style.css
+"GET /contacts/style.css HTTP/1.1" 404 7903
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /reviews/ HTTP/1.1" 200 11012
+Not Found: /reviews/style.css
+"GET /reviews/style.css HTTP/1.1" 404 7900
+"GET /faq/ HTTP/1.1" 200 10685
+Not Found: /faq/style.css
+"GET /faq/style.css HTTP/1.1" 404 7888
+"GET /contracts/ HTTP/1.1" 200 10850
+Not Found: /contracts/style.css
+"GET /contracts/style.css HTTP/1.1" 404 7906
+"GET /privacy_policy/ HTTP/1.1" 200 17234
+Not Found: /privacy_policy/style.css
+"GET /privacy_policy/style.css HTTP/1.1" 404 7921
+"GET /home/ HTTP/1.1" 200 12765
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /news/ HTTP/1.1" 200 11821
+Not Found: /news/style.css
+"GET /news/style.css HTTP/1.1" 404 7891
+"GET /news/details/38/ HTTP/1.1" 200 11003
+Not Found: /news/details/38/style.css
+"GET /news/details/38/style.css HTTP/1.1" 404 7924
+"GET /home/ HTTP/1.1" 200 12767
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /faq/ HTTP/1.1" 200 10685
+Not Found: /faq/style.css
+"GET /faq/style.css HTTP/1.1" 404 7888
+"GET /privacy_policy/ HTTP/1.1" 200 17234
+Not Found: /privacy_policy/style.css
+"GET /privacy_policy/style.css HTTP/1.1" 404 7921
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000002743195D820>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002743195D820>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\news.py", line 8, in home
+    funny_joke = random_joke.RandomJokeService.get_random_joke()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\services\random_joke.py", line 7, in get_random_joke
+    return requests.get('https://official-joke-api.appspot.com/random_joke').json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002743195D820>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)"))
+"GET /home/ HTTP/1.1" 500 166662
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 57718)
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000027431DCA5D0>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027431DCA5D0>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\news.py", line 8, in home
+    funny_joke = random_joke.RandomJokeService.get_random_joke()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\services\random_joke.py", line 7, in get_random_joke
+    return requests.get('https://official-joke-api.appspot.com/random_joke').json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027431DCA5D0>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)"))
+"GET /home/ HTTP/1.1" 500 166662
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\news.py", line 8, in home
+    funny_joke = random_joke.RandomJokeService.get_random_joke()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\services\random_joke.py", line 7, in get_random_joke
+    return requests.get('https://official-joke-api.appspot.com/random_joke').json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+- Broken pipe from ('127.0.0.1', 57743)
+"GET /home/ HTTP/1.1" 200 12933
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /privacy_policy/ HTTP/1.1" 200 17234
+Not Found: /privacy_policy/style.css
+"GET /privacy_policy/style.css HTTP/1.1" 404 7921
+"GET /privacy_policy/ HTTP/1.1" 200 17176
+Not Found: /privacy_policy/style.css
+"GET /privacy_policy/style.css HTTP/1.1" 404 7921
+"GET /home/ HTTP/1.1" 200 12748
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891
+"GET /about_company/ HTTP/1.1" 200 15095
+Not Found: /about_company/style.css
+"GET /about_company/style.css HTTP/1.1" 404 7918
+"GET /static/video.mp4 HTTP/1.1" 404 1887
+"GET /vacancies/ HTTP/1.1" 200 10686
+Not Found: /vacancies/style.css
+"GET /vacancies/style.css HTTP/1.1" 404 7906
+"GET /about_company/ HTTP/1.1" 200 15095
+Not Found: /about_company/style.css
+"GET /about_company/style.css HTTP/1.1" 404 7918
+"GET /static/video.mp4 HTTP/1.1" 404 1887
+"GET /news/ HTTP/1.1" 200 11821
+Not Found: /news/style.css
+"GET /news/style.css HTTP/1.1" 404 7891
+- Broken pipe from ('127.0.0.1', 58074)
+- Broken pipe from ('127.0.0.1', 58075)
+"GET /home/ HTTP/1.1" 200 12794
+Not Found: /home/style.css
+"GET /home/style.css HTTP/1.1" 404 7891

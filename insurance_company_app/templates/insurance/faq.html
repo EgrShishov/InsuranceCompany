@@ -5,12 +5,11 @@
     <section>
          <ul>
             {% for faq in faqs %}
-                 <li class="faq-item">
-                    <div class="faq-question">{{ faq.question }}</div>
+                 <details class="faq-item">
+                    <summary class"faq-question">{{ faq.question }}</summary>
                     <div class="faq-answer">{{ faq.answer }}</div>
                     <div class="faq-added-at">Added at: {{ faq.added_at }}</div>
-                    <button>See details</button>
-                </li>
+                </details>
             {% endfor %}
         </ul>
     </section>
