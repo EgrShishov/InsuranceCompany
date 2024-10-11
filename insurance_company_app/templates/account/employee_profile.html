@@ -1,26 +1,29 @@
 {% extends 'common/layout.html' %}
-
+{% load static %}
 {% block content %}
-    <h1>Employee profile</h1>
-    <h2>Welcome back, {{ user.surname }} {{ user.name }} {{ user.second_name }} , our best {{ user.job_position }}</h2>
+<div class="profile">
+    <h1>Личный кабинет сотрудника</h1>
+    <h2>Добро пожаловать, {{ user.surname }} {{ user.name }} {{ user.second_name }} ,наш лучший {{ user.job_position }}</h2>
 
     <div class="employee-contracts-list">
+        <h1>Список активных сделок</h1>
         {% if contracts %}
         <ul>
             {% for contract in contracts %}
                <li>
-                    <strong>Date:</strong> {{ contract.date }}<br>
-                    <strong>Branch Name:</strong> {{ contract.branch_name }}<br>
-                    <strong>Insurance Object:</strong> {{ contract.insurance_object.name }}<br>
-                    <strong>Insurance Sum:</strong> {{ contract.insurance_sum }}<br>
-                    <strong>Client:</strong> {{ contract.client.surname }} {{ contract.client.name }} {{ contract.client.second_name }}<br>
-                    <strong>Phone Number:</strong> {{ contract.client.phone_number }}<br>
-                    <strong>Email:</strong> {{ contract.client.user.email }}<br>
+                    <strong>Дата заключения:</strong> {{ contract.date }}<br>
+                    <strong>Имя филиала:</strong> {{ contract.branch_name }}<br>
+                    <strong>Страховой объект:</strong> {{ contract.insurance_object.name }}<br>
+                    <strong>Страховая сумма:</strong> {{ contract.insurance_sum }}<br>
+                    <strong>ФИО Клиента:</strong> {{ contract.client.surname }} {{ contract.client.name }} {{ contract.client.second_name }}<br>
+                    <strong>Телефон:</strong> {{ contract.client.phone_number }}<br>
+                    <strong>Почта для связи:</strong> {{ contract.client.user.email }}<br>
                 </li>
             {% endfor %}
         </ul>
         {% else %}
-        <p>There are no contracts</p>
+        <p>Нет активных сделок</p>
         {% endif %}
     </div>
+</div>
 {% endblock %}

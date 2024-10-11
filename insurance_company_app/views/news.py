@@ -27,6 +27,10 @@ def index(request):
     return render(request, 'insurance/news.html', context)
 
 
+def basic(request):
+    return home(request)
+
+
 def details(request, id):
     news = get_object_or_404(News, id=id)
     context = {

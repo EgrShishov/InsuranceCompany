@@ -25,29 +25,25 @@
             <nav>
                 <ul class="menu">
                     <li><a href="{% url 'home' %}"><img class="home-logo" align="middle" style="max-width:50px;" src="{% static 'images/logo.png' %}"></a></li>
-                    <li><a href="{% url 'contacts' %}">Our agents</a></li>
-                    <li><a href="{% url 'news' %}">News</a></li>
-                    <li><a href="{% url 'about_company' %}">About company</a></li>
-                    <li><a href="{% url 'insurance_types' %}">Insurance types</a></li>
-                    <li><a href="{% url 'special_offers&discounts' %}">Special offers</a></li>
+                    <li><a href="{% url 'contacts' %}">Агенты</a></li>
+                    <li><a href="{% url 'news' %}">Новости</a></li>
+                    <li><a href="{% url 'about_company' %}">О компании</a></li>
+                    <li><a href="{% url 'insurance_types' %}">Виды страхования</a></li>
+                    <li><a href="{% url 'special_offers&discounts' %}">Предложения</a></li>
                     {% if user.is_authenticated %}
                         {% if user|is_employee %}
-                            <li><a href="{% url 'logout' %}">Logout</a></li>
-                            <li><a href="{% url 'employee_profile_view' %}">Account</a></li>
+                            <li><a href="{% url 'employee_profile_view' %}">Аккаунт</a></li>
                         {% elif user|is_user %}
-                            <li><a href="{% url 'contracts' %}">Contracts</a></li>
-                            <li><a href="{% url 'logout' %}">Logout</a></li>
-                            <li><a href="{% url 'user_profile_view' %}">Account</a></li>
+                            <li><a href="{% url 'contracts' %}">Контракты</a></li>
+                            <li><a href="{% url 'user_profile_view' %}">Аккаунт</a></li>
                             <li><a href="{% url 'cart' %}">Cart</a></li>
                         {% elif user|is_superuser %}
-                        <li><a href="{% url 'logout' %}">Logout</a></li>
-                        <li><a href="{% url 'superuser_extra_view' %}">Statistics</a></li>
-                        {% else %}
-                            <li><a href="{% url 'logout' %}">Logout</a></li>
+                            <li><a href="{% url 'superuser_profile' %}">Аккаунт</a></li>
+                        <li><a href="{% url 'logout' %}">Выйти</a></li>
                         {% endif %}
-                        {% else %}
-                            <li><a href="{% url 'login' %}">Log in</a></li>
-                            <li><a href="{% url 'signin' %}">Sign up</a></li>
+                    {% else %}
+                        <li><a href="{% url 'login' %}">Войти</a></li>
+                        <li><a href="{% url 'signin' %}">Зарегатся</a></li>
                     {% endif %}
                 </ul>
 <!--                <div class="time">

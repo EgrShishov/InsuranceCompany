@@ -1,28 +1,32 @@
 {% extends 'common/layout.html' %}
-
+{% load static %}
 {% block content %}
-    <h1>Your profile</h1>
-    <h2>Welcome, {{ user.username }}</h2>
+<div class="profile">
+    <h1>Личный кабинет клиента Agenda Insurance</h1>
+    <h2>Добро пожаловать, {{ user.username }}</h2>
 
     <div class="account-cart">
         <table>
              <tr>
-                <th>Contract date</th>
-                <th>Company branch</th>
-                <th>Insurance object</th>
-                <th>Insurance sum</th>
-                <th>Insurance agent</th>
+                <th>Дата заключения контракта</th>
+                <th>Адресс филиала</th>
+                <th>Страховой объект</th>
+                <th>Страховая сумма</th>
+                <th>ФИО Агента</th>
              </tr>
             {% if contracts %}
                 {% for contract in contracts %}
+                <tr>
                     <td>{{ contract.date }}</td>
                     <td>{{ contract.branch_name }}</td>
                     <td>{{ contract.insurance_object.name }}</td>
                     <td>{{ contract.insurance_sum }}</td>
                     <td>{{ contract.agent.surname }} {{ contract.agent.name }} {{ contract.agent.second_name }}</td>
+                </tr>
                 {% endfor %}
             {% endif %}
         </table>
     </div>
-    <a href="{% url 'make_contract' %}"><button>Make a new contract</button></a>
+    <a href="{% url 'make_contract' %}"><button>Оформить заявку на страхование</button></a>
+</div>
 {% endblock %}

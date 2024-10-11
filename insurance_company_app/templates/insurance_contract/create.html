@@ -1,9 +1,16 @@
 {% extends 'common/layout.html' %}
 
 {% block content %}
-    <form method="POST">
-        {% csrf_token %}
-        {{ form }}
-        <input type="submit" value="Make a contract">
-    </form>
+    <div class="form-container">
+        <h1>Create a New Contract</h1>
+        <form method="POST">
+            {% csrf_token %}
+            <div class="form-fields">
+                {{ form.as_p }}
+            </div>
+            <div class="form-actions">
+                <input type="submit" value="Make a contract" class="submit-btn">
+            </div>
+        </form>
+    </div>
 {% endblock %}

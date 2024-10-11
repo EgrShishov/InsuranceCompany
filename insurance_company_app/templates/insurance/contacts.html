@@ -2,7 +2,7 @@
 {% load static %}
 {% block content %}
     <section class="contacts-section">
-        <h2>Employees</h2>
+        <h2>Наши работники страховой передовой</h2>
             <div class="container">
                 {% for employee in employees %}
                     <div class="employee-card">
@@ -12,11 +12,11 @@
                             <img src="{% static 'images/default_profile.svg' %}" alt="Default Photo" width="300" height="300" style="object-fit: cover;">
                         {% endif %}
                         <h2><strong>{{ employee.surname }} {{ employee.name }} {{ employee.second_name }}</strong></h2><br>
-                        <strong>Job Position:</strong> {{ employee.job_position }}<br>
-                        <strong>Age:</strong> {{ employee.age }}<br>
-                        <strong>Address:</strong> {{ employee.address }}<br>
-                        <strong>Phone Number:</strong> {{ employee.phone_number }}<br>
-                        <strong>Branch Name:</strong> {{ employee.branch_name }}<br>
+                        <strong>Должность:</strong> {{ employee.job_position }}<br>
+                        <strong>Возраст:</strong> {{ employee.age }}<br>
+                        <strong>Адресс:</strong> {{ employee.address }}<br>
+                        <strong>Номер телефона:</strong> {{ employee.phone_number }}<br>
+                        <strong>Филиал:</strong> {{ employee.branch_name }}<br>
                     </div>
                 {% endfor %}
             </div>

@@ -16851,3 +16851,528 @@ Watching for file changes with StatReloader
 "GET /static/images/crying_man.png HTTP/1.1" 304 0
 "GET /static/images/suitcase HTTP/1.1" 404 1905
 "GET /static/images/new_house.png HTTP/1.1" 404 1920
+Watching for file changes with StatReloader
+"GET /login/ HTTP/1.1" 200 1389
+"GET /static/css/login.css HTTP/1.1" 304 0
+"POST /login/ HTTP/1.1" 302 0
+Internal Server Error: /accounts/employee_profile/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\accounts.py", line 149, in employee_profile_view
+    agent = InsuranceAgent.objects.get(user=user)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+insurance_company_app.models.insurance_agent.InsuranceAgent.DoesNotExist: InsuranceAgent matching query does not exist.
+"GET /accounts/employee_profile/ HTTP/1.1" 500 87401
+Forbidden (CSRF token from POST incorrect.): /login/
+"POST /login/ HTTP/1.1" 403 2517
+"GET /login/ HTTP/1.1" 200 1389
+"POST /login/ HTTP/1.1" 200 1480
+"POST /login/ HTTP/1.1" 200 1480
+"POST /login/ HTTP/1.1" 302 0
+"GET /accounts/profile/ HTTP/1.1" 200 7017
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/profile/ HTTP/1.1" 200 7017
+"GET /accounts/profile/ HTTP/1.1" 200 7051
+"GET /static/css/site.css HTTP/1.1" 200 38934
+"GET /accounts/profile/ HTTP/1.1" 200 7051
+"GET /static/css/site.css HTTP/1.1" 200 38962
+"GET /accounts/profile/ HTTP/1.1" 200 7610
+"GET /static/css/site.css HTTP/1.1" 200 38958
+"GET /accounts/profile/ HTTP/1.1" 200 7610
+"GET /static/css/site.css HTTP/1.1" 200 38984
+"GET /accounts/profile/ HTTP/1.1" 200 7610
+"GET /static/css/site.css HTTP/1.1" 200 39129
+"GET /accounts/profile/ HTTP/1.1" 200 7610
+"GET /static/css/site.css HTTP/1.1" 200 39105
+"GET /accounts/profile/ HTTP/1.1" 200 7610
+"GET /static/css/site.css HTTP/1.1" 200 39105
+"GET /accounts/profile/ HTTP/1.1" 200 7610
+"GET /static/css/site.css HTTP/1.1" 200 39105
+"GET /accounts/profile/ HTTP/1.1" 200 7610
+"GET /static/css/site.css HTTP/1.1" 200 39155
+"GET /accounts/profile/ HTTP/1.1" 200 7610
+"GET /static/css/site.css HTTP/1.1" 200 39184
+"GET /accounts/profile/ HTTP/1.1" 200 7676
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/profile/ HTTP/1.1" 200 7676
+"GET /static/css/site.css HTTP/1.1" 200 38906
+"GET /accounts/profile/ HTTP/1.1" 200 7676
+"GET /static/css/site.css HTTP/1.1" 200 39120
+"GET /accounts/profile/ HTTP/1.1" 200 7676
+"GET /static/css/site.css HTTP/1.1" 200 39083
+"GET /accounts/profile/ HTTP/1.1" 200 7740
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/profile/ HTTP/1.1" 200 7759
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/profile/ HTTP/1.1" 200 7797
+"GET /static/css/site.css HTTP/1.1" 200 39083
+"GET /contracts/ HTTP/1.1" 200 3794
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/profile/ HTTP/1.1" 200 7797
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /contracts/ HTTP/1.1" 200 3794
+"GET /contracts/ HTTP/1.1" 200 7975
+"GET /static/css/site.css HTTP/1.1" 200 40183
+"GET /contracts/ HTTP/1.1" 200 7975
+"GET /static/css/site.css HTTP/1.1" 200 40156
+"GET /accounts/profile/ HTTP/1.1" 200 7797
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /contracts/make/ HTTP/1.1" 200 6361
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /contracts/make/ HTTP/1.1" 200 6659
+"GET /static/css/site.css HTTP/1.1" 200 41758
+"GET /contracts/ HTTP/1.1" 200 7975
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/profile/ HTTP/1.1" 200 7797
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /home HTTP/1.1" 301 0
+"GET /home/ HTTP/1.1" 200 6060
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/crying_man.png HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+- Broken pipe from ('127.0.0.1', 6157)
+"GET /register/ HTTP/1.1" 200 2713
+"GET /static/css/login.css HTTP/1.1" 304 0
+"GET /login/ HTTP/1.1" 200 1389
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view insurance_company_app.views.accounts.custom_login didn't return an HttpResponse object. It returned None instead.
+"POST /login/ HTTP/1.1" 500 69824
+Not Found: /
+"GET / HTTP/1.1" 404 7831
+"GET /home/ HTTP/1.1" 200 5940
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+- Broken pipe from ('127.0.0.1', 6158)
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 6174)
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 16835
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+Not Found: /
+"GET / HTTP/1.1" 404 7831
+"GET /home/ HTTP/1.1" 200 6091
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7271471
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7271471
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 302 0
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: login() missing 1 required positional argument: 'user'
+"GET /accounts/login/?next=/accounts/superuser_profile/statistics/ HTTP/1.1" 500 64029
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7271471
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7882
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7271471
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7882
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7271471
+"GET /accounts/superuser_profile HTTP/1.1" 301 0
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 35446
+"GET /static/css/site.css HTTP/1.1" 200 43187
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 35443
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7271471
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 6586)
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 35432
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 35432
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7271471
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 35512
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 35518
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 35538
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 37245
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 37987
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 37964
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 37958
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274488
+"GET /static/css/site.css HTTP/1.1" 200 44793
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274545
+"GET /static/css/site.css HTTP/1.1" 200 44897
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274545
+"GET /static/css/site.css HTTP/1.1" 200 44987
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274545
+"GET /static/css/site.css HTTP/1.1" 200 44897
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274545
+"GET /static/css/site.css HTTP/1.1" 200 45109
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274545
+"GET /static/css/site.css HTTP/1.1" 200 45089
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274545
+"GET /static/css/site.css HTTP/1.1" 200 45057
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274545
+"GET /static/css/site.css HTTP/1.1" 200 45060
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274545
+"GET /static/css/site.css HTTP/1.1" 200 45117
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274545
+"GET /static/css/site.css HTTP/1.1" 200 45106
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274545
+"GET /static/css/site.css HTTP/1.1" 200 45132
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274597
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274536
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 37949
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274525
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274532
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274608
+"GET /static/css/site.css HTTP/1.1" 200 45132
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274608
+"GET /static/css/site.css HTTP/1.1" 200 45109
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274608
+"GET /static/css/site.css HTTP/1.1" 200 45132
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274608
+"GET /static/css/site.css HTTP/1.1" 200 45133
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274608
+"GET /static/css/site.css HTTP/1.1" 200 45181
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274598
+"GET /static/css/site.css HTTP/1.1" 200 45132
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 38011
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274598
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274940
+"GET /static/css/site.css HTTP/1.1" 200 45719
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274940
+"GET /static/css/site.css HTTP/1.1" 200 45699
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274969
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274969
+"GET /static/css/site.css HTTP/1.1" 200 45678
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274969
+"GET /static/css/site.css HTTP/1.1" 200 45679
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7274969
+"GET /static/css/site.css HTTP/1.1" 200 45628
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7275163
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7275162
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7275131
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7275133
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7275131
+"GET /accounts/superuser_profile/statistics/ HTTP/1.1" 200 7275133
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/superuser_profile/ HTTP/1.1" 200 38011
+"GET /admin/ HTTP/1.1" 200 16835
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 7145)
+"GET /admin/auth/ HTTP/1.1" 200 5553
+"GET /admin/ HTTP/1.1" 200 16835
+Not Found: /
+"GET / HTTP/1.1" 404 7831
+"GET /home/ HTTP/1.1" 200 6074
+"GET /static/css/site.css HTTP/1.1" 200 45628
+"GET /static/images/crying_man.png HTTP/1.1" 304 0
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+- Broken pipe from ('127.0.0.1', 7144)
+C:\django\insurance_company\insurance_company_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 6130
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+- Broken pipe from ('127.0.0.1', 7315)
+"GET / HTTP/1.1" 200 6135
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /home/ HTTP/1.1" 200 6097
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /admin/ HTTP/1.1" 200 16835
+"GET /admin/auth/user/ HTTP/1.1" 200 24228
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/auth/user/1/change/ HTTP/1.1" 200 31241
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+- Broken pipe from ('127.0.0.1', 7358)
+- Broken pipe from ('127.0.0.1', 7355)
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"POST /admin/logout/ HTTP/1.1" 200 3553
+"GET / HTTP/1.1" 200 6018
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+- Broken pipe from ('127.0.0.1', 7360)
+"GET /login/ HTTP/1.1" 200 6130
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /login/ HTTP/1.1" 200 6224
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /home/ HTTP/1.1" 200 6049
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+- Broken pipe from ('127.0.0.1', 7389)
+- Broken pipe from ('127.0.0.1', 7390)
+"GET /login/ HTTP/1.1" 200 6007
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /login/ HTTP/1.1" 200 6090
+"GET /static/css/site.css HTTP/1.1" 200 45628
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+"GET /home/login/ HTTP/1.1" 200 6096
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+C:\django\insurance_company\insurance_company_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /home/login/ HTTP/1.1" 200 6017
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /login/ HTTP/1.1" 200 6056
+"GET /static/css/site.css HTTP/1.1" 200 45628
+"GET /static/images/new_logo.jpeg HTTP/1.1" 200 64716
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 19366
+"GET /static/images/happy.png HTTP/1.1" 200 106747
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+"GET /login/ HTTP/1.1" 200 6026
+"GET /static/css/site.css HTTP/1.1" 200 45628
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/happy.png HTTP/1.1" 200 106747
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 19366
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /static/images/new_logo.jpeg HTTP/1.1" 200 64716
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 404 1932
+"GET /static/images/suitcase HTTP/1.1" 404 1917
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+C:\django\insurance_company\insurance_company_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\django\insurance_company\insurance_company_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\django\insurance_company\insurance_company_app\views\news.py changed, reloading.
+Watching for file changes with StatReloader
+C:\django\insurance_company\insurance_company_app\views\news.py changed, reloading.
+Watching for file changes with StatReloader
+C:\django\insurance_company\insurance_company_app\views\news.py changed, reloading.
+Watching for file changes with StatReloader
+C:\django\insurance_company\insurance_company_app\views\news.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view insurance_company_app.views.news.basic didn't return an HttpResponse object. It returned None instead.
+"GET / HTTP/1.1" 500 68606
+C:\django\insurance_company\insurance_company_app\views\news.py changed, reloading.
+Watching for file changes with StatReloader
+C:\django\insurance_company\insurance_company_app\views\news.py changed, reloading.
+Watching for file changes with StatReloader
+C:\django\insurance_company\insurance_company_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 6099
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 404 1933
+"GET /static/images/suitcase HTTP/1.1" 404 1918
+"GET /login/ HTTP/1.1" 200 6302
+"GET /static/images/suitcase HTTP/1.1" 404 1918
+"GET /static/images/new_house.png HTTP/1.1" 404 1933
+"GET /home/ HTTP/1.1" 200 6081
+"GET /static/images/suitcase HTTP/1.1" 404 1918
+"GET /static/images/new_house.png HTTP/1.1" 404 1933
+- Broken pipe from ('127.0.0.1', 7525)
+"GET /login/ HTTP/1.1" 200 6167
+"GET /static/images/suitcase HTTP/1.1" 404 1918
+"GET /static/images/new_house.png HTTP/1.1" 404 1933
+"GET /insurance_types/ HTTP/1.1" 200 6124
+"GET /static/images/suitcase HTTP/1.1" 404 1918
+"GET /static/images/new_house.png HTTP/1.1" 404 1933
+"GET /about_company/ HTTP/1.1" 200 6178
+"GET /static/images/suitcase HTTP/1.1" 404 1918
+"GET /static/images/new_house.png HTTP/1.1" 404 1933
+C:\django\insurance_company\insurance_company_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 6178
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /login/ HTTP/1.1" 200 1389
+"GET /static/css/login.css HTTP/1.1" 304 0
+"POST /login/ HTTP/1.1" 200 1480
+"POST /login/ HTTP/1.1" 200 1480
+"GET /home/ HTTP/1.1" 200 6050
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /insurance_types/ HTTP/1.1" 200 6727
+"GET /insurance_types/ HTTP/1.1" 200 6727
+"GET /static/css/site.css HTTP/1.1" 200 47437
+"GET /insurance_types/ HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 200 46010
+"GET /insurance_types/ HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 200 45956
+"GET /insurance_types/ HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 200 45931
+"GET /insurance_types/ HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 200 45931
+"GET /insurance_types/ HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 200 45977
+"GET /insurance_types/ HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 200 46014
+"GET /insurance_types/ HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 200 46017
+"GET /insurance_types/ HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 200 45931
+"GET /insurance_types/ HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 200 45950
+"GET /insurance_types/ HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 200 45957
+"GET /insurance_types/?search= HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/?search= HTTP/1.1" 200 6950
+"GET /static/css/site.css HTTP/1.1" 200 45983
+"GET /insurance_types/?search= HTTP/1.1" 200 7057
+"GET /static/css/site.css HTTP/1.1" 200 46059
+"GET /insurance_types/?search= HTTP/1.1" 200 7057
+"GET /static/css/site.css HTTP/1.1" 200 46056
+"GET /insurance_types/?search= HTTP/1.1" 200 7057
+"GET /static/css/site.css HTTP/1.1" 200 46109
+"GET /insurance_types/?search= HTTP/1.1" 200 7057
+"GET /static/css/site.css HTTP/1.1" 200 46135
+"GET /insurance_types/?search= HTTP/1.1" 200 7057
+"GET /static/css/site.css HTTP/1.1" 200 46165
+"GET /insurance_types/?search= HTTP/1.1" 200 7057
+"GET /static/css/site.css HTTP/1.1" 200 46135
+"GET /insurance_types/?search= HTTP/1.1" 200 7057
+"GET /static/css/site.css HTTP/1.1" 200 46119
+"GET /insurance_types/?search= HTTP/1.1" 200 7057
+"GET /static/css/site.css HTTP/1.1" 200 46135
+"GET /insurance_types/ HTTP/1.1" 200 7081
+"GET /static/css/site.css HTTP/1.1" 200 46169
+"GET /discounts/ HTTP/1.1" 200 3796
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /login/ HTTP/1.1" 200 1389
+"GET /insurance_types/ HTTP/1.1" 200 7081
+"GET /static/css/site.css HTTP/1.1" 200 46221
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 200 46247
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 200 46247
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 200 46277
+"GET /insurance_types/ HTTP/1.1" 200 7513
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 7512
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 7512
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 7511
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 200 46271
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 200 46270
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 200 46296
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 200 46289
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 200 46296
+"GET /contacts/ HTTP/1.1" 200 10157
+"GET /static/css/site.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 8005)
+- Broken pipe from ('127.0.0.1', 8004)
+- Broken pipe from ('127.0.0.1', 7746)
+- Broken pipe from ('127.0.0.1', 8006)
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10555
+"GET /static/css/site.css HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036

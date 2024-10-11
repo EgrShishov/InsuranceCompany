@@ -2,22 +2,27 @@
 
 {% block content %}
   <div class="container">
-    <h1>Insurance Types</h1>
+    <h1>Виды страхований</h1>
+    <span>
+      Виды страхования предназначены для того, чтобы помочь вам справиться с финансовыми последствиями различных жизненных ситуаций и рисков. Они предоставляют вам уверенность в завтрашнем дне и защищают от непредвиденных расходов.
+    </span>
 
-    <form method="GET" action="" class="search-form">
-      <input type="text" name="search" placeholder="Search by name" value="{{ request.GET.search }}">
-      <button type="submit">Search</button>
-    </form>
+    <div class="data-manipulators">
+          <form method="GET" action="" class="search-form">
+            <input type="text" name="search" placeholder="По названию" value="{{ request.GET.search }}">
+            <button type="submit">Найти</button>
+          </form>
 
-    <form method="GET" action="" class="sort-form">
-      <select name="sort_by">
-        <option value="name" {% if request.GET.sort_by == 'name' %}selected{% endif %}>by Name</option>
-        <option value="percentage" {% if request.GET.sort_by == 'percentage' %}selected{% endif %}>by Percentage</option>
-        <option value="name-desc" {% if request.GET.sort_by == 'name_desc' %}selected{% endif %}>by Name desc</option>
-        <option value="percentage_desc" {% if request.GET.sort_by == 'percentage_desc' %}selected{% endif %}>by Percentage Desc</option>
-      </select>
-      <button type="submit">Sort</button>
-    </form>
+        <form method="GET" action="" class="sort-form">
+          <select name="sort_by">
+            <option value="name" {% if request.GET.sort_by == 'name' %}selected{% endif %}>по названию</option>
+            <option value="percentage" {% if request.GET.sort_by == 'percentage' %}selected{% endif %}>по комиссионным</option>
+            <option value="name-desc" {% if request.GET.sort_by == 'name_desc' %}selected{% endif %}>по названию по убыванию</option>
+            <option value="percentage_desc" {% if request.GET.sort_by == 'percentage_desc' %}selected{% endif %}>по комиссионным по убыванию</option>
+          </select>
+          <button type="submit">Отсортировать</button>
+        </form>
+    </div>
 
     <div class="grid-container">
       {% if types %}
@@ -26,12 +31,12 @@
             <div class="card-content">
               <h3>{{ type.name }}</h3>
               <p>{{ type.description }}</p>
-              <p><strong>Fee percentage:</strong> {{ type.percentage }}%</p>
+              <p><strong>Комиссионные:</strong> {{ type.percentage }}%</p>
             </div>
           </div>
         {% endfor %}
       {% else %}
-        <p>Cannot find anything</p>
+        <p>Ничего не найдено</p>
       {% endif %}
     </div>
   </div>
