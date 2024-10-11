@@ -1,38 +1,72 @@
 {% extends 'common/layout.html' %}
 {% load static %}
 {% block content %}
-    {% if logo %}
-        <section class="company-logo">
-            <p2>Our logo:</p2>
-             <div class="logo-image">
-                 <img src="{% static 'images/logo.jpg' %}" alt="logo Image" width="300" height="300">
-             </div>
-        </section>
-    {% endif %}
+<section class="about-section">
 
+</section>
+    <section class="company-logo">
+        <h2>Наш логотипчик</h2>
+        <div class="logo-image">
+            <img src="{% static 'images/logo.jpg' %}" alt="logo Image" width="300" height="300">
+        </div>
+    </section>
+    <hr/>
     {% if video %}
         <section class="company-video">
+            <h2>Наше корпоративное видео по поводу того, каким файлообменником мы пользуемся:</h2>
             <div class="video">
                 <video autoplay src="{% static 'video.mp4' %}" width="1280" height="720"></video>
             </div>
         </section>
     {% endif %}
-
+    <hr/>
     {% if history %}
         <section class="company-history">
-            <h1>History of our company</h1>
-            <p>{{ history }}</p>
+            <h1>История нашей Агенды во времени</h1>
+            <ul class="history-timeline">
+                <li>2005 - Компания основана двумя людьми -- Анисимовым В.Я. и Жвакиной А.В.</li>
+                <li>2010 - Расширение на всебелорусский уровень</li>
+                <li>2015 - Награда, как лучшая страховая компания Горок</li>
+                <li>2020 - 443 оффиса во всех городах Беларуси</li>
+                <li>2024 - Допилили сайт на джанге</li>
+            </ul>
         </section>
     {% endif %}
-
+    <hr/>
     {% if requestions %}
         <section class="contacts">
-                <p>You can reach us: {{ requestions }}</p>
+            <p>Наш головной оффис расположен: <strong>{{ requestions }}</strong></p>
         </section>
     {% endif %}
+    <hr/>
+    <section class="certificate-section">
+        <h2>Сертификат о регистрации</h2>
+        <p>Мы так горды нашим сертифкитам, что можете полюбоваться и вы!</p>
+        <div class="frame">
+            <div class="certificate">
+                <h1>ЕДИНЫЙ РЕЕСТР СТРАХОВЫХ КОМПАНИЙ РЕСПУБЛИКИ БЕЛАРУСЬ</h1>
+                <h2>СВИДЕТЕЛЬСТВО</h2>
+                <p class="sub-title">о внесении сведений</p>
 
-    <section>
-        <p>Мы настолько честны перед вами и прозрачны, что оставим вам здесь свидетельство о регистрации!</p>
-        <img src="{% static 'images/registration.jpg' %}" alt="registration">
+                <div class="content">
+                    <p>г. Минск</p>
+                    <p>17 октября 2024</p>
+
+                    <p class="company-details">Общество с ограниченной ответственностью "AgendaInsurance"<br>
+                    (ИНН 1234567890)<br>Реестровый номер: 1337</p>
+                </div>
+
+                <div class="signatures">
+                    <p>Бекарев С.С.</p>
+                    <div class="stamp-signature">
+                        <div class="signature-image">
+                            <img src="{% static 'images/signature.png' %}">
+                        </div>
+                    </div>
+                    <p>Директор и CEO AgendaInsurance</p>
+                </div>
+
+            </div>
+        </div>
     </section>
 {% endblock %}

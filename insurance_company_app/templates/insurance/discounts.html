@@ -1,13 +1,41 @@
 {% extends 'common/layout.html' %}
 
 {% block content %}
+<section class="promocodes-section">
+    <h1>Промокоды и Купоны</h1>
+
     {% if promocodes %}
-        <ul>
-            {% for promocode in promocodes %}
-                {% if promocode.is_active %}
-                    <li>{{ promocode.name }} - {{ promocode.discount }} - {{ promocode.expiration_date }}</li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+        <details open>
+            <summary>Действующие промокоды</summary>
+            <ul class="active-promocodes">
+                {% for promocode in promocodes %}
+                    {% if promocode.is_active %}
+                        <li class="promocode-item">
+                            <span class="promocode-name">{{ promocode.name }}</span>
+                            <span class="promocode-discount">Скидка: {{ promocode.discount }}%</span>
+                            <span class="promocode-expiration">Действителен до: {{ promocode.expiration_date }}</span>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </details>
+
+        <details>
+            <summary>Архив промокодов</summary>
+            <ul class="archived-promocodes">
+                {% for promocode in promocodes %}
+                    {% if not promocode.is_active %}
+                        <li class="promocode-item archived">
+                            <span class="promocode-name">{{ promocode.name }}</span>
+                            <span class="promocode-discount">Скидка: {{ promocode.discount }}%</span>
+                            <span class="promocode-expiration">Истек: {{ promocode.expiration_date }}</span>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </details>
+    {% else %}
+        <p>Промокоды не найдены.</p>
     {% endif %}
+</section>
 {% endblock %}

@@ -1,17 +1,28 @@
 {% extends 'common/layout.html' %}
-
+{% load static %}
 {% block content %}
+<section class="vacancies-section">
+    <h1>Вакансии</h1>
     {% if vacancies %}
-        <ul>
+        <ul class="vacancies-list">
             {% for vacancy in vacancies %}
-                 <li class="vacancy-item">
-                     <div class="position">Position: {{ vacancy.position_name }}</div>
-                     <div class="description">{{ vacancy.vacancy_description }}</div>
-                     <div class="salary">Salary: {{ vacancy.salary }}</div>
-                     <div class="vacancy-branch">Branch: {{ vacancy.branch.name }}</div>
-                     <button class="interested-btn">I'm interested</button>
+                <li class="vacancy-item">
+                    <div class="vacancy-info">
+                        <img src="{% static 'images/logo.png' %}" style="float: left; margin-right: 10px; width:250px; height: auto;">
+                        <div class="position">Должность: <strong>{{ vacancy.position_name }}</strong></div>
+                        <div class="salary">Зарплата: {{ vacancy.salary }}</div>
+                        <div class="vacancy-branch">Филиал: {{ vacancy.branch.name }}</div>
+                    </div>
+                    <div class="vacancy-description">
+                        <strong>Описание:</strong> {{ vacancy.vacancy_description }}
+                    </div>
+                    <div style="clear: both;"></div>
+                    <button class="interested-btn">Мне интересно</button>
                 </li>
             {% endfor %}
         </ul>
+    {% else %}
+        <p>Вакансий пока нет.</p>
     {% endif %}
+</section>
 {% endblock %}

@@ -1,6 +1,8 @@
 {% extends 'common/layout.html' %}
 
 {% block content %}
+<section class="reviews-section">
+    <h1>Отзывы от наших клиентов:</h1>
     {% if reviews %}
         <ul>
            {% for review in reviews %}
@@ -11,6 +13,9 @@
                 </li>
             {% endfor %}
         </ul>
+    {% else %}
+        <p>Пока отзывов не оставили, но ты будешь <strong>первым!</strong></p>
     {% endif %}
     <a href="{% url 'create_review' %}"><button>Send feedback</button></a>
+</section>
 {% endblock %}

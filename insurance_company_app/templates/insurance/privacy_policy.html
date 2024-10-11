@@ -1,124 +1,69 @@
 {% extends 'common/layout.html' %}
 
 {% block content %}
-    <section class="privacy">
-        <h1>Политика конфиденциальности</h1>
-        <h1>Quick quiz!! Угадайте, на каком языке программирования написан этот сайт и получите скидку в 10% на наши услуги</h1>
-        <select name="select">
-            <option value="python" selected>python</option>
-            <option value="golang" disabled>golang</option>
-            <option value="html" disabled>html</option>
-            <option value="c#" disabled>c#</option>
-            <option value="c++" disabled>c++</option>
-        </select>
-        <p>Мы, страховая компания, ценим вашу конфиденциальность и стремимся обеспечить безопасность ваших личных данных.
-            В этой <strong>политике конфиденциальности</strong>
-            мы объясняем, какие данные мы собираем, как мы их используем и защищаем.</p>
-        <h2>Собираемая информация</h2>
-        <p>Мы собираем следующую информацию:</p>
-        <ul>
-          <li><ins>Имя, фамилия </ins>и контактные данные</li>
-          <li>Информация о вашей <em>страховой истории</em></li>
-          <li>Номер кредитной карточки, вашу кредитную историю и тип крови</li>
-          <li>Другие данные, которые вы предоставляете нам при заполнении форм и обращении к нам</li>
-        </ul>
-        <h2>Использование информации</h2>
-        <p>Мы используем собранную информацию для:</p>
-        <ul>
-          <li>Обработки ваших <strong>страховых заявок</strong></li>
-          <li>Предоставления вам необходимых услуг и <em>консультаций</em></li>
-          <li><mark>Улучшения наших продуктов и услуг</mark></li>
-          <li><del>И в наших личных некоммерческих целях</del></li>
-        </ul>
-        <h2>Защита информации</h2>
-        <p>Мы принимаем меры для
-            <strong>защиты вашей информации</strong> от несанкционированного доступа, использования или раскрытия.
-            Мы применяем соответствующие <em>технические и организационные меры безопасности</em>.</p>
-        <h2>Согласие</h2>
-        <p>Используя нашу страховую компанию и предоставляя нам свою информацию, вы соглашаетесь с условиями нашей
-            <strong>политики конфиденциальности</strong>.</p>
-        <p>Если у вас возникнут вопросы или требуется <em>дополнительная информация</em>, пожалуйста, свяжитесь с нами.</p>
-        <p>А ещё вот вам часть нашего source-code</p>
-        <listing>
-                if(your_moode.IsBad):
-                    print('Все будет хорошо')
-        </listing>
-        <pre>
-                AgendaCalendar.TheBest ? 'Of Course' :
-            <wbr>'There are no way'
-        </pre>
-        <code>
-                Developed by AgendaCodeTeam
-        </code>
-        <p>Как сказал наш лучший работник <q>Девушки как макароны, когда мокрые - не ломаются</q> @JSON Стейтем</p>
-        <p>Мы не любим аббревиатуры, но <abbr title="Agenda Calendar!">AG</abbr></p>
-        <p>A <dfn>validator</dfn> is a program that checks for syntax errors in code or documents.</p>
-        <p>Please use the following paint colors for the new house:</p>
-        <p>Пожалуйста, запомните следующее: </p>
-        <dl>
-          <dt>Наши конкуренты</dt>
-          <dd>Меркнут по сравнению с нами</dd>
+<section class="privacy">
+    <h1>Политика конфиденциальности</h1>
 
-          <dt>Наши партнеры</dt>
-          <dd>Лучше всех!</dd>
-        </dl>
-        We are open from <time datetime="20:00">20:00</time> to  <time datetime="21:11">21:11</time>
-        <blockquote>
-            Розы - красные,<br>
-            Фиалки - синие,<br>
-            <a href="#anchor">Нажми здесь</a>, чтобы увидеть якорь,<br>
-            <a href="example.docx" download>Скачать документ</a> - просто здорово!
-        </blockquote>
-        <a id="#anchor"></a>
-        <table summary="Table with headers">
-            <caption>TBA</caption>
-            <thead>
-                <tr>
-                    <th id="header1">Заголовок 1</th>
-                    <th id="header2">Заголовок 2</th>
-                </tr>s
-            </thead>
-            <tbody>
-                <tr>
-                    <th colspan="2">Name</th>
-                    <th>Age</th>
-                </tr>
-                <tr>
-                    <th headers="header1">Ячейка 1</th>
-                    <td>Данные 1</td>
-                </tr>
-                <tr>
-                    <th headers="header2">Ячейка 2</th>
-                    <td typeof="integer">13123</td>
-                </tr>
-                <tr>
-                    <th rowspan="2">Rowspan</th>
-                    <td>bip-bip</td>
-                </tr>
-                <tr>
-                    <th headers="header2">Ячейка 3</th>
-                    <td typeof="integer">string</td>
-                </tr>
-            </tbody>
-         </table>
-        <iframe src="https://ru.wikipedia.org/wiki/LZMA#LZMA2" width="800" height="600" align="center">
-            Who is duty today?
-        </iframe>
+        <h2>Якоря для быстрой навигации</h2>
+    <p>Перейти к:
+        <ul>
+            <li><a href="#collected-data">Собираемая информация</a></li>
+            <li><a href="#usage-data">Использование информации</a></li>
+            <li><a href="#protection">Защита информации</a></li>
+            <li><a href="#consent">Согласие</a></li>
+            <li><a href="#source-code">Часть кода</a></li>
+            <li><a href="#additional-info">Доп. информация</a></li>
+            <li><a href="#inputs-section">Интерактивные элементы</a></li>
+        </ul>
+    </p>
+
+    <p>Мы, страховая компания <strong><i>Agenda Insurance</i></strong>, ценим вашу конфиденциальность и стремимся обеспечить безопасность ваших личных данных.
+        В этой <strong>политике конфиденциальности</strong> мы объясняем, какие данные мы собираем, как мы их используем и защищаем.
+    </p>
+
+    <h2 id="collected-data">Собираемая нами информация</h2>
+    <p>Мы собираем следующую информацию:</p>
+    <ul>
+        <li><strong>Имя, фамилия</strong> и контактные данные</li>
+        <li>Информация о вашей <em>страховой истории</em></li>
+        <li>Номер кредитной карты, кредитная история и тип крови</li>
+        <li>Другие данные, которые вы предоставляете нам при заполнении форм и обращении к нам</li>
+    </ul>
+
+    <h2 id="usage-data">Использование информации</h2>
+    <p>Мы используем собранную информацию для:</p>
+    <ul>
+        <li>Обработки ваших <strong>страховых заявок</strong></li>
+        <li>Предоставления необходимых услуг и консультаций</li>
+        <li><em>Улучшения наших продуктов и услуг</em></li>
+        <li><del>В личных некоммерческих целях</del></li>
+    </ul>
+
+    <h2 id="protection">Защита информации</h2>
+    <p>Мы принимаем меры для <strong>защиты вашей информации</strong> от несанкционированного доступа, использования или раскрытия. Применяются соответствующие <em>технические и организационные меры безопасности</em>.</p>
+
+    <h2 id="consent">Согласие</h2>
+    <p>Используя нашу компанию и предоставляя нам свою информацию, вы соглашаетесь с условиями нашей <strong>политики конфиденциальности</strong>.</p>
+
+    <h2>Контактная информация</h2>
+    <p>Если у вас возникнут вопросы или требуется <em>дополнительная информация</em>, свяжитесь с нами через контактные данные на сайте.</p>
+
+    <hr>
+        <h2 id="source-code">Часть нашего исходного кода:</h2>
         <pre>
-            <p>Если вам нечего делать, поиграйтесь с нашими новыми инпутами</p>
-            Color:<input type="color" name="color"><br>
-            Date:<input type="date" name="date"><br>
-            Date and time:<input type="datetime" name="dt"><br>
-            Date and time (local):<input type="datetime-local" name="dtl"><br>
-            Email:<input type="email" name="email"><br>
-            Number:<input type="number" name="number"><br>
-            Range:<input type="range" name="range" min="10" max="20"><br>
-            Search:<input type="search" name="search"><br>
-            Tel:<input type="tel" name="tel"><br>
-            Time:<input type="time" name="time"><br>
-            URL:<input type="url" name="url"><br>
-            Month:<input type="month" name="month"><br>
-            Week:<input type="week" name="week"><br>
+            if(your_mood.IsBad):
+                print('Все будет хорошо')
         </pre>
-    </section>
+
+        <h2>Цитаты и блоки</h2>
+        <p>Как сказал наш лучший сотрудник:</p>
+        <blockquote>
+            <q>Девушки как макароны, когда мокрые — не ломаются.</q><br> — @JSON Стейтем
+        </blockquote>
+
+        <h2 id="additional-info">Дополнительная информация</h2>
+        <p>Мы не любим аббревиатуры, но <abbr title="Agenda Calendar">AG</abbr>.</p>
+        <p>Время работы: с <time datetime="20:00">20:00</time> до <time datetime="21:11">21:11</time>.</p>
+    <hr>
+</section>
 {% endblock %}

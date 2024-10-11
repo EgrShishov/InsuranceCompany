@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
     <title>Registration</title>
 </head>
 <body>
-    <form method="post">
-        {% csrf_token %}
-        <div class="reg-form">
-        <h2>Login to your account</h2>
-        {{ form.as_p }}
-        <button type="submit" class="btn">Register</button>
-        <a class="forgot" href="#">Forgot Username?</a>
+    <div class="container">
+        <div class="shapes">
+            <div class="shape square"></div>
+            <div class="shape circle"></div>
+            <div class="shape circle" style="background-color: #a3b5c3; top: 290px; right: 150px;"></div>
         </div>
-    </form>
+
+        <div class="form-container">
+            <h3>Welcome!</h3>
+            <form method="post">
+            {% csrf_token %}
+                <div class="reg-form">
+                    {{ form.as_p }}
+                    <button type="submit" class="btn">Register</button>
+                </div>
+            </form>
+            <a href="{% url 'home' %}"><button>Go to home</button></a>
+        </div>
+    </div>
 </body>
 </html>
+

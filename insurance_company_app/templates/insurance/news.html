@@ -1,23 +1,21 @@
 {% extends 'common/layout.html' %}
 
 {% block content %}
-    {% if news %}
     <section>
         <h1>News</h1>
-        <ul>
+        <div class="news-list">
             {% for item in news %}
-                 <article>
-                     <div class="news-title">{{ item.title }}</div>
-                     <div class="news-text">{{ item.text|truncatechars:60 }}</div>
-                     <div class="news-publish-date">Published at: {{ item.publish_date }}</div>
-                     <div class="news-image">
-                        <img src="{{ item.image.url }}" alt="News Image" width="300" height="300">
-                    </div>
-                     <div class="news-published-author">Published by: {{ item.author.surname }} {{ item.author.name }} {{ item.author.second_name }}</div>
-                      <a href="{% url 'news_details' item.id %}"><button>See details</button></a>
-                </article>
+            <div class="news-item">
+                <div class="news-image">
+                    <img src="{{ item.image.url }}" alt="{{ item.title }}">
+                </div>
+                <div class="news-content">
+                    <h2>{{ item.title }}</h2>
+                    <p class="news-summary">{{ item.text|truncatechars:100 }}</p>
+                    <a href="{% url 'news_details' item.id %}" class="read-more-btn">Read More</a>
+                </div>
+            </div>
             {% endfor %}
-        </ul>
+        </div>
     </section>
-    {% endif %}
 {% endblock %}

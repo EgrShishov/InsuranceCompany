@@ -1,64 +1,70 @@
 {% extends 'common/layout.html' %}
 {% load static %}
 {% block content %}
+
+<div class="home-section">
+
+    <div class="company-info">
+        <div class="company-name">Agenda Insurance</div>
+        <div class="company-slogan">Ваша защита от неожиданностей</div>
+    </div>
+
+    <div class="animation-container">
+        <img src="{% static 'images/home.png' %}" class="house" alt="House">
+        <img src="{% static 'images/burnt_home.png' %}" class="burnt-house" alt="Burnt House">
+        <img src="{% static 'images/fire1.png' %}" class="fire1" alt="Fire 1">
+        <img src="{% static 'images/fire2.png' %}" class="fire2" alt="Fire 2">
+        <img src="{% static 'images/crying_man.png' %}" class="person sad" alt="Sad Person">
+        <img src="{% static 'images/happy.png' %}" class="person happy" alt="Happy Person">
+        <img src="{% static 'images/man_with_suitcase.png' %}" class="suitcase closed" alt="Closed Suitcase">
+        <img src="{% static 'images/man_with_suitcase.png' %}" class="suitcase opened" alt="Opened Suitcase">
+        <img src="{% static 'images/suitcase' %}" class="money" alt="Money">
+        <img src="{% static 'images/new_house.png' %}" class="new-house" alt="New House">
+        <img src="{% static 'images/new_logo.jpeg' %}" class="logo" alt="Company Logo">
+    </div>
+
+     <section class="last-article-section">
+        {% if news %}
+            <article class="last-article">
+                <div class="news-title">{{ news.title }}</div>
+                <p class="news-text">{{ news.text|truncatechars:60 }}</p>
+                <p class="news-publish-date">Published at: {{ news.publish_date }}</p>
+                <a href="{% url 'news_details' news.id %}"><button>See details</button></a>
+            </article>
+        {% endif %}
+    </section>
+
     <section class="company-video">
         <div class="video" align="center">
-            <video autoplay controls src="{% static 'videos/video.mp4' %}" width="640" height="400"></video>
+            <video autoplay controls src="{% static 'videos/video.mp4' %}"></video>
         </div>
     </section>
-    <a itemprop="url" target="_blank" href="https://metanit.com/python/django/"><img height="200" src="https://avatars.githubusercontent.com/u/24794086?v=4"></a>
-    <a itemprop="url" href="https://avatars.githubusercontent.com/u/24794086?v=4"
-    download="{% static 'images/logo.jpg' %}">
-    Download PHOTO</a>
-    <aside>
+
+    <aside class="partners">
         <h2>Our partners: </h2>
         <ul>
-            <li>
-                <a href="https://bns.by/"><img src="{% static 'images/BNS.jpg' %}" alt="BelNeftStrach"></a>
+            <li class="partner-info">
+                <a class="partner" href="https://bns.by/"><img src="{% static 'images/BNS.jpg' %}" alt="BelNeftStrach"></a>
+                <span class="partner-name">BelNeftStrach</span>
             </li>
-            <li>
-                <a href="https://asoba.by/"><img src="{% static 'images/ASOBA.jpg' %}" alt="Asoba"></a>
+            <li class="partner-info">
+                <a class="partner" href="https://asoba.by/"><img src="{% static 'images/ASOBA.jpg' %}" alt="Asoba"></a>
+                <span class="partner-name">Asoba</span>
             </li>
-            <li>
-                <a href="https://bgs.by/"><img src="{% static 'images/BGS.png' %}" alt="BelGosStrach"></a>
+            <li class="partner-info">
+                <a class="partner" href="https://bgs.by/"><img src="{% static 'images/BGS.png' %}" alt="BelGosStrach"></a>
+                <span class="partner-name">BelGosStrach</span>
             </li>
         </ul>
     </aside>
 
-    <details>
-      <summary>Who is AgendaInsurance?</summary>
-      <p>Aboba and Agenda starts with the same letter, but in fact, it's differs in two ways: people and hardware. I prefer be with A.N. Markov rather than in Aboba's Company</p>
-    </details>
-
-    <figure>
-      <img src="{% static 'images/bannerWithAdd.jpg' %}" style="max-width:300px;" alt="AddBanner"
-        srcset="{% static 'images/bannerWithAdd.jpg' %} 1000w,
-                {% static 'images/bannerWithAdd.jpg' %} 600w,
-                {% static 'images/bannerWithAdd.jpg' %} 1200w">
-      <figcaption>Fig. - Our best add you ever seen</figcaption>
-    </figure>
-
-    {% if news %}
-    <article>
-        <div class="news-title">{{ news.title }}</div>
-        <p class="news-text">{{ news.text|truncatechars:60 }}</p>
-        <p class="news-publish-date">Published at: {{ news.publish_date }}</p>
-        <a href="{% url 'news_details' news.id %}"><button>See details</button></a>
-    </article>
-    {% endif %}
-    <section class="extra-info">
+     <section class="extra-info">
         <h2 style="text-align:center;">Joke of the day</h2>
-        <h3 style="text-align:center;">{{joke.setup}}</h3>
-        <h3 style="text-align:center;">{{joke.punchline}}</h3>
+        <h3 class="setup" style="text-align:center;">{{joke.setup}}</h3>
+        <h3 class="punch" style="text-align:center;">{{joke.punchline}}</h3>
         <h2 style="text-align:center;">Funny fact about cats:</h2>
         <h3 style="text-align:center;">{{cat_facts.fact}} - {{cat_facts.length}}</h3>
     </section>
-    <figure>
-      <figcaption>Our music:</figcaption>
-      <audio autoplay>
-         <source src="{% static 'sounds/song.m4a' %}" type="audio/m4a">
-          Mama
-      </audio>
-      <a href="{% static 'sounds/song.m4a' %}"> Download audio </a>
-    </figure>
+
+</div>
 {% endblock %}
