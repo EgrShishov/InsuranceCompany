@@ -17376,3 +17376,1355 @@ Not Found: /media/C:/django/insurance_company/media/images
 ews
 atamog.jpg
 "GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+Watching for file changes with StatReloader
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /about_company/ HTTP/1.1" 200 5894
+"GET /static/images/signature.png HTTP/1.1" 304 0
+"GET /static/images/border.png HTTP/1.1" 304 0
+"GET /static/images/insurance.png HTTP/1.1" 304 0
+"GET /static/images/registred_stamp.png HTTP/1.1" 304 0
+"GET /static/video.mp4 HTTP/1.1" 404 1887
+"GET /news/ HTTP/1.1" 200 4404
+"GET /contacts/ HTTP/1.1" 200 10555
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /about_company/ HTTP/1.1" 200 5894
+"GET /static/video.mp4 HTTP/1.1" 404 1887
+"GET /insurance_types/ HTTP/1.1" 200 7506
+"GET /discounts/ HTTP/1.1" 200 3796
+"GET /login/ HTTP/1.1" 200 1389
+"GET /static/css/login.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 12037)
+"GET /home/ HTTP/1.1" 200 6022
+"GET /static/images/crying_man.png HTTP/1.1" 304 0
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /faq/ HTTP/1.1" 200 5425
+"GET /reviews/ HTTP/1.1" 200 3892
+"GET /reviews/make/ HTTP/1.1" 302 0
+"GET /login?next=/reviews/make/ HTTP/1.1" 301 0
+"GET /login/?next=/reviews/make/ HTTP/1.1" 200 1389
+"POST /login/?next=/reviews/make/ HTTP/1.1" 302 0
+"GET /accounts/profile/ HTTP/1.1" 200 7775
+"GET /reviews/ HTTP/1.1" 200 4039
+"GET /reviews/make/ HTTP/1.1" 200 3479
+"GET /privacy_policy/ HTTP/1.1" 200 7354
+"GET /vacancies/ HTTP/1.1" 200 4112
+"GET /reviews/ HTTP/1.1" 200 4039
+"GET /reviews/make/ HTTP/1.1" 200 3479
+C:\django\insurance_company\insurance_company_app\forms\make_review.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /reviews/make/ HTTP/1.1" 200 3974
+"GET /reviews/make/ HTTP/1.1" 200 3974
+"POST /reviews/make/ HTTP/1.1" 302 0
+"GET /home HTTP/1.1" 301 0
+"GET /home/ HTTP/1.1" 200 6168
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /reviews/ HTTP/1.1" 200 4039
+"GET /reviews/make/ HTTP/1.1" 200 3974
+- Broken pipe from ('127.0.0.1', 12267)
+- Broken pipe from ('127.0.0.1', 12270)
+- Broken pipe from ('127.0.0.1', 12275)
+- Broken pipe from ('127.0.0.1', 12262)
+- Broken pipe from ('127.0.0.1', 12271)
+- Broken pipe from ('127.0.0.1', 12274)
+- Broken pipe from ('127.0.0.1', 12273)
+- Broken pipe from ('127.0.0.1', 12268)
+- Broken pipe from ('127.0.0.1', 12269)
+- Broken pipe from ('127.0.0.1', 12276)
+- Broken pipe from ('127.0.0.1', 12272)
+- Broken pipe from ('127.0.0.1', 12277)
+"GET /reviews/make/ HTTP/1.1" 200 4265
+"GET /static/css/site.css HTTP/1.1" 200 47714
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+"GET /reviews/make/ HTTP/1.1" 200 3994
+"GET /static/css/site.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 12360)
+"GET /reviews/make/ HTTP/1.1" 200 3994
+"GET /static/css/site.css HTTP/1.1" 200 47166
+"GET /reviews/make/ HTTP/1.1" 200 3994
+"GET /static/css/site.css HTTP/1.1" 200 47212
+"GET /reviews/make/ HTTP/1.1" 200 3994
+"GET /static/css/site.css HTTP/1.1" 200 47231
+"GET /reviews/make/ HTTP/1.1" 200 3994
+"GET /static/css/site.css HTTP/1.1" 200 47231
+"GET /reviews/make/ HTTP/1.1" 200 4011
+"GET /static/css/site.css HTTP/1.1" 200 47166
+"GET /reviews/make/ HTTP/1.1" 200 4011
+"GET /static/css/site.css HTTP/1.1" 200 47203
+"GET /reviews/make/ HTTP/1.1" 200 4011
+"GET /static/css/site.css HTTP/1.1" 200 47166
+"GET /reviews/make/ HTTP/1.1" 200 4011
+"GET /static/css/site.css HTTP/1.1" 200 47166
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+"GET /reviews/make/ HTTP/1.1" 200 4011
+"GET /static/css/site.css HTTP/1.1" 200 47192
+"POST /reviews/make/ HTTP/1.1" 302 0
+"GET /home HTTP/1.1" 301 0
+"GET /home/ HTTP/1.1" 200 6160
+"GET /static/css/site.css HTTP/1.1" 200 47166
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /reviews/ HTTP/1.1" 200 4334
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /reviews/ HTTP/1.1" 200 4387
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /reviews/ HTTP/1.1" 200 4387
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /vacancies/ HTTP/1.1" 200 4165
+"GET /faq/ HTTP/1.1" 200 5625
+"GET /reviews/ HTTP/1.1" 200 4387
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /privacy_policy/ HTTP/1.1" 200 7407
+"GET /contacts/ HTTP/1.1" 200 10755
+- Broken pipe from ('127.0.0.1', 12450)
+- Broken pipe from ('127.0.0.1', 12449)
+- Broken pipe from ('127.0.0.1', 12451)
+- Broken pipe from ('127.0.0.1', 12452)
+- Broken pipe from ('127.0.0.1', 12453)
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contracts/ HTTP/1.1" 200 8006
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /discounts/ HTTP/1.1" 200 3996
+"GET /insurance_types/ HTTP/1.1" 200 7706
+"GET /about_company/ HTTP/1.1" 200 6094
+- Broken pipe from ('127.0.0.1', 12432)
+- Broken pipe from ('127.0.0.1', 12455)
+"GET /static/video.mp4 HTTP/1.1" 404 1887
+- Broken pipe from ('127.0.0.1', 12457)
+"GET /news/ HTTP/1.1" 200 4604
+"GET /static/css/site.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 12463)
+- Broken pipe from ('127.0.0.1', 12459)
+"GET /news/ HTTP/1.1" 200 4625
+"GET /static/css/site.css HTTP/1.1" 200 47446
+"GET /news/ HTTP/1.1" 200 4654
+"GET /static/css/site.css HTTP/1.1" 200 47453
+"GET /reviews/ HTTP/1.1" 200 4387
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 12492)
+- Broken pipe from ('127.0.0.1', 12521)
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /news/ HTTP/1.1" 200 4654
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 7706
+"GET /static/css/site.css HTTP/1.1" 200 47453
+- Broken pipe from ('127.0.0.1', 12494)
+"GET /contracts/ HTTP/1.1" 200 8006
+- Broken pipe from ('127.0.0.1', 12548)
+"GET /accounts/profile/ HTTP/1.1" 200 7828
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /contacts/ HTTP/1.1" 200 10755
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /news/ HTTP/1.1" 200 4654
+"GET /news/details/38/ HTTP/1.1" 200 7109
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/profile/ HTTP/1.1" 200 7828
+"GET /contacts/ HTTP/1.1" 200 10755
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 200 47445
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 200 47463
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 200 47429
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 200 47396
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 200 47430
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 200 47430
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 200 47430
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 200 47430
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 200 47430
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10755
+"GET /static/css/site.css HTTP/1.1" 200 47448
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47434
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47461
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47462
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+- Broken pipe from ('127.0.0.1', 12637)
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47462
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47463
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47418
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47604
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47646
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47744
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47744
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47774
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47777
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47744
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /about_company/ HTTP/1.1" 200 6094
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.jpg HTTP/1.1" 200 196490
+"GET /static/video.mp4 HTTP/1.1" 404 1887
+- Broken pipe from ('127.0.0.1', 12554)
+- Broken pipe from ('127.0.0.1', 12635)
+"GET /contracts/ HTTP/1.1" 200 8006
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /discounts/ HTTP/1.1" 200 3996
+"GET /about_company/ HTTP/1.1" 200 6094
+"GET /static/video.mp4 HTTP/1.1" 404 1887
+- Broken pipe from ('127.0.0.1', 12787)
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+- Broken pipe from ('127.0.0.1', 12789)
+"GET /news/ HTTP/1.1" 200 4654
+"GET /contracts/ HTTP/1.1" 200 8006
+"GET /discounts/ HTTP/1.1" 200 3996
+"GET /static/css/site.css HTTP/1.1" 200 47744
+"GET /insurance_types/ HTTP/1.1" 200 7706
+- Broken pipe from ('127.0.0.1', 12792)
+"GET /static/css/site.css HTTP/1.1" 200 47744
+"GET /static/css/site.css HTTP/1.1" 200 47744
+"GET /static/css/site.css HTTP/1.1" 200 47744
+"GET /insurance_types/ HTTP/1.1" 200 7706
+"GET /static/css/site.css HTTP/1.1" 200 47832
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/only_logo.jpeg HTTP/1.1" 200 24208
+"GET /insurance_types/ HTTP/1.1" 200 7706
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /about_company/ HTTP/1.1" 200 6094
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/video.mp4 HTTP/1.1" 404 1887
+"GET /about_company/ HTTP/1.1" 200 6094
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/video.mp4 HTTP/1.1" 404 1887
+"GET /about_company/ HTTP/1.1" 200 6101
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /about_company/ HTTP/1.1" 200 6110
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 7706
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/?sort_by=percentage HTTP/1.1" 200 7714
+"GET /static/css/site.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 12886)
+"GET /insurance_types/?sort_by=percentage_desc HTTP/1.1" 200 7714
+- Broken pipe from ('127.0.0.1', 12892)
+"GET /insurance_types/?search=%D0%A1%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 HTTP/1.1" 200 5798
+"GET /contacts/ HTTP/1.1" 200 10759
+- Broken pipe from ('127.0.0.1', 12897)
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /about_company/ HTTP/1.1" 200 6110
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47832
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+- Broken pipe from ('127.0.0.1', 12898)
+"GET /insurance_types/ HTTP/1.1" 200 7706
+"GET /static/css/site.css HTTP/1.1" 200 47832
+- Broken pipe from ('127.0.0.1', 13017)
+"GET /contacts/ HTTP/1.1" 200 10759
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /accounts/profile/ HTTP/1.1" 200 7828
+"GET /contracts/ HTTP/1.1" 200 8006
+"GET /contacts/ HTTP/1.1" 200 10759
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+- Broken pipe from ('127.0.0.1', 13053)
+"GET /news/ HTTP/1.1" 200 4654
+- Broken pipe from ('127.0.0.1', 13060)
+- Broken pipe from ('127.0.0.1', 13058)
+- Broken pipe from ('127.0.0.1', 13062)
+"GET /about_company/ HTTP/1.1" 200 6110
+- Broken pipe from ('127.0.0.1', 13063)
+"GET /contacts/ HTTP/1.1" 200 10759
+"GET /static/css/site.css HTTP/1.1" 200 47832
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+- Broken pipe from ('127.0.0.1', 13213)
+"GET /news/ HTTP/1.1" 200 4654
+"GET /home/ HTTP/1.1" 200 6213
+- Broken pipe from ('127.0.0.1', 13227)
+- Broken pipe from ('127.0.0.1', 13223)
+- Broken pipe from ('127.0.0.1', 13211)
+- Broken pipe from ('127.0.0.1', 13224)
+- Broken pipe from ('127.0.0.1', 13222)
+"GET /static/images/crying_man.png HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 13228)
+- Broken pipe from ('127.0.0.1', 13229)
+- Broken pipe from ('127.0.0.1', 13230)
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /news/ HTTP/1.1" 200 4654
+- Broken pipe from ('127.0.0.1', 13231)
+"GET /contacts/ HTTP/1.1" 200 10759
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /home/ HTTP/1.1" 200 6334
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /home/ HTTP/1.1" 200 6453
+"GET /static/css/site.css HTTP/1.1" 200 47832
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+- Broken pipe from ('127.0.0.1', 13270)
+"GET /home/ HTTP/1.1" 200 6363
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /home/ HTTP/1.1" 200 6292
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+- Broken pipe from ('127.0.0.1', 13285)
+"GET /home/ HTTP/1.1" 200 6321
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /home/ HTTP/1.1" 200 6227
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /home/ HTTP/1.1" 200 6244
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /home/ HTTP/1.1" 200 6314
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /home/ HTTP/1.1" 200 6269
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /home/ HTTP/1.1" 200 6233
+"GET /static/css/site.css HTTP/1.1" 200 47832
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+- Broken pipe from ('127.0.0.1', 13372)
+"GET /home/ HTTP/1.1" 200 6321
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+- Broken pipe from ('127.0.0.1', 13380)
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /home/ HTTP/1.1" 200 6277
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /home/ HTTP/1.1" 200 6250
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+- Broken pipe from ('127.0.0.1', 13406)
+"GET /home/ HTTP/1.1" 200 6293
+"GET /static/css/site.css HTTP/1.1" 200 47870
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 19366
+"GET /static/images/new_logo.jpeg HTTP/1.1" 200 64716
+"GET /static/images/happy.png HTTP/1.1" 200 106747
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6305
+"GET /static/css/site.css HTTP/1.1" 200 47832
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /home/ HTTP/1.1" 200 6235
+"GET /static/css/site.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 13723)
+- Broken pipe from ('127.0.0.1', 13724)
+- Broken pipe from ('127.0.0.1', 13725)
+- Broken pipe from ('127.0.0.1', 13726)
+- Broken pipe from ('127.0.0.1', 13727)
+- Broken pipe from ('127.0.0.1', 13728)
+- Broken pipe from ('127.0.0.1', 13729)
+- Broken pipe from ('127.0.0.1', 13730)
+- Broken pipe from ('127.0.0.1', 13731)
+"GET /home/ HTTP/1.1" 200 6256
+"GET /static/css/site.css HTTP/1.1" 200 47832
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6341
+"GET /static/css/site.css HTTP/1.1" 200 47810
+- Broken pipe from ('127.0.0.1', 13757)
+"GET /home/ HTTP/1.1" 200 6254
+"GET /static/css/site.css HTTP/1.1" 200 47737
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/css/site.css HTTP/1.1" 200 47737
+"GET /home/ HTTP/1.1" 200 6275
+"GET /static/css/site.css HTTP/1.1" 200 47737
+- Broken pipe from ('127.0.0.1', 13773)
+"GET /home/ HTTP/1.1" 200 6285
+"GET /static/css/site.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 13774)
+- Broken pipe from ('127.0.0.1', 13755)
+"GET /home/ HTTP/1.1" 200 6436
+"GET /static/css/site.css HTTP/1.1" 200 47737
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6373
+"GET /home/ HTTP/1.1" 200 6433
+"GET /home/ HTTP/1.1" 200 6445
+"GET /static/css/site.css HTTP/1.1" 200 47759
+"GET /static/css/site.css HTTP/1.1" 200 47759
+"GET /static/css/site.css HTTP/1.1" 200 47759
+- Broken pipe from ('127.0.0.1', 13876)
+- Broken pipe from ('127.0.0.1', 13896)
+"GET /home/ HTTP/1.1" 200 6439
+"GET /static/css/site.css HTTP/1.1" 200 48191
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6391
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6447
+"GET /static/css/site.css HTTP/1.1" 200 48191
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6486
+"GET /static/css/site.css HTTP/1.1" 200 48223
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6549
+"GET /static/css/site.css HTTP/1.1" 200 48204
+"GET /home/ HTTP/1.1" 200 6409
+"GET /static/css/site.css HTTP/1.1" 200 49153
+"GET /home/ HTTP/1.1" 200 6453
+"GET /static/css/site.css HTTP/1.1" 200 49007
+"GET /home/ HTTP/1.1" 200 6435
+"GET /static/css/site.css HTTP/1.1" 200 49009
+"GET /home/ HTTP/1.1" 200 6423
+"GET /static/css/site.css HTTP/1.1" 200 49007
+"GET /home/ HTTP/1.1" 200 6384
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6363
+"GET /home/ HTTP/1.1" 200 6340
+"GET /static/css/site.css HTTP/1.1" 200 49070
+"GET /home/ HTTP/1.1" 200 6399
+"GET /static/css/site.css HTTP/1.1" 200 49239
+"GET /home/ HTTP/1.1" 200 6456
+"GET /static/css/site.css HTTP/1.1" 200 49240
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /home/ HTTP/1.1" 200 6665
+"GET /static/css/site.css HTTP/1.1" 200 49308
+"GET /home/ HTTP/1.1" 200 6419
+"GET /static/css/site.css HTTP/1.1" 200 49240
+"GET /home/ HTTP/1.1" 200 6429
+"GET /static/css/site.css HTTP/1.1" 200 49312
+"GET /home/ HTTP/1.1" 200 6506
+"GET /static/css/site.css HTTP/1.1" 200 49304
+"GET /home/ HTTP/1.1" 200 6425
+"GET /static/css/site.css HTTP/1.1" 200 49303
+"GET /home/ HTTP/1.1" 200 6510
+"GET /static/css/site.css HTTP/1.1" 200 49304
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /home/ HTTP/1.1" 200 6595
+"GET /static/css/site.css HTTP/1.1" 200 49304
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6415
+"GET /static/css/site.css HTTP/1.1" 200 49304
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 19366
+"GET /static/images/happy.png HTTP/1.1" 200 106747
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6545
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /home/ HTTP/1.1" 200 6444
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /home/ HTTP/1.1" 200 6475
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /home/ HTTP/1.1" 200 6534
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/suitcase HTTP/1.1" 404 1905
+- Broken pipe from ('127.0.0.1', 14801)
+"GET /home/ HTTP/1.1" 200 6514
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /static/images/suitcase.png HTTP/1.1" 200 242334
+"GET /home/ HTTP/1.1" 200 6445
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 6396
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /accounts/profile/ HTTP/1.1" 200 7822
+"GET /contracts/ HTTP/1.1" 200 8000
+"GET /contacts/ HTTP/1.1" 200 10753
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /home/ HTTP/1.1" 200 6545
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /home/ HTTP/1.1" 200 6494
+"GET /static/css/site.css HTTP/1.1" 200 49444
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /home/ HTTP/1.1" 200 6373
+"GET /static/css/site.css HTTP/1.1" 200 49435
+"GET /static/images/new_house.png HTTP/1.1" 404 1920
+"GET /home/ HTTP/1.1" 200 6463
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /home/ HTTP/1.1" 200 6527
+"GET /static/css/site.css HTTP/1.1" 200 49435
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6357
+"GET /static/css/site.css HTTP/1.1" 200 49580
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6418
+"GET /static/css/site.css HTTP/1.1" 200 49544
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6650
+"GET /static/css/site.css HTTP/1.1" 200 49398
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6418
+"GET /home/ HTTP/1.1" 200 6376
+"GET /static/css/site.css HTTP/1.1" 200 49395
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6743
+"GET /static/css/site.css HTTP/1.1" 200 49355
+"GET /home/ HTTP/1.1" 200 6360
+"GET /static/css/site.css HTTP/1.1" 200 49355
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 14960)
+"GET /home/ HTTP/1.1" 200 6427
+"GET /static/css/site.css HTTP/1.1" 200 49331
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6412
+"GET /static/css/site.css HTTP/1.1" 200 49361
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6487
+"GET /static/css/site.css HTTP/1.1" 200 49362
+"GET /home/ HTTP/1.1" 200 6524
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6393
+"GET /static/css/site.css HTTP/1.1" 200 49364
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6499
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6492
+"GET /static/css/site.css HTTP/1.1" 200 49362
+"GET /home/ HTTP/1.1" 200 6499
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6395
+"GET /static/css/site.css HTTP/1.1" 200 49320
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 242334
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /faq/ HTTP/1.1" 200 5619
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /contacts/ HTTP/1.1" 200 10753
+"GET /static/css/site.css HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+"GET /home/ HTTP/1.1" 200 6405
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6466
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6405
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/happy.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6518
+"GET /static/css/site.css HTTP/1.1" 200 49291
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6427
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6568
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6446
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6419
+"GET /static/css/site.css HTTP/1.1" 200 49069
+"GET /static/images/happy.png HTTP/1.1" 304 0
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6444
+"GET /static/css/site.css HTTP/1.1" 304 0
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 207, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001FFD968CBF0>, 'Connection to official-joke-api.appspot.com timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FFD968CBF0>, 'Connection to official-joke-api.appspot.com timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\news.py", line 8, in home
+    funny_joke = random_joke.RandomJokeService.get_random_joke()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\services\random_joke.py", line 7, in get_random_joke
+    return requests.get('https://official-joke-api.appspot.com/random_joke').json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FFD968CBF0>, 'Connection to official-joke-api.appspot.com timed out. (connect timeout=None)'))
+"GET /home/ HTTP/1.1" 500 169537
+"GET /home/ HTTP/1.1" 200 6516
+"GET /static/css/site.css HTTP/1.1" 200 49350
+"GET /home/ HTTP/1.1" 200 6578
+"GET /static/css/site.css HTTP/1.1" 200 49389
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6452
+"GET /static/css/site.css HTTP/1.1" 200 49354
+"GET /static/images/happy.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6438
+"GET /static/css/site.css HTTP/1.1" 200 49354
+"GET /home/ HTTP/1.1" 200 6442
+"GET /static/css/site.css HTTP/1.1" 200 49317
+"GET /home/ HTTP/1.1" 200 6475
+"GET /static/css/site.css HTTP/1.1" 200 49352
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6555
+"GET /static/css/site.css HTTP/1.1" 200 49352
+"GET /home/ HTTP/1.1" 200 6500
+"GET /static/css/site.css HTTP/1.1" 200 49352
+"GET /home/ HTTP/1.1" 200 6484
+"GET /static/css/site.css HTTP/1.1" 200 49358
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6491
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6521
+"GET /static/css/site.css HTTP/1.1" 200 49358
+"GET /static/images/happy.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6406
+"GET /static/css/site.css HTTP/1.1" 200 49386
+"GET /home/ HTTP/1.1" 200 6456
+"GET /static/css/site.css HTTP/1.1" 200 49407
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6780
+"GET /static/css/site.css HTTP/1.1" 200 49410
+"GET /home/ HTTP/1.1" 200 6463
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6560
+"GET /static/css/site.css HTTP/1.1" 200 49410
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6618
+"GET /static/css/site.css HTTP/1.1" 200 49165
+"GET /static/images/happy.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6446
+"GET /static/css/site.css HTTP/1.1" 200 49165
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6537
+"GET /static/css/site.css HTTP/1.1" 200 49165
+"GET /home/ HTTP/1.1" 200 6468
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6496
+"GET /static/css/site.css HTTP/1.1" 200 49165
+"GET /home/ HTTP/1.1" 200 6499
+"GET /static/css/site.css HTTP/1.1" 200 49163
+"GET /home/ HTTP/1.1" 200 6446
+"GET /static/css/site.css HTTP/1.1" 200 49163
+"GET /home/ HTTP/1.1" 200 6454
+"GET /static/css/site.css HTTP/1.1" 200 49163
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 6456
+"GET /static/css/site.css HTTP/1.1" 200 49142
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/crying_man.png HTTP/1.1" 304 0
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 304 0
+"GET /static/images/happy.png HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6488
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/happy.png HTTP/1.1" 304 0
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6470
+"GET /static/css/site.css HTTP/1.1" 200 49142
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/suitcase.png HTTP/1.1" 200 102660
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6470
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6501
+"GET /static/css/site.css HTTP/1.1" 200 49556
+"GET /static/images/happy.png HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 304 0
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 18724)
+"GET /home/ HTTP/1.1" 200 6528
+"GET /static/css/site.css HTTP/1.1" 200 49780
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/suitcase.png HTTP/1.1" 200 102660
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6600
+"GET /static/css/site.css HTTP/1.1" 200 49798
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 102660
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6400
+"GET /static/css/site.css HTTP/1.1" 200 49855
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001BFAD87FA70>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BFAD87FA70>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\news.py", line 8, in home
+    funny_joke = random_joke.RandomJokeService.get_random_joke()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\services\random_joke.py", line 7, in get_random_joke
+    return requests.get('https://official-joke-api.appspot.com/random_joke').json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BFAD87FA70>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)"))
+"GET /home/ HTTP/1.1" 500 166770
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001BFAD8C52E0>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BFAD8C52E0>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\news.py", line 8, in home
+    funny_joke = random_joke.RandomJokeService.get_random_joke()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\services\random_joke.py", line 7, in get_random_joke
+    return requests.get('https://official-joke-api.appspot.com/random_joke').json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='official-joke-api.appspot.com', port=443): Max retries exceeded with url: /random_joke (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BFAD8C52E0>: Failed to resolve 'official-joke-api.appspot.com' ([Errno 11001] getaddrinfo failed)"))
+"GET /home/ HTTP/1.1" 500 166770
+"GET /home/ HTTP/1.1" 200 6467
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 200 103815
+"GET /home/ HTTP/1.1" 200 6475
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /home/ HTTP/1.1" 200 6839
+"GET /static/css/site.css HTTP/1.1" 200 50471
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /home/ HTTP/1.1" 200 6769
+"GET /static/css/site.css HTTP/1.1" 200 50546
+"GET /static/images/suitcase.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6973
+"GET /static/css/site.css HTTP/1.1" 200 50572
+"GET /static/images/suitcase.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6769
+"GET /static/css/site.css HTTP/1.1" 200 50572
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+- Broken pipe from ('127.0.0.1', 20494)
+- Broken pipe from ('127.0.0.1', 20495)
+- Broken pipe from ('127.0.0.1', 20497)
+- Broken pipe from ('127.0.0.1', 20365)
+"GET /home/ HTTP/1.1" 200 6890
+"GET /static/css/site.css HTTP/1.1" 200 50572
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+- Broken pipe from ('127.0.0.1', 20441)
+- Broken pipe from ('127.0.0.1', 20577)
+- Broken pipe from ('127.0.0.1', 20578)
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /home/ HTTP/1.1" 200 6835
+"GET /static/css/site.css HTTP/1.1" 200 50572
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6767
+"GET /static/css/site.css HTTP/1.1" 200 50572
+- Broken pipe from ('127.0.0.1', 20496)
+"GET /home/ HTTP/1.1" 200 6872
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 7831
+"GET /home/ HTTP/1.1" 200 6888
+"GET /static/css/site.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 20655)
+- Broken pipe from ('127.0.0.1', 20651)
+- Broken pipe from ('127.0.0.1', 20654)
+"GET /home/ HTTP/1.1" 200 6882
+"GET /static/css/site.css HTTP/1.1" 200 50572
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6895
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6892
+"GET /static/css/site.css HTTP/1.1" 200 50646
+"GET /home/ HTTP/1.1" 200 6789
+"GET /static/css/site.css HTTP/1.1" 200 50646
+"GET /home/ HTTP/1.1" 200 7011
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 304 0
+"GET /accounts/profile/ HTTP/1.1" 200 7877
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 7755
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/?search=%D0%9C%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2 HTTP/1.1" 200 4523
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/?search=%D0%9C%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%B8 HTTP/1.1" 200 4517
+"GET /insurance_types/?search=%D0%9C%D0%BE%D1%88%D0%B5%D0%BD HTTP/1.1" 200 4513
+"GET /insurance_types/?search=%D1%81%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 HTTP/1.1" 200 4523
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/?search=%D1%81%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 HTTP/1.1" 200 4523
+"GET /insurance_types/?search=%D1%81%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 HTTP/1.1" 200 4523
+"GET /insurance_types/?search=%D1%81%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 HTTP/1.1" 200 4523
+"GET /insurance_types/?search=%D0%A1%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 HTTP/1.1" 200 5847
+"GET /static/css/site.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 20760)
+"GET /home/ HTTP/1.1" 200 6751
+"GET /faq/ HTTP/1.1" 200 5674
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6811
+"GET /contacts/ HTTP/1.1" 200 10808
+"GET /static/css/site.css HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036

@@ -9,7 +9,7 @@
     name="description"
     content="Agenda Insurance is the best Polish Insurance Company" />
     <title>AgendaInsurance</title>
-    <link rel="icon" href="{% static 'images/only_logo.jpeg' %}"/>
+    <link rel="icon" href="{% static 'images/logo.png' %}"/>
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
       rel="stylesheet"
@@ -66,12 +66,12 @@
           <div class="wave" id="wave4"></div>
         </div>
         <ul class="menu">
-            <li class="menu-item"><a href="{% url 'faq' %}">FAQ</a></li>
-            <li class="menu-item"><a href="{% url 'reviews' %}">Our customers about us</a></li>
-            <li class="menu-item"><a href="{% url 'privacy_policy' %}">Privacy policy</a></li>
-            <li class="menu-item"><a href="{% url 'vacancies' %}">Vacancies</a></li>
+            <li class="menu-item"><a href="{% url 'faq' %}">ЧаВО</a></li>
+            <li class="menu-item"><a href="{% url 'reviews' %}">Клиенты о нас</a></li>
+            <li class="menu-item"><a href="{% url 'privacy_policy' %}">Политика конфиденциальности</a></li>
+            <li class="menu-item"><a href="{% url 'vacancies' %}">Вакансии</a></li>
         </ul>
-        <p>&copy;2024 ChatGPT Design x AgendaInsurance | ©Авторские права никому не принадлежат, 2024. Все права защищены.</p>
+        <p>&copy;2024 <a href="https://chatgpt.com">ChatGPT</a> Design x <a href="{% url 'home' %}">AgendaInsurance</a> | ©Авторские права никому не принадлежат, 2024. Все права защищены.</p>
     </footer>
 </body>
 </html>
