@@ -18728,3 +18728,2185 @@ Not Found: /media/C:/django/insurance_company/media/images
 ews
 atamog.jpg
 "GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8036
+Watching for file changes with StatReloader
+Internal Server Error: /contacts/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\contacts.py", line 10, in index
+    return render(request, 'insurance/contacts.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'polygon' not found. 'polygon' is not a valid view function or pattern name.
+"GET /contacts/ HTTP/1.1" 500 141464
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\news.py", line 15, in home
+    return render(request, 'insurance/home.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'polygon' not found. 'polygon' is not a valid view function or pattern name.
+"GET /home/ HTTP/1.1" 500 153645
+C:\django\insurance_company\insurance_company_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 6805
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 304 0
+Internal Server Error: /polygon/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\common.py", line 4, in polygon
+    return render(request, 'polygon.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: polygon.html
+"GET /polygon/ HTTP/1.1" 500 80967
+C:\django\insurance_company\insurance_company_app\views\common.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /polygon/ HTTP/1.1" 200 3184
+C:\django\insurance_company\insurance_company_app\views\common.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /polygon/ HTTP/1.1" 200 3184
+"GET /polygon/ HTTP/1.1" 200 3446
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /polygon/ HTTP/1.1" 200 3483
+Forbidden (CSRF token missing.): /polygon/
+"POST /polygon/ HTTP/1.1" 403 2505
+"GET /polygon/ HTTP/1.1" 200 3483
+"GET /polygon/ HTTP/1.1" 200 3609
+"POST /polygon/ HTTP/1.1" 200 3609
+"GET /polygon/ HTTP/1.1" 200 4402
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /polygon/ HTTP/1.1" 200 4447
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 1179
+"GET /polygon/ HTTP/1.1" 200 4447
+"GET /static/css/site.css HTTP/1.1" 200 50646
+"GET /static/js/site.js HTTP/1.1" 200 1182
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 4447
+"GET /static/css/site.css HTTP/1.1" 200 50646
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 1183
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 4447
+"GET /static/js/site.js HTTP/1.1" 200 877
+"GET /polygon/ HTTP/1.1" 200 4447
+"GET /static/js/site.js HTTP/1.1" 200 850
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /polygon/ HTTP/1.1" 200 4495
+"GET /static/css/site.css HTTP/1.1" 200 50882
+"GET /static/js/site.js HTTP/1.1" 200 1750
+"GET /static/js/site.js HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 23061)
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\template\smartif.py", line 180, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: 'user|is_employee'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\news.py", line 15, in home
+    return render(request, 'insurance/home.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\defaulttags.py", line 960, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\defaulttags.py", line 893, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\django\.venv\Lib\site-packages\django\template\smartif.py", line 171, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\smartif.py", line 182, in translate_token
+    return self.create_var(token)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\defaulttags.py", line 896, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 693, in __init__
+    filter_func = parser.find_filter(filter_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 603, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'is_employee'
+"GET /home/ HTTP/1.1" 500 243254
+"GET /home/ HTTP/1.1" 200 6940
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/happy.png HTTP/1.1" 304 0
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /static/images/ad1.png HTTP/1.1" 304 0
+"GET /static/images/ad3.png HTTP/1.1" 304 0
+"GET /static/images/ad2.png HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/images/ad4.png HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+- Broken pipe from ('127.0.0.1', 23095)
+"GET /accounts/profile/ HTTP/1.1" 200 7999
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /accounts/profile/ HTTP/1.1" 200 8056
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /home HTTP/1.1" 301 0
+"GET /home/ HTTP/1.1" 200 6803
+"GET /login/ HTTP/1.1" 200 1389
+"GET /static/css/login.css HTTP/1.1" 304 0
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view insurance_company_app.views.accounts.custom_login didn't return an HttpResponse object. It returned None instead.
+"POST /login/ HTTP/1.1" 500 69824
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 16835
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+Not Found: /
+"GET / HTTP/1.1" 404 8004
+"GET /home/ HTTP/1.1" 200 6970
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6804
+"GET /static/css/site.css HTTP/1.1" 200 50882
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 1750
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\template\smartif.py", line 180, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: '||'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\insurance_company\insurance_company_app\views\news.py", line 15, in home
+    return render(request, 'insurance/home.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\defaulttags.py", line 960, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\defaulttags.py", line 893, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\django\.venv\Lib\site-packages\django\template\smartif.py", line 171, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\smartif.py", line 182, in translate_token
+    return self.create_var(token)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\defaulttags.py", line 896, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\django\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '||' from '||'
+"GET /home/ HTTP/1.1" 500 237208
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8055
+"GET /home/ HTTP/1.1" 200 7119
+"GET /static/css/site.css HTTP/1.1" 200 50882
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/js/site.js HTTP/1.1" 200 1750
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 7153
+"GET /static/css/site.css HTTP/1.1" 200 50845
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/js/site.js HTTP/1.1" 200 1750
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 7240
+"GET /static/css/site.css HTTP/1.1" 200 50848
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/js/site.js HTTP/1.1" 200 1750
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 7137
+"GET /static/css/site.css HTTP/1.1" 200 50851
+"GET /home/ HTTP/1.1" 200 7255
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 200 50888
+"GET /home/?interval=1000 HTTP/1.1" 200 7102
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home HTTP/1.1" 301 0
+"GET /home/ HTTP/1.1" 200 7103
+"GET /static/css/site.css HTTP/1.1" 200 50888
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 1751
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 7124
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 7202
+"GET /static/css/site.css HTTP/1.1" 200 50934
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 7050
+"GET /static/css/site.css HTTP/1.1" 200 50934
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 1782
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 6795
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 1817
+"GET /home/ HTTP/1.1" 200 6708
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6937
+"GET /static/css/site.css HTTP/1.1" 200 50934
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 1817
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8055
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 16835
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8055
+"GET /home/ HTTP/1.1" 200 7154
+"GET /static/css/site.css HTTP/1.1" 200 50934
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/js/site.js HTTP/1.1" 200 1817
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6784
+"GET /static/css/site.css HTTP/1.1" 200 50934
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/js/site.js HTTP/1.1" 200 1817
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /home/ HTTP/1.1" 200 6918
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 7096
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 8723
+"GET /static/js/site.js HTTP/1.1" 200 1817
+"GET /static/css/site.css HTTP/1.1" 200 50934
+- Broken pipe from ('127.0.0.1', 24599)
+"GET /home/ HTTP/1.1" 200 8628
+"GET /home/ HTTP/1.1" 200 8641
+"GET /home/ HTTP/1.1" 200 8801
+"GET /static/css/site.css HTTP/1.1" 200 51837
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/js/site.js HTTP/1.1" 200 1817
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8720
+"GET /static/css/site.css HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 8393
+"GET /static/css/site.css HTTP/1.1" 200 51837
+"GET /static/js/site.js HTTP/1.1" 200 1817
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /about_company/ HTTP/1.1" 200 6134
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/insurance.png HTTP/1.1" 200 16024
+"GET /static/images/registred_stamp.png HTTP/1.1" 200 179562
+"GET /static/images/border.png HTTP/1.1" 200 6364124
+"GET /contacts/ HTTP/1.1" 200 10783
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 10783
+- Broken pipe from ('127.0.0.1', 33671)
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 10783
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /insurance_types/ HTTP/1.1" 200 7730
+"GET /about_company/ HTTP/1.1" 200 6134
+"GET /contacts/ HTTP/1.1" 200 10783
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+- Broken pipe from ('127.0.0.1', 33672)
+"GET /static/css/site.css HTTP/1.1" 200 50934
+"GET /home/ HTTP/1.1" 200 8294
+"GET /static/css/site.css HTTP/1.1" 200 50934
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 1817
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 6134
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 7730
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /about_company/ HTTP/1.1" 200 6134
+"GET /news/ HTTP/1.1" 200 4678
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /media/images/news/natamog.jpg HTTP/1.1" 200 16981
+"GET /media/images/news/photo_2023-03-17_22-16-50_uYm4MCy.jpg HTTP/1.1" 200 140767
+"GET /about_company/ HTTP/1.1" 200 6134
+"GET /about_company/ HTTP/1.1" 200 7679
+"GET /static/css/site.css HTTP/1.1" 200 51841
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 200 51843
+- Broken pipe from ('127.0.0.1', 33793)
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 200 51833
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 200 51833
+"GET /static/js/site.js HTTP/1.1" 200 1817
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/insurance.png HTTP/1.1" 200 16024
+"GET /static/images/registred_stamp.png HTTP/1.1" 200 179562
+"GET /static/images/border.png HTTP/1.1" 200 6364124
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 6833
+"GET /static/css/site.css HTTP/1.1" 200 51833
+- Broken pipe from ('127.0.0.1', 33798)
+"GET /home/ HTTP/1.1" 200 6904
+"GET /static/css/site.css HTTP/1.1" 200 51833
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 1817
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 6799
+"GET /static/css/site.css HTTP/1.1" 200 51833
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/js/site.js HTTP/1.1" 200 1817
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 7674
+- Broken pipe from ('127.0.0.1', 33815)
+"GET /static/css/site.css HTTP/1.1" 200 51833
+- Broken pipe from ('127.0.0.1', 33818)
+"GET /about_company/ HTTP/1.1" 200 7674
+- Broken pipe from ('127.0.0.1', 33814)
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 200 51841
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 200 51838
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 200 51842
+- Broken pipe from ('127.0.0.1', 33817)
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 200 51834
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 200 51834
+- Broken pipe from ('127.0.0.1', 33816)
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 200 51835
+- Broken pipe from ('127.0.0.1', 33909)
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 200 51835
+- Broken pipe from ('127.0.0.1', 34504)
+"GET /about_company/ HTTP/1.1" 200 7674
+"GET /static/css/site.css HTTP/1.1" 200 51842
+"GET /about_company/ HTTP/1.1" 200 8308
+"GET /static/css/site.css HTTP/1.1" 200 51842
+- Broken pipe from ('127.0.0.1', 34677)
+"GET /about_company/ HTTP/1.1" 200 9466
+"GET /static/css/site.css HTTP/1.1" 200 52098
+"GET /about_company/ HTTP/1.1" 200 8131
+"GET /about_company/ HTTP/1.1" 200 8698
+"GET /static/css/site.css HTTP/1.1" 200 52098
+"GET /about_company/ HTTP/1.1" 200 8698
+"GET /about_company/ HTTP/1.1" 200 8698
+"GET /static/css/site.css HTTP/1.1" 200 52146
+- Broken pipe from ('127.0.0.1', 35244)
+"GET /about_company/ HTTP/1.1" 200 8698
+"GET /static/css/site.css HTTP/1.1" 200 53659
+"GET /about_company/ HTTP/1.1" 200 8698
+"GET /static/css/site.css HTTP/1.1" 200 53616
+"GET /about_company/ HTTP/1.1" 200 8698
+"GET /static/css/site.css HTTP/1.1" 200 53645
+"GET /about_company/ HTTP/1.1" 200 8698
+"GET /static/css/site.css HTTP/1.1" 200 53624
+"GET /about_company/ HTTP/1.1" 200 8698
+"GET /static/css/site.css HTTP/1.1" 200 53645
+"GET /about_company/ HTTP/1.1" 200 8698
+"GET /about_company/ HTTP/1.1" 200 8698
+"GET /static/css/site.css HTTP/1.1" 200 53645
+"GET /static/js/site.js HTTP/1.1" 200 3434
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /about_company/ HTTP/1.1" 200 8684
+- Broken pipe from ('127.0.0.1', 35424)
+"GET /static/css/site.css HTTP/1.1" 200 53649
+"GET /about_company/ HTTP/1.1" 200 8684
+"GET /static/css/site.css HTTP/1.1" 200 53652
+"GET /about_company/ HTTP/1.1" 200 8684
+"GET /static/css/site.css HTTP/1.1" 200 53649
+"GET /about_company/ HTTP/1.1" 200 8670
+"GET /static/css/site.css HTTP/1.1" 200 53534
+"GET /about_company/ HTTP/1.1" 200 9292
+"GET /static/css/site.css HTTP/1.1" 200 54085
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /about_company/ HTTP/1.1" 200 9292
+"GET /static/css/site.css HTTP/1.1" 200 53325
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9216
+"GET /static/css/site.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 36774)
+"GET /about_company/ HTTP/1.1" 200 9223
+"GET /static/js/site.js HTTP/1.1" 200 3434
+"GET /static/css/site.css HTTP/1.1" 200 53325
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /about_company/ HTTP/1.1" 200 9115
+"GET /static/js/site.js HTTP/1.1" 200 3434
+"GET /static/css/site.css HTTP/1.1" 200 53325
+"GET /about_company/ HTTP/1.1" 200 9115
+"GET /static/css/site.css HTTP/1.1" 200 53289
+"GET /about_company/ HTTP/1.1" 200 9115
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /about_company/ HTTP/1.1" 200 9245
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3580
+"GET /about_company/ HTTP/1.1" 200 9245
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3528
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9354
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3708
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9354
+"GET /static/js/site.js HTTP/1.1" 200 3708
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3708
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3708
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3708
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/js/site.js HTTP/1.1" 200 3708
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3708
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3708
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3708
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3708
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/js/site.js HTTP/1.1" 200 3720
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3718
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/js/site.js HTTP/1.1" 200 3752
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3756
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3804
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/js/site.js HTTP/1.1" 200 3822
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/js/site.js HTTP/1.1" 200 3820
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/js/site.js HTTP/1.1" 200 3820
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/js/site.js HTTP/1.1" 200 3816
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/js/site.js HTTP/1.1" 200 3816
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3816
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9370
+"GET /static/js/site.js HTTP/1.1" 200 3816
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9370
+"GET /static/css/site.css HTTP/1.1" 200 53297
+"GET /static/js/site.js HTTP/1.1" 200 3816
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /about_company/ HTTP/1.1" 200 9370
+"GET /static/css/site.css HTTP/1.1" 200 53255
+"GET /static/js/site.js HTTP/1.1" 200 3816
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/insurance.png HTTP/1.1" 200 16024
+"GET /static/images/registred_stamp.png HTTP/1.1" 200 179562
+"GET /static/images/border.png HTTP/1.1" 200 6364124
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 12479
+"GET /static/css/site.css HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 12479
+"GET /static/js/site.js HTTP/1.1" 200 4024
+"GET /static/css/site.css HTTP/1.1" 200 53250
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 12479
+"GET /contacts/ HTTP/1.1" 200 12479
+"GET /static/css/site.css HTTP/1.1" 200 53250
+"GET /static/js/site.js HTTP/1.1" 200 4024
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 12479
+"GET /contacts/ HTTP/1.1" 200 12479
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 3816
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 12455
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 3811
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /home/ HTTP/1.1" 200 8469
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 38343)
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /about_company/ HTTP/1.1" 200 9346
+"GET /static/css/site.css HTTP/1.1" 200 53312
+"GET /static/js/site.js HTTP/1.1" 200 3984
+- Broken pipe from ('127.0.0.1', 38403)
+"GET /home/ HTTP/1.1" 200 8475
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 8513
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 3856
+"GET /news/ HTTP/1.1" 200 6350
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /news/ HTTP/1.1" 200 6350
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 3937
+"GET /home/ HTTP/1.1" 200 8610
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 8455
+"GET /static/js/site.js HTTP/1.1" 200 4006
+"GET /home/ HTTP/1.1" 200 8468
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 4005
+"GET /home/ HTTP/1.1" 200 8512
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /about_company/ HTTP/1.1" 200 9368
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /news/ HTTP/1.1" 200 6372
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /news/ HTTP/1.1" 200 6372
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /news/ HTTP/1.1" 200 6372
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /news/ HTTP/1.1" 200 6372
+"GET /static/js/site.js HTTP/1.1" 200 4005
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/news/natamog.jpg HTTP/1.1" 200 16981
+"GET /media/images/news/photo_2023-03-17_22-16-50_uYm4MCy.jpg HTTP/1.1" 200 140767
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+- Broken pipe from ('127.0.0.1', 38522)
+- Broken pipe from ('127.0.0.1', 38623)
+- Broken pipe from ('127.0.0.1', 38624)
+- Broken pipe from ('127.0.0.1', 38519)
+"GET /news/ HTTP/1.1" 200 6372
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 4004
+"GET /media/images/news/natamog.jpg HTTP/1.1" 200 16981
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/news/photo_2023-03-17_22-16-50_uYm4MCy.jpg HTTP/1.1" 200 140767
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /news/ HTTP/1.1" 200 6372
+"GET /static/js/site.js HTTP/1.1" 200 4476
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/news/photo_2023-03-17_22-16-50_uYm4MCy.jpg HTTP/1.1" 200 140767
+"GET /media/images/news/natamog.jpg HTTP/1.1" 200 16981
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /news/ HTTP/1.1" 200 6372
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 4476
+"GET /media/images/news/natamog.jpg HTTP/1.1" 200 16981
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/news/photo_2023-03-17_22-16-50_uYm4MCy.jpg HTTP/1.1" 200 140767
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /news/ HTTP/1.1" 200 6372
+"GET /static/js/site.js HTTP/1.1" 200 4478
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /media/images/news/natamog.jpg HTTP/1.1" 200 16981
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/news/photo_2023-03-17_22-16-50_uYm4MCy.jpg HTTP/1.1" 200 140767
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /news/polygon
+"GET /news/polygon HTTP/1.1" 404 8058
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8055
+Not Found: /home/polygon
+"GET /home/polygon HTTP/1.1" 404 8058
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8055
+"GET /polygon HTTP/1.1" 301 0
+"GET /polygon/ HTTP/1.1" 200 6697
+"GET /static/js/site.js HTTP/1.1" 200 5226
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 5226
+"GET /polygon/ HTTP/1.1" 200 6681
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 5226
+"GET /polygon/ HTTP/1.1" 200 6669
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 5226
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 5226
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 5532
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 5498
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 5498
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/js/site.js HTTP/1.1" 200 5797
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 5797
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/js/site.js HTTP/1.1" 200 5817
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 5817
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 5815
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 5815
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/js/site.js HTTP/1.1" 200 5888
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 5888
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 5838
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 5838
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 5837
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 5837
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/js/site.js HTTP/1.1" 200 5842
+"GET /static/js/site.js HTTP/1.1" 200 5842
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 5838
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 5838
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 6157
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/css/site.css HTTP/1.1" 200 53292
+"GET /static/js/site.js HTTP/1.1" 200 6158
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 6158
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/js/site.js HTTP/1.1" 200 6158
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/js/site.js HTTP/1.1" 200 6153
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/js/site.js HTTP/1.1" 200 6162
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/js/site.js HTTP/1.1" 200 6485
+"GET /static/css/site.css HTTP/1.1" 200 53388
+- Broken pipe from ('127.0.0.1', 40114)
+"GET /static/js/site.js HTTP/1.1" 200 6485
+"GET /polygon/ HTTP/1.1" 200 6907
+"GET /static/css/site.css HTTP/1.1" 200 53388
+"GET /static/js/site.js HTTP/1.1" 200 6491
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 6491
+"GET /polygon/ HTTP/1.1" 200 7153
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 7408
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 7408
+"GET /polygon/ HTTP/1.1" 200 7153
+"GET /static/css/site.css HTTP/1.1" 200 53388
+"GET /static/js/site.js HTTP/1.1" 200 7407
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 7407
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 7407
+"GET /polygon/ HTTP/1.1" 200 7153
+"GET /static/css/site.css HTTP/1.1" 200 53388
+"GET /static/js/site.js HTTP/1.1" 200 7436
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 7436
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 7153
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 7432
+"GET /polygon/ HTTP/1.1" 200 7153
+"GET /static/js/site.js HTTP/1.1" 200 7387
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /polygon/ HTTP/1.1" 200 7153
+"GET /static/js/site.js HTTP/1.1" 200 7399
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 8715
+"GET /static/js/site.js HTTP/1.1" 200 8358
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/images/happy.png HTTP/1.1" 304 0
+"GET /static/images/ad2.png HTTP/1.1" 304 0
+"GET /static/images/ad1.png HTTP/1.1" 304 0
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /static/images/ad4.png HTTP/1.1" 304 0
+"GET /static/images/ad3.png HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 40741)
+"GET /home/ HTTP/1.1" 200 8649
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 8708
+"GET /static/js/site.js HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 40744)
+- Broken pipe from ('127.0.0.1', 40745)
+- Broken pipe from ('127.0.0.1', 40743)
+- Broken pipe from ('127.0.0.1', 40742)
+- Broken pipe from ('127.0.0.1', 40717)
+"GET /home/ HTTP/1.1" 200 8924
+"GET /static/js/site.js HTTP/1.1" 200 8356
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8722
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/js/site.js HTTP/1.1" 200 8358
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /home/ HTTP/1.1" 200 8727
+"GET /static/js/site.js HTTP/1.1" 200 8358
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8651
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/js/site.js HTTP/1.1" 200 8455
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /home/ HTTP/1.1" 200 8869
+"GET /static/js/site.js HTTP/1.1" 200 8507
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8745
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/js/site.js HTTP/1.1" 200 8505
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /home/ HTTP/1.1" 200 8829
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/js/site.js HTTP/1.1" 200 8488
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8748
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/js/site.js HTTP/1.1" 200 8488
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /home/ HTTP/1.1" 200 8718
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/js/site.js HTTP/1.1" 200 8513
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8896
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/js/site.js HTTP/1.1" 200 8507
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8817
+"GET /static/css/site.css HTTP/1.1" 200 53489
+"GET /static/js/site.js HTTP/1.1" 200 8507
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8707
+"GET /static/js/site.js HTTP/1.1" 200 8579
+"GET /static/css/site.css HTTP/1.1" 200 53489
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8709
+"GET /static/css/site.css HTTP/1.1" 200 53489
+"GET /static/js/site.js HTTP/1.1" 200 8579
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /home/ HTTP/1.1" 200 8684
+"GET /static/css/site.css HTTP/1.1" 200 53489
+"GET /static/js/site.js HTTP/1.1" 200 8461
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8794
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 8673
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /about_company/ HTTP/1.1" 200 9368
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 8749
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 8714
+"GET /static/js/site.js HTTP/1.1" 200 8461
+"GET /static/css/site.css HTTP/1.1" 200 53489
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8687
+"GET /static/js/site.js HTTP/1.1" 200 8461
+"GET /static/css/site.css HTTP/1.1" 200 53489
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8764
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/js/site.js HTTP/1.1" 200 8461
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8711
+"GET /static/js/site.js HTTP/1.1" 200 8463
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8709
+"GET /static/js/site.js HTTP/1.1" 200 8493
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8637
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/js/site.js HTTP/1.1" 200 8645
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8756
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/js/site.js HTTP/1.1" 200 8645
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8702
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/js/site.js HTTP/1.1" 200 8577
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8685
+"GET /static/js/site.js HTTP/1.1" 200 8611
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8636
+"GET /static/js/site.js HTTP/1.1" 200 8611
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8796
+"GET /static/js/site.js HTTP/1.1" 200 8611
+"GET /static/css/site.css HTTP/1.1" 200 53409
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8685
+"GET /static/js/site.js HTTP/1.1" 200 8575
+"GET /static/css/site.css HTTP/1.1" 200 53542
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8728
+"GET /static/js/site.js HTTP/1.1" 200 8575
+"GET /static/css/site.css HTTP/1.1" 200 53601
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8810
+"GET /static/css/site.css HTTP/1.1" 200 53604
+"GET /static/js/site.js HTTP/1.1" 200 8575
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8882
+"GET /static/js/site.js HTTP/1.1" 200 8575
+"GET /static/css/site.css HTTP/1.1" 200 53604
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8673
+"GET /static/js/site.js HTTP/1.1" 200 8575
+"GET /static/css/site.css HTTP/1.1" 200 53610
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8702
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 200 53604
+"GET /home/ HTTP/1.1" 200 8678
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /home/ HTTP/1.1" 200 8659
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /home/ HTTP/1.1" 200 8636
+"GET /home/ HTTP/1.1" 200 8635
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /home/ HTTP/1.1" 200 8701
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /home/ HTTP/1.1" 200 8675
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /home/ HTTP/1.1" 200 8756
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /home/ HTTP/1.1" 200 8663
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 8683
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /home/ HTTP/1.1" 200 8631
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 8657
+"GET /home/ HTTP/1.1" 200 8748
+"GET /static/js/site.js HTTP/1.1" 200 8623
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8725
+"GET /static/js/site.js HTTP/1.1" 200 8651
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8770
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /static/js/site.js HTTP/1.1" 200 11330
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8714
+"GET /static/js/site.js HTTP/1.1" 200 11358
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 8613
+"GET /static/js/site.js HTTP/1.1" 200 11358
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /home/ HTTP/1.1" 200 8666
+"GET /static/css/site.css HTTP/1.1" 200 53544
+"GET /static/js/site.js HTTP/1.1" 200 11377
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764

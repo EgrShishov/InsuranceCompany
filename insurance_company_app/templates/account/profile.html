@@ -4,6 +4,7 @@
 <div class="profile">
     <h1>Личный кабинет клиента Agenda Insurance</h1>
     <h2>Добро пожаловать, {{ user.username }}</h2>
+    <a href="{% url 'logout' %}">Выйти</a>
 
     <div class="account-cart">
         <table>

@@ -82,6 +82,108 @@ nav {
     list-style: none;
 }
 
+#main-content {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.even {
+    background-color: lightblue;
+}
+
+.odd {
+    background-color: lightgreen;
+}
+
+#counter {
+    font-size: 48px;
+    font-weight: light;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+}
+
+#age-checker {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #5AD0A0;
+}
+
+.bday {
+    font-size: 24px;
+    color: #FFECB3;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.birthday-inputs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.birthday-inputs input {
+    width: 70px;
+    height: 65px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid #FFECB3;
+    background-color: transparent;
+    color: #FFECB3;
+    outline: none;
+    border-radius: 5px;
+}
+
+.birthday-inputs input::placeholder {
+    color: #FFECB3;
+    opacity: 0.7;
+}
+
+.btn-action {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFECB3;
+    color: #1a1a1a;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-action:hover {
+    background-color: #46b893;
+}
+
+.red {
+    font-size: 18px;
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.underline {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .home-section {
     display: flex;
     flex-direction: column;
@@ -642,10 +744,71 @@ body {
     filter: blur(2px);
 }
 
+#top {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top::before {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height:200px;
+    width: 100%;
+    background:linear-gradient(to top,#fff,transparent);
+    z-index: 1000;
+}
+
+#man {
+    top: inherit;
+    bottom: 0;
+}
+
+#top img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#text {
+    position: relative;
+    color:white;
+    font-size: 10rem;
+}
+
+#sec{
+    padding:100px;
+    padding-bottom:20px;
+}
+
+#sec h2{
+    font-size: 4rem;
+    margin-bottom: 30px;
+    color:#20496a;
+}
+
+#sec p{
+    font-size: 1.2rem;
+    line-height:2rem;
+    font-weight:300;
+    color:#20496a;
+}
+
 .banner-section {
     width: 100%;
     height: 400px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #f7f7f7;
@@ -671,6 +834,18 @@ body {
     opacity: 0;
     transition: opacity 1s ease-in-out;
     z-index: 0;
+}
+
+#banner_form {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    gap: 20px;
 }
 
 .banner.active {

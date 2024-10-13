@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport">
     <meta
-    name="description"
-    content="Agenda Insurance is the best Polish Insurance Company" />
+        name="description"
+        content="Agenda Insurance is the best Polish Insurance Company" />
     <title>AgendaInsurance</title>
     <link rel="icon" href="{% static 'images/logo.png' %}"/>
     <link
@@ -19,9 +19,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <script src="{% static 'js/site.js' %}"></script>
 </head>
-<body>
-    <header>
+<body onload="checkAge()">
+    <div id="age-checker" style="display:none;">
+        <h1 class="bday uppercase">Когда твоё день рождение?</h1>
+        <div class="birthday-inputs">
+            <input class="birth-month field size-sm" type="text" id="birthMonth" maxlength="2"
+                   placeholder="MM" oninput="moveToNext(this, 'birthDay')"/>
+            <input class="birth-day field size-sm" type="text" id="birthDay" maxlength="2"
+                   placeholder="DD" oninput="moveToNext(this, 'birthYear')" onkeydown="moveToPrev(this, 'birthMonth')"/>
+            <input class="birth-year field size-sm" type="text" id="birthYear" maxlength="4"
+                   placeholder="YY" onkeydown="moveToPrev(this, 'birthDay')"/>
+        </div>
+        <p id="red" class="hidden">
+            Введи верные значения!
+        </p>
+        <h5 class="terms uppercase">Вводя свою дату рождения ты согласаешься <span class="underline">на продажу души Жвакиной А.В. </span></h5>
+        <button class="btn-action size-md uppercase" onclick="validateAge()">Проверить возраст</button>
+        <div id="underBox" class="underBox hidden">
+            <h2 class="title">Извините!</h2>
+            <h2>Вы должны быть старше 18 лет для того, чтобы просматривать содержимое данных страниц.</h2>
+            <button class="back" onclick="goBack()">Назад</button>
+        </div>
+    </div>
+
+    <div id="main-content">
+          <header>
             <nav>
                 <ul class="menu">
                     <li><a href="{% url 'home' %}"><img class="home-logo" align="middle" style="max-width:50px;" src="{% static 'images/logo.png' %}"></a></li>
@@ -36,7 +60,7 @@
                         {% elif user|is_user %}
                             <li><a href="{% url 'contracts' %}">Контракты</a></li>
                             <li><a href="{% url 'user_profile_view' %}">Аккаунт</a></li>
-                            <li><a href="{% url 'cart' %}">Cart</a></li>
+                            <li><a href="{% url 'cart' %}">Корзина</a></li>
                         {% elif user|is_superuser %}
                             <li><a href="{% url 'superuser_profile' %}">Аккаунт</a></li>
                         <li><a href="{% url 'logout' %}">Выйти</a></li>
@@ -51,27 +75,29 @@
                     <p style="display: inline-block;">Current user time zone: {{ request.current_timezone }}</p>
                 </div>-->
             </nav>
-    </header>
+        </header>
 
-    <main>
-        {% block content %}
-        {% endblock %}
-    </main>
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
 
-     <footer class="footer">
-        <div class="waves">
-          <div class="wave" id="wave1"></div>
-          <div class="wave" id="wave2"></div>
-          <div class="wave" id="wave3"></div>
-          <div class="wave" id="wave4"></div>
-        </div>
-        <ul class="menu">
-            <li class="menu-item"><a href="{% url 'faq' %}">ЧаВО</a></li>
-            <li class="menu-item"><a href="{% url 'reviews' %}">Клиенты о нас</a></li>
-            <li class="menu-item"><a href="{% url 'privacy_policy' %}">Политика конфиденциальности</a></li>
-            <li class="menu-item"><a href="{% url 'vacancies' %}">Вакансии</a></li>
-        </ul>
-        <p>&copy;2024 <a href="https://chatgpt.com">ChatGPT</a> Design x <a href="{% url 'home' %}">AgendaInsurance</a> | ©Авторские права никому не принадлежат, 2024. Все права защищены.</p>
-    </footer>
+         <footer class="footer">
+            <div class="waves">
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="menu">
+                <li class="menu-item"><a href="{% url 'faq' %}">ЧаВО</a></li>
+                <li class="menu-item"><a href="{% url 'reviews' %}">Клиенты о нас</a></li>
+                <li class="menu-item"><a href="{% url 'privacy_policy' %}">Политика конфиденциальности</a></li>
+                <li class="menu-item"><a href="{% url 'vacancies' %}">Вакансии</a></li>
+                <li class="menu-item"><a href="{% url 'polygon' %}">JS</a></li>
+            </ul>
+            <p>&copy;2024 <a href="https://chatgpt.com">ChatGPT</a> Design x <a href="{% url 'home' %}">AgendaInsurance</a> | ©Авторские права никому не принадлежат, 2024. Все права защищены.</p>
+        </footer>
+    </div>
 </body>
 </html>

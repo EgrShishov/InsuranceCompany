@@ -1,9 +1,12 @@
 {% extends 'common/layout.html' %}
 {% load static %}
+{% load roles %}
 {% block content %}
 <div class="home-section">
 
     <div class="company-info">
+        <div class="company-slogan">Твой дом вот-вот взорвется. Ты же застрохавался?</div>
+        <p id="counter"></p>
         <div class="company-name">Agenda Insurance</div>
         <div class="company-slogan">Ваша защита от неожиданностей</div>
     </div>
@@ -42,6 +45,14 @@
             <img src="{% static 'images/ad4.png' %}" alt="Banner 4" class="banner">
         </div>
     </section>
+
+     <form id="banner_form">
+        {% if user|is_employee or user|is_superuser %}
+            <label for="interval">Интервал (мс):</label>
+            <input type="number" id="interval" name="interval" value="3000" min="1000" step="100">
+            <button type="submit">Установить интервал</button>
+        {% endif %}
+    </form>
 
     <section class="company-video">
         <div class="video" align="center">
