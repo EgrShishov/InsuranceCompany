@@ -54,6 +54,31 @@
         {% endif %}
     </form>
 
+    <div id="font_form">
+        {% if user|is_employee or user|is_superuser %}
+            <label for="fontSize">Размер шрифта: </label>
+            <select id="fontSize">
+                <option value="12px">12px</option>
+                <option value="16px" selected>16px</option>
+                <option value="20px">20px</option>
+                <option value="24px">24px</option>
+                <option value="28px">28px</option>
+            </select>
+            <br><br>
+
+            <label for="textColor">Цвет текста:</label>
+            <input type="color" id="textColor" value="#000000">
+            <br><br>
+
+            <label for="bgColor">Цвет фона страницы:</label>
+            <input type="color" id="bgColor" value="#fffff">
+            <br><br>
+
+            <label for="applySettings">Применить настройки:</label>
+            <input type="checkbox" id="applySettings">
+        {% endif %}
+    </div>
+
     <section class="company-video">
         <div class="video" align="center">
             <video autoplay controls src="{% static 'videos/video.mp4' %}"></video>

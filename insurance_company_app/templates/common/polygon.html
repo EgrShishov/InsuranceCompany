@@ -3,25 +3,26 @@
 {% block content %}
 <div>
   <h1>Введите данные студентов</h1>
-  <form class="form" action="process" method="POST">
+  <form class="form" action="process" id="studentsForm" method="POST">
     {% csrf_token %}
     <div id="students">
       <div class="student">
-        <label>Фамилия: <input type="text" name="students[0][surname]" maxlength="12" required></label><br>
-        <label>Имя: <input type="text" name="students[0][name]" maxlength="12" required></label><br>
-        <label>Отчество: <input type="text" name="students[0][patronymic]" maxlength="12" required></label><br>
+        <label>Фамилия: <input id="surname" type="text" name="students[0][surname]" maxlength="12" required></label><br>
+        <label>Имя: <input id="name" type="text" name="students[0][name]" maxlength="12" required></label><br>
+        <label>Отчество: <input id="second_name" type="text" name="students[0][patronymic]" maxlength="12" required></label><br>
         <label>Пол:
-          <select name="students[0][gender]" required>
+          <select id="sex" name="students[0][gender]" required>
             <option value="М">М</option>
             <option value="Ж">Ж</option>
           </select>
         </label><br>
-        <label>Возраст: <input type="number" name="students[0][age]" min="16" max="35" required></label><br>
-        <label>Курс: <input type="number" name="students[0][course]" min="1" max="5" required></label><br><br>
+        <label>Возраст: <input id="age" type="number" name="students[0][age]" min="16" max="35" required></label><br>
+        <label>Курс: <input id="course" type="number" name="students[0][course]" min="1" max="5" required></label><br><br>
       </div>
     </div>
+    <div id="top-course"></div>
     <button type="button" onclick="addStudent()">Добавить студента</button><br><br>
-    <input type="submit" value="Отправить данные">
+    <input type="button" onclick="calculate()" value="Отправить данные">
   </form>
   <script src="{% static 'js/site.js' %}"></script>
 

@@ -3,7 +3,6 @@
 Этот цвет создаёт тёплую, нейтральную базу и хорошо сочетается с более яркими элементами.
 
 #FFA726 — Ярко-оранжевый (Акцентный)
-Этот оранжевый цвет хорошо подойдет для акцентов, кнопок, элементов навигации и важных заголовков.
 Он привлекает внимание и добавляет энергию сайту.
 
 #FFECB3 — Светлый оранжевый (Фоновые элементы)
@@ -836,7 +835,7 @@ body {
     z-index: 0;
 }
 
-#banner_form {
+#banner_form, #font_form {
     background-color: #fff;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -918,6 +917,7 @@ body {
   --trans-dur: 0.3s;
   font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
 }
+
 .pl {
   display: block;
   width: 9.375em;
@@ -2034,30 +2034,193 @@ input[type="submit"] {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial, sans-serif;
 }
 
+    .account-cart h1 {
+        text-align: center;
+        color: #333;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
 
     .account-cart table {
         width: 100%;
         border-collapse: collapse;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    
+:root {
+  --black: #525252;
+  --orange: #FFB000;
+  --white: #F7FBFC;
+  --grey: #C2C2C2;
+}
+
+.page {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    width: 29rem;
+    height: 18rem;
+    font-family: 'Questrial', sans-serif;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+  width: 17.5rem;
+  height: 11.5rem;
+  background-color: var(--white);
+  border-radius: .7rem;
+  padding: 1.3rem 1.6rem;
+  position: absolute;
+  top: 0rem;
+  right: 4.4rem;
+  &:after {
+    content: '';
+    display: block;
+    width: 17.5rem;
+    height: 11rem;
+    background-color: #2A2A2A;
+    border-radius: .7rem;
+    position: absolute;
+    top: 2.7rem;
+    right: -1.5rem;
+    transform: rotate(8deg);
+    z-index: -1;
+  }
+}
+.chip {
+  width: 3rem;
+  height: 2.2rem;
+  margin-bottom: .7rem;
+}
+.checkout-form {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  & label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: .55rem;
+    color: #C2C2C2;
+    margin-top: .35rem;
+  }
+  & label[for=name] {
+    width: 72%;
+  }
+  & label[for=date] {
+    width: 22%;
+    margin-left: 6%;
+  }
+  & label[for=cvc] {
+    width: 21%;
+    position: absolute;
+    right: -11%;
+    bottom: -0.9rem;
+  }
+  & label[for=remember] {
+    width: auto;
+    height: 2.8rem;
+    font-size: .7rem;
+    position: absolute;
+    left: -1.5rem;
+    bottom: -10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    & input {
+      margin-right: .5rem;
+      filter: invert(100%) hue-rotate(30deg) brightness(1.7);
+      color: red;
+      height: 1rem;
+      width: 1rem;
+    }
+  }
+  & input {
+    border: none;
+    border-bottom: 1px solid var(--grey);
+    outline: none;
+    background-color: transparent;
+    font-size: 1.1rem;
+    padding: .2rem  0;
+    &#cvc {
+      color: white;
+    }
+  }
+}
+
+.checkout {
+    width: 50%;
+    margin: 50px auto;
+    padding: 21px;
+    background-color: #FFFAF4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .checkout h1 {
+        text-align: center;
+        color: #333;
+        font-family: 'Arial', sans-serif;
     }
 
-        .account-cart th, .account-cart td {
-            padding: 15px 10px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
+    .checkout span {
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #555;
+        font-size: 16px;
+    }
+
+    .checkout p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .checkout label {
+        font-size: 14px;
+        color: #444;
+    }
+
+        .checkout input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
             font-size: 16px;
-            color: #333;
         }
 
-        .account-cart th {
-            background-color: #f1f1f1;
-            color: #333;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-        }
+    .account-cart th, .account-cart td {
+        padding: 15px 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .account-cart th {
+        background-color: #f1f1f1;
+        color: #333;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
 
         .account-cart tr:nth-child(even) {
             background-color: #fafafa;
@@ -2067,9 +2230,9 @@ input[type="submit"] {
             background-color: #f5f5f5;
         }
 
-        .account-cart td {
-            padding: 12px;
-        }
+    .account-cart td {
+        padding: 12px;
+    }
 
 .contracts-list {
     margin: 40px auto;
@@ -2443,3 +2606,54 @@ h1 {
             .rating label:hover, .rating label:hover ~ label {
                 color: #ffcc00;
             }
+
+#promo_code {
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+    #promo_code:focus {
+        border-color: #1E7A33;
+    }
+
+#apply_promo {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 26px;
+}
+
+    #apply_promo:hover {
+        background-color: #3E8E41;
+    }
+
+    .checkout button[type="submit"] {
+        padding: 10px 20px;
+        background-color: #008CBA;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+        .checkout button[type="submit"]:hover {
+            background-color: #005F6A;
+        }
+
+.checkout-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 5px;
+}

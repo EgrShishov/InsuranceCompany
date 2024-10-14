@@ -58,7 +58,6 @@
                         {% if user|is_employee %}
                             <li><a href="{% url 'employee_profile_view' %}">Аккаунт</a></li>
                         {% elif user|is_user %}
-                            <li><a href="{% url 'contracts' %}">Контракты</a></li>
                             <li><a href="{% url 'user_profile_view' %}">Аккаунт</a></li>
                             <li><a href="{% url 'cart' %}">Корзина</a></li>
                         {% elif user|is_superuser %}

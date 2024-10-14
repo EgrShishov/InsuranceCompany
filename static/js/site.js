@@ -3,20 +3,45 @@ let banners = [];
 let intervalTime = 3000;
 let intervalId;
 let table = [];
+let promoCode = localStorage.getItem('promo');
 
 const oneHour = 1000 * 60 * 60;
 let now = new Date().getTime();
 let endTime = localStorage.getItem('endTime');
 
+let fontSizeSelector;
+let textColorInput;
+let bgColorInput;
+let applySettingsCheckbox;
+
+const promoCodes = {
+    'SAVE10': 0.9,
+    'HELLOWORLD': 0.95,
+    'MEGAJOPA': 0.6
+};
+
 document.addEventListener('DOMContentLoaded', () => {
     banners = document.querySelectorAll('.banner');
     const countdownElement = document.getElementById('counter');
-    console.log(countdownElement);
+
     if (!endTime) {
        endTime = now + oneHour;
        localStorage.setItem('endTime', endTime);
     }
     const interval = setInterval(updateCountdown, 1000);
+
+    fontSizeSelector = document.getElementById('fontSize');
+    textColorInput = document.getElementById('textColor');
+    bgColorInput = document.getElementById('bgColor');
+    applySettingsCheckbox = document.getElementById('applySettings');
+
+    promoCode = localStorage.getItem('promo');
+    applyPromocode();
+
+    fontSizeSelector.addEventListener('change', updateStyles);
+    textColorInput.addEventListener('input', updateStyles);
+    bgColorInput.addEventListener('input', updateStyles);
+    applySettingsCheckbox.addEventListener('change', updateStyles);
 
     document.getElementById('banner_form').addEventListener('submit', function(e) {
         e.preventDefault();
@@ -107,9 +132,10 @@ function validateAge() {
 
     if (age >= 18) {
         localStorage.setItem('ageConfirmed', 'true');
+        alert('Вы родились в день недели: ${dayOfWeek}');
         showMainContent();
     } else {
-        alert('Извините, вам должно быть 18 лет или старше для просмотра этого сайта.');
+        alert('Извините, вам должно быть 18 лет или старше для просмотра этого сайта. Вам ${age} лет.');
     }
 }
 
@@ -119,8 +145,29 @@ function showMainContent() {
 }
 
 function moveToNext(current, nextFieldId) {
-    if (current.value.length === current.maxLength) {
-        document.getElementById(nextFieldId).focus();
+    if (current.id === 'number') {
+        let formattedValue = current.value.replace(/\D/g, '');
+        if (formattedValue.length > 0) {
+            formattedValue = formattedValue.match(/.{1,4}/g).join('-');
+        }
+        current.value = formattedValue;
+        if (formattedValue.replace(/[^0-9]/g, '').length === 16) {
+            document.getElementById(nextFieldId).focus();
+        }
+    } else if (current.id === 'date') {
+        let formattedValue = current.value.replace(/\D/g, '');
+        if (formattedValue.length > 2) {
+            formattedValue = formattedValue.slice(0, 2) + '/' + formattedValue.slice(2);
+        }
+        current.value = formattedValue;
+
+        if (formattedValue.replace(/[^0-9]/g, '').length === 4) {
+            document.getElementById(nextFieldId).focus();
+        }
+    } else {
+        if (current.value.length === current.maxLength) {
+            document.getElementById(nextFieldId).focus();
+        }
     }
 }
 
@@ -130,25 +177,121 @@ function moveToPrev(current, prevFieldId) {
     }
 }
 
-let students = [];
+function updateStyles() {
+    console.log(2);
+    console.log(applySettingsCheckbox.checked);
+    if (applySettingsCheckbox.checked) {
+        console.log(1);
+        document.body.style.fontSize = fontSizeSelector.value;
+        document.body.style.color = textColorInput.value;
+        document.body.style.backgroundColor = bgColorInput.value;
+    }
+}
+
+//for promocodes
+function applyPromocode() {
+    const totalElement = document.getElementById('total');
+    const promoCodeInput = document.getElementById('promo_code');
+    const checkoutTotal = document.getElementById('checkout-total');
+
+    if (!promoCode) {
+        promoCode = promoCodeInput.value;
+        localStorage.setItem('promo', promoCode);
+    }
+    let total = parseFloat(totalElement.innerText);
+    console.log(localStorage.getItem('promo'));
+
+    if (promoCodes[promoCode]) {
+        total *= promoCodes[promoCode];
+        totalElement.innerText = total.toFixed(2);
+        checkoutTotal.innerText += ` (Применен купон ${promoCode})`;
+
+    } else {
+        alert('Invalid promocode');
+    }
+}
+
+function cancelPromocode() {
+    const totalElement = document.getElementById('total'); //doesnt work, is null
+    let total = parseFloat(totalElement.innerText);
+
+    const promoCode = localStorage.getItem('promo');
+
+    if (promoCode && promoCodes[promoCode]) {
+        const discount = promoCodes[promoCode];
+        total = total / (1 - discount);
+        totalElement.innerText = total.toFixed(2);
+    }
+    localStorage.removeItem('promo');
+}
+
+let students = new Map();
 let studentsCount = 0;
 
 function addStudent() {
-    const div = document.createElement('div');
-    div.classList.add('student');
-    div.innerHTML = `
-        <label>Фамилия: <span>students[${studentsCount}][surname]</span></label><br>
-        <label>Имя: <span>students[${studentsCount}][name]</span></label><br>
-        <label>Отчество: <span>students[${studentsCount}][second_name]</span></label><br>
-        <label>Пол: <span name="students[${studentsCount}][sex]"></span></label><br>
-        <label>Возраст: <span value="students[${studentsCount}][age]"></span></label><br>
-        <label>Курс: <span value="students[${studentsCount}][course]"></span></label><br><br>`;
-    document.getElementById('students').appendChild(div);
+    const surname = document.getElementById('surname').value;
+    const name = document.getElementById('name').value;
+    const second_name = document.getElementById('second_name').value;
+    const sex = document.getElementById('sex').value;
+    const age = document.getElementById('age').value;
+    const course = document.getElementById('course').value;
+
+    const student = {
+        surname: surname,
+        name: name,
+        age: age,
+        sex: sex,
+        course: course
+    };
+
+    students[studentsCount] = student; // or students.set
+
+    const studentsList = document.getElementById('students');
+    const ul = document.createElement('ul');
+    ul.innerHTML = '';
+
+    const li = document.createElement('li');
+    li.textContent = `Фамилия: ${student.surname}, Имя: ${student.name}, Возраст: ${student.age}, Пол: ${student.sex}, Курс: ${student.course}`;
+    studentsList.appendChild(li);
+    studentsList.appendChild(ul);
+
+    document.getElementById('studentForm').reset();
     studentsCount++;
 }
 
 function calculate() {
-    console.log('not implemented');
+    const courseData = {};
+    let topCourse = null;
+    let maxPercentage = 0;
+    const topCourseElement = document.getElementById('top-course');
+
+    for (const id in students) {
+        const student = students[id];
+        const course = student.course;
+        const isMale = student.sex === 'М';
+
+        if (!courseData[course]) {
+            courseData[course] = {males: 0, total: 0};
+        }
+
+        courseData[course].total++;
+
+        if (isMale) {
+            courseData[course].males++;
+        }
+    }
+
+    for (const course in courseData) {
+        const data = courseData[course];
+        const malePercentage = (data.males / data.total) * 100;
+
+        if (malePercentage > maxPercentage) {
+            maxPercentage = malePercentage;
+            topCourse = course;
+        }
+    }
+
+    topCourseElement.textContext = `Курс ${topCourse}: ${maxPercentage.toFixed(2)}% мужчин`;
 }
 
 // generating random table with given sizes
@@ -288,7 +431,6 @@ class InsuranceClient {
     }
 }
 
-
 class InsuranceContract {
     #moneyLimit = 100;
     static #privateStaticField = 'This is a private static field';
@@ -308,16 +450,12 @@ class InsuranceContract {
         return this.insuranceSum * (1 + this.tariffRate);
     }
 
-    make() {
-
-    }
-
     #privateMethod() {
-
+        console.log('this is a private method');
     }
 
     get sum() {
-        return
+        return this.insuranceSum;
     }
 
     set sum(value) {
@@ -327,13 +465,25 @@ class InsuranceContract {
         this._sum = value;
     }
 }
+// wrapper
+function wrapper(a, b, c) {
+    //return function(a, b) + c; // todo
+}
 
-//extends class example
-class InsuracneContractFormatter extends InsuranceContract {
+function sum(a, b) {
+    return a + b;
+}
+// extends class example
+class InsuranceContractFormatter extends InsuranceContract {
     getFormattedInsuranceContract() {
         return `Date:${this.date.toLocaleDateString()}\nSum:${this.insuranceSum}\ntype:${this.insuranceType.typeName}`;
     }
 }
+
+// another way to extends
+/*class AnotherContractFormatter<A extends InsuranceContract = InsuranceContract> {
+
+}*/
 
 const lifeInsurance = new InsuranceType(1, 'Life Insurance');
 const healthInsurance = new InsuranceType(2, 'Health Insurance');
@@ -361,4 +511,4 @@ const contract1 = new InsuranceContract(
     clientAlice
 );
 
-console.log(new InsuracneContractFormatter(contract1).getFormattedInsuranceContract());
+console.log(new InsuranceContractFormatter(contract1).getFormattedInsuranceContract());

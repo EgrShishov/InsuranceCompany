@@ -1,17 +1,17 @@
 {% extends 'common/layout.html' %}
 {% block content%}
-<section class="cart">
-    <h1>Your Cart</h1>
+<section class="account-cart">
+    <h1>Корзина заявок</h1>
 
     {% if cart %}
-        <table>
+        <table class="">
             <thead>
                 <tr>
-                    <th>Insurance sum</th>
-                    <th>Agent</th>
-                    <th>Quantity</th>
-                    <th>Insurance object</th>
-                    <th>Actions</th>
+                    <th>Страховая сумма</th>
+                    <th>ФИО Агента</th>
+                    <th>Количество</th>
+                    <th>Объект</th>
+                    <th>Действия</th>
                 </tr>
             </thead>
             <tbody>
@@ -25,7 +25,7 @@
                         <div align="right">
                             <form method="POST" action="{% url 'remove_from_cart' item.id %}">
                                 {% csrf_token %}
-                                <button type="submit">Remove</button>
+                                <button type="submit">Удалить</button>
                             </form>
                         </div>
                     </td>
@@ -34,16 +34,22 @@
             </tbody>
         </table>
 
-        <p>Total: ${{ total_price }}</p>
+        <div class="checkout-bar">
+            <p id="checkout-total">Итого: $<span id="total">{{ total_price }}</span></p>
 
-        <form method="POST" action="{% url 'checkout' %}">
-            {% csrf_token %}
-            <button type="submit">Proceed to Checkout</button>
-        </form>
+            <label for="promo_code">Промокод</label>
+            <input type="text" id="promo_code" name="promo_code">
+            <button type="button" id="apply_promo" onclick="applyPromocode()">Применить</button>
+            <button type="button" id="cancel_promo" onclick="cancelPromocode()">Отменить</button>
+
+            <form method="POST" action="{% url 'checkout' %}">
+                {% csrf_token %}
+                <button type="submit">На страницу оплаты</button>
+            </form>
+            <a href="javascript:history.back()">Назад</a>
+        </div>
     {% else %}
-        <p>Your cart is empty.</p>
+        <p>Корзина пуста.</p>
     {% endif %}
-
-    <a href="javascript:history.back()">Back</a>
 </section>
 {% endblock %}

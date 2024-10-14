@@ -48,8 +48,6 @@ class InsuranceContractForm(forms.Form):
         label='Insurance Agent',
         choices=[],  # Will populate later
     )
-    promocode = forms.CharField(required=False, label='Promocode')
-
     # def clean_promocode(self):
     #     promocode = self.cleaned_data.get('promocode')
     #     if promocode:
