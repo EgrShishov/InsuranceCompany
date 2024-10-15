@@ -39,10 +39,10 @@
 
     <section class="banner-section">
         <div class="banner-container">
-            <img src="{% static 'images/ad3.png' %}" alt="Banner 1" class="banner active">
-            <img src="{% static 'images/ad2.png' %}" alt="Banner 2" class="banner">
-            <img src="{% static 'images/ad1.png' %}" alt="Banner 3" class="banner">
-            <img src="{% static 'images/ad4.png' %}" alt="Banner 4" class="banner">
+            <a href="{% url 'news' %}"><img src="{% static 'images/ad3.png' %}" alt="Banner 1" class="banner active"></a>
+            <a href="{% url 'insurance_types' %}"><img src="{% static 'images/ad2.png' %}" alt="Banner 2" class="banner"></a>
+            <a href="{% url 'special_offers&discounts' %}"><img src="{% static 'images/ad1.png' %}" alt="Banner 3" class="banner"></a>
+            <a href="{% url 'faq' %}"><img src="{% static 'images/ad4.png' %}" alt="Banner 4" class="banner"></a>
         </div>
     </section>
 

@@ -19,6 +19,24 @@ const promoCodes = {
     'HELLOWORLD': 0.95,
     'MEGAJOPA': 0.6
 };
+// preloader
+window.addEventListener('load', function() {
+    const preloader = document.getElementById('preloader');
+    preloader.style.display = 'none';
+
+    const content = document.getElementById('main-content');
+    content.style.display = 'block';
+});
+
+window.addEventListener('scroll',() => {
+    const money_left = document.getElementById('money_left');
+    const money_right = document.getElementById('money_right');
+    const text = document.getElementById('text');
+    let value = scrollY;
+    money_left.style.left = `-${value/0.7}px`
+    money_right.style.left = `${value/0.7}px`
+    text.style.bottom = `-${value}px`;
+})
 
 document.addEventListener('DOMContentLoaded', () => {
     banners = document.querySelectorAll('.banner');
@@ -244,7 +262,7 @@ function addStudent() {
         course: course
     };
 
-    students[studentsCount] = student; // or students.set
+    students[studentsCount] = student;
 
     const studentsList = document.getElementById('students');
     const ul = document.createElement('ul');
@@ -338,7 +356,7 @@ function printTable(table) {
         for (let j = 0; j < table[i].length; ++j) {
             const cell = document.createElement('td');
             cell.textContent = table[i][j];
-            cell.addEventListener('click', () => markCell(tableContainer, i, j));
+            cell.addEventListener('click', () => markCell(cell, i, j));
             row.appendChild(cell);
         }
         htmlTable.appendChild(row);
@@ -346,13 +364,13 @@ function printTable(table) {
     tableContainer.appendChild(htmlTable);
 }
 
-function markCell(td, row, col) {
-    const maxSelections = parseInt(document.getElementById('num'));
-    const canMarkNeighbours = document.getElementById('can');
-    const rowCells = document.querySelectorAll(`#table tr:nth-child(${row + 1}) td`);
-    const selectedCount = Array.from(rowCells).filter(c => c.classList.contains('selected')).length;
+let totalSelectedCount = 0;
 
-    if (selectedCount >= maxSelections && !td.classList.contains('selected')) {
+function markCell(td, row, col) {
+    const maxSelections = parseInt(document.getElementById('num').value);
+    const rowCells = document.querySelectorAll(`#table tr:nth-child(${row + 1}) td`);
+
+    if (totalSelectedCount >= maxSelections && !td.classList.contains('selected')) {
         alert(`Максимальное количество выделенных ячеек в строке: ${maxSelections}`);
         return;
     }
@@ -362,11 +380,21 @@ function markCell(td, row, col) {
         return;
     }
 
-     td.classList.toggle('selected');
-     td.classList.toggle(td.textContent % 2 === 0 ? 'even' : 'odd');
+    if (td.classList.contains('selected')) {
+        td.classList.remove('selected');
+        totalSelectedCount--;
+        td.classList.toggle(td.textContent % 2 === 0 ? 'even' : 'odd', false);
+    } else {
+        td.classList.add('selected');
+        totalSelectedCount++;
+        td.classList.toggle(td.textContent % 2 === 0 ? 'even' : 'odd', true);
+    }
 }
 
 function isNeighboursSelected(rowCells, col) {
+    const canMarkNeighbours = document.getElementById('can').checked;
+    console.log(canMarkNeighbours);
+    if (canMarkNeighbours) return false;
     if (col > 0 && rowCells[col - 1].classList.contains('selected')) return true;
     if (col < rowCells.length - 1 && rowCells[col + 1].classList.contains('selected')) return true;
     return false;

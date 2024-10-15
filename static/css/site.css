@@ -203,7 +203,7 @@ nav {
         justify-content: center;
         align-items: center;
         color: #FFA726;
-        font-family: "Comfortaa", sans-serif;
+        font-family: var(--main-font), sans-serif;
         text-decoration: none;
         font-weight: bold;
         padding: 10px 20px;
@@ -743,10 +743,15 @@ body {
     filter: blur(2px);
 }
 
+.about-section {
+
+}
+
 #top {
     position: relative;
     width: 100%;
-    height: 100%;
+    min-height: 450px;
+    height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -762,6 +767,10 @@ body {
     width: 100%;
     background:linear-gradient(to top,#fff,transparent);
     z-index: 1000;
+}
+
+#top #bg {
+    object-fit: cover;
 }
 
 #man {
@@ -782,25 +791,34 @@ body {
 #text {
     position: relative;
     color:white;
-    font-size: 10rem;
+    font-size: 5rem;
+    z-index: 1;
 }
 
-#sec{
-    padding:100px;
-    padding-bottom:20px;
+#sec {
+    padding: 0 100px;
 }
 
-#sec h2{
+#sec h2 {
     font-size: 4rem;
     margin-bottom: 30px;
     color:#20496a;
 }
 
-#sec p{
+#sec p {
+    text-align: justify;
+    text-indent: 1.2em;
+    font-variant: small-caps;
     font-size: 1.2rem;
-    line-height:2rem;
-    font-weight:300;
-    color:#20496a;
+    line-height: 2rem;
+    font-weight: 300;
+    color: #20496a;
+}
+
+#sec p:first-letter{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #04046e;
 }
 
 .banner-section {
@@ -823,6 +841,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.banner-container a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
 
 .banner {
@@ -894,6 +922,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 100px;
 }
 
 .company-video video {
@@ -1094,6 +1123,11 @@ body {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    --posx: 50%;
+    --posy: 50%;
+    --rotateX: 0;
+    --rotateY: 0;
+    transform: perspective(100em) translateZ(0em) rotateY(var(--rotateX)) rotateX(var(--rotateY));
 }
 
     .grid-item:hover {
@@ -1442,12 +1476,12 @@ input[type="range"] {
 }
 
 blockquote {
-  background-color: #f9f9f9;
-  border-left: 10px solid #007BFF;
-  padding: 10px;
-  margin: 20px 0;
-  font-style: italic;
-  color: #333;
+    background-color: #f9f9f9;
+    border-left: 10px solid #007BFF;
+    padding: 10px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #333;
 }
 
 pre, code {
@@ -2656,4 +2690,190 @@ h1 {
     justify-content: start;
     align-items: flex-start;
     gap: 5px;
+}
+
+.test-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+.test-table td:empty {
+    background-color: red;
+}
+
+.test-table caption {
+    caption-side: top;
+    font-size: 1.5em;
+    font-weight: bold, italic;
+    margin-bottom: 10px;
+}
+
+.test-table td, th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.test-table tr:nth-child(even) {
+    background: linear-gradient(to right, orange, white);
+}
+
+.test-table tr:nth-child(odd) {
+    background: linear-gradient(to left, red, white);
+}
+
+.container-3 {
+    font-family: 'Georgia', serif;
+    line-height: 1.6; /* Межстрочный интервал */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: justify; /* Выравнивание текста по ширине */
+
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.container-3 h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 0.05em; /*расстояние между буквами*/
+}
+
+.container-3 p {
+    text-indent: 2em; /*красная строка*/
+    margin-bottom: 20px;
+    word-spacing: 0.75em; /*интервал между словами*/
+    letter-spacing: 0.02em; /*интервал между символами*/
+    word-break: break-word;
+    font-size: 0.7em;
+    hyphens: auto; /*автоматический перенос слова*/
+}
+
+.container-3 p.capitalized {
+    font-variant: small-caps; /*капитель*/
+    letter-spacing: 0.02em;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-3 blockquote {
+    font-style: italic;
+    border-left: 4px solid #ccc; /* Линия слева для выделения */
+    padding-left: 15px;
+    margin-left: 0;
+    color: #666;
+}
+
+/*псевдоэлементы*/
+.article-container-2 p::before {
+    content: "“";
+    font-size: 2em;
+    color: blue;
+}
+
+.article-container-2 p::after {
+    content: "”";
+    font-size: 2em;
+    color: blue;
+}
+
+.article-container-2 p:first-letter {
+    font-size: 2.5em;
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+    color: red;
+}
+
+.article-container-2 ul.unicode-list li::before {
+    content: '\2022';
+    color: lightgreen;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.5em;
+}
+
+/*псевдоэлементы*/
+.article-container-2 ::selection {
+    background-color: #f39c12;
+    color: white;
+    font-weight: italic;
+}
+
+#pseudoclasses {
+    background-color: #
+}
+
+#pseudoclasses input:enabled {
+    border: 2px solid green;
+    background-color: #eaffea;
+}
+
+#pseudoclasses input:required {
+    border: 2px solid #ffaa00;
+    background-color: #fff7e6;
+}
+
+#pseudoclasses input:disabled {
+    border: 2px solid gray;
+    background-color: #e0e0e0;
+}
+
+#pseudoclasses input:out-of-range {
+    border: 2px solid red;
+    background-color: pink;
+}
+
+#pseudoclasses input[type="checkbox"]:checked {
+    outline: 4px solid green;
+}
+
+#pseudoclasses input[type="radio"]:checked {
+    outline: 4px solid purple;
+}
+
+blockquote[lang="ru"] {
+    quotes:  "«" "»";
+}
+
+blockquote[lang="en"] {
+    quotes: "“" "”";
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes reset-card{
+  to {
+    background-position: 50% 50%;
+    transform:
+
+      rotateY(0)
+      rotateX(0);
+  }
 }

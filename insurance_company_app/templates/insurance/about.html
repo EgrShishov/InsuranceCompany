@@ -3,22 +3,51 @@
 {% block content %}
 <section class="about-section">
     <section id="top">
-        <img src="https://aryan-tayal.github.io/Mountains-Parallax/bg.jpg" id="bg" />
+        <img src="{% static 'images/insurance.avif' %}" id="bg" />
         <h4 id="text">AgendaInsurance</h4>
-        <img src="https://aryan-tayal.github.io/Mountains-Parallax/man.png" id="man" />
+      <!--  <img src="https://aryan-tayal.github.io/Mountains-Parallax/man.png" id="man" />
         <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_1.png" id="clouds_1" />
-        <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_2.png" id="clouds_2" />
-        <img src="https://aryan-tayal.github.io/Mountains-Parallax/mountain_left.png" id="mountain_left" />
-        <img src="https://aryan-tayal.github.io/Mountains-Parallax/mountain_right.png" id="mountain_right" />
+        <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_2.png" id="clouds_2" />-->
+        <img src="{% static 'images/money-left.png' %}" id="money_left" />
+        <img src="{% static 'images/money-right.png' %}" id="money_right" />
     </section>
 
     <section id="sec">
         <h2>Добро пожаловать в Agenda Insurance</h2>
-        <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A earum ipsam laboriosam mollitia, architecto esse voluptates eligendi provident soluta et cupiditate sit nisi at dolorum iure dignissimos cumque amet necessitatibus blanditiis? Earum assumenda soluta reiciendis recusandae, incidunt tenetur nihil adipisci corrupti, quibusdam ullam numquam iusto veritatis facilis ab dicta, nobis inventore eius magni eveniet quo? Repellat nobis quos, facilis quam perspiciatis asperiores delectus, aliquid nihil molestias in at modi nulla minima deleniti. Minima aliquid magnam libero reiciendis et, nesciunt repellendus eum vel rerum alias ea enim fugiat eius. Quae dolores, amet nam ab officiis corrupti sequi eligendi quo culpa illum.
-        </p>
+        <p> Agenda Insurance предоставляет надежные и персонализированные страховые решения для частных лиц и компаний. Наша миссия — защищать то, что важно для вас, обеспечивая финансовую безопасность и уверенность в будущем.</p>
+        <p> Мы предлагаем широкий спектр услуг, включая страхование жизни, здоровья, имущества и бизнеса. Опытная команда консультантов готова разработать индивидуальные программы, соответствующие вашим потребностям.</p>
+        <p> Мы ценим прозрачность, оперативность и высокое качество обслуживания. С нами вы можете быть уверены в защите от непредвиденных обстоятельств. Agenda Insurance — ваш партнер в обеспечении стабильности и защиты на каждом этапе вашей жизни и деятельности.        </p>
     </section>
+    <section class="certificate-section">
+        <h2>Сертификат о регистрации</h2>
+        <p>Мы так горды нашим сертифкитам, что можете полюбоваться и вы!</p>
+        <div class="frame">
+            <div class="certificate">
+                <h1>ЕДИНЫЙ РЕЕСТР СТРАХОВЫХ КОМПАНИЙ РЕСПУБЛИКИ БЕЛАРУСЬ</h1>
+                <h2>СВИДЕТЕЛЬСТВО</h2>
+                <p class="sub-title">о внесении сведений</p>
 
+                <div class="content">
+                    <p>г. Минск</p>
+                    <p>17 октября 2024</p>
+
+                    <p class="company-details">Общество с ограниченной ответственностью "AgendaInsurance"<br>
+                    (ИНН 1234567890)<br>Реестровый номер: 1337</p>
+                </div>
+
+                <div class="signatures">
+                    <p>Бекарев С.С.</p>
+                    <div class="stamp-signature">
+                        <div class="signature-image">
+                            <img src="{% static 'images/signature.png' %}">
+                        </div>
+                    </div>
+                    <p>Директор и CEO AgendaInsurance</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <section class="company-logo">
         <h2>Наш логотипчик</h2>
         <div class="logo-image">
@@ -54,35 +83,5 @@
         </section>
     {% endif %}
     <hr/>
-    <section class="certificate-section">
-        <h2>Сертификат о регистрации</h2>
-        <p>Мы так горды нашим сертифкитам, что можете полюбоваться и вы!</p>
-        <div class="frame">
-            <div class="certificate">
-                <h1>ЕДИНЫЙ РЕЕСТР СТРАХОВЫХ КОМПАНИЙ РЕСПУБЛИКИ БЕЛАРУСЬ</h1>
-                <h2>СВИДЕТЕЛЬСТВО</h2>
-                <p class="sub-title">о внесении сведений</p>
-
-                <div class="content">
-                    <p>г. Минск</p>
-                    <p>17 октября 2024</p>
-
-                    <p class="company-details">Общество с ограниченной ответственностью "AgendaInsurance"<br>
-                    (ИНН 1234567890)<br>Реестровый номер: 1337</p>
-                </div>
-
-                <div class="signatures">
-                    <p>Бекарев С.С.</p>
-                    <div class="stamp-signature">
-                        <div class="signature-image">
-                            <img src="{% static 'images/signature.png' %}">
-                        </div>
-                    </div>
-                    <p>Директор и CEO AgendaInsurance</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
 </section>
 {% endblock %}

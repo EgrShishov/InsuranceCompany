@@ -39,5 +39,100 @@
   <button type="button" onclick="addNewRow()">Столбец++</button>
 
   <div id="table-container"></div>
+
+  <table class="test-table">
+    <caption>Заголовок таблицы</caption>
+    <thead>
+        <tr>
+            <th>Заголовок 1</th>
+            <th>Заголовок 2</th>
+            <th>Заголовок 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ячейка 1</td>
+            <td>Ячейка 2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Ячейка 3</td>
+            <td>Ячейка 4</td>
+            <td>Ячейка 5</td>
+        </tr>
+        <tr>
+            <td>Ячейка 6</td>
+            <td>Ячейка 7</td>
+            <td>Ячейка 8</td>
+        </tr>
+        <tr>
+            <td>Ячейка 9</td>
+            <td>Ячейка 10</td>
+            <td>Ячейка 11</td>
+        </tr>
+    </tbody>
+</table>
+
+  <div class="container-3">
+        <h1>Любой текстовый фрагмет</h1>
+
+        <div class="text-block">
+            <p>Этот абзац демонстрирует использование <strong>красной строки</strong>, а также настройки <strong>межстрочного интервала</strong> и <strong>переноса слов</strong>. Применяется выравнивание текста по ширине, что улучшает читабельность на широких экранах.</p>
+
+            <p class="capitalized">Этот фрагмент текста оформлен с помощью <strong>капители</strong>, где заглавные буквы меньше по размеру, но всё ещё крупнее обычных букв.</p>
+
+            <blockquote>Это пример выделенного текста в формате цитаты. Он отображается курсивом и с вертикальной полосой слева для выделения.</blockquote>
+
+            <p>В этом примере показано, как можно управлять <strong>интервалами между словами</strong> и <strong>символами</strong>, а также автоматическим <strong>переносом слов</strong>, если строка оказывается слишком длинной для контейнера.</p>
+        </div>
+    </div>
+
+    <div class="article-container-2">
+        <h1>Пример статьи с псевдоэлементами</h1>
+        <p class="indented">Это пример текста, в котором первая буква абзаца выделена с помощью псевдоэлемента <strong>:first-letter</strong>, а в начале и в конце фрагмента добавлены кавычки при помощи <strong>::before</strong> и <strong>::after</strong>. Это позволяет сделать текст более выразительным и декоративным.</p>
+
+        <h2>Список с юникод маркерами:</h2>
+        <ul class="unicode-list">
+            <li>Первый элемент списка</li>
+            <li>Второй элемент списка</li>
+            <li>Третий элемент списка</li>
+            <li>Четвертый элемент списка</li>
+        </ul>
+
+        <p>Попробуйте выделить этот текст мышью, и вы увидите изменение стиля при выделении с помощью псевдоэлемента <strong>::selection</strong>. Это хороший способ добавить уникальность при интерактивном взаимодействии с контентом.</p>
+    </div>
+
+     <form id="pseudoclasses">
+        <label for="name">Доступное поле (Имя):</label>
+        <input type="text" id="name2" name="name" placeholder="Введите ваше имя">
+
+        <label for="email">Обязательное поле (Email):</label>
+        <input type="email" id="email" name="email" placeholder="Введите email" required>
+
+        <label for="username">Заблокированное поле (Username):</label>
+        <input type="text" id="username" name="username" value="Заблокировано" disabled>
+
+        <label for="age">Введите возраст (от 18 до 99):</label>
+        <input type="number" id="age-2" name="age" min="18" max="99">
+
+        <label>
+            <input type="checkbox" id="accept" name="accept" checked>
+            Я принимаю условия
+        </label>
+
+        <label>
+            <input type="radio" name="gender" value="male" checked>
+            Мужчина
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">
+            Женщина
+        </label>
+
+    </form>
+
+    <blockquote lang="ru">Это пример цитаты на русском языке.</blockquote>
+    <blockquote lang="en">This is an example of a quote in English.</blockquote>
+
 </div>
 {% endblock %}
