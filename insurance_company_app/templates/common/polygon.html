@@ -1,46 +1,72 @@
 {% extends 'common/layout.html' %}
 {% load static %}
 {% block content %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
 <div>
-  <h1>Введите данные студентов</h1>
-  <form class="form" action="process" id="studentsForm" method="POST">
-    {% csrf_token %}
-    <div id="students">
-      <div class="student">
-        <label>Фамилия: <input id="surname" type="text" name="students[0][surname]" maxlength="12" required></label><br>
-        <label>Имя: <input id="name" type="text" name="students[0][name]" maxlength="12" required></label><br>
-        <label>Отчество: <input id="second_name" type="text" name="students[0][patronymic]" maxlength="12" required></label><br>
-        <label>Пол:
-          <select id="sex" name="students[0][gender]" required>
+    <h1>Введите данные студентов</h1>
+    <form class="form" id="studentsForm">
+        <label>Фамилия: <input type="text" id="surname" maxlength="12" required></label><br>
+        <label>Имя: <input type="text" id="name" maxlength="12" required></label><br>
+        <label>Отчество: <input type="text" id="patronymic" maxlength="12" required></label><br>
+        <label>Пол: <select id="gender" required>
             <option value="М">М</option>
             <option value="Ж">Ж</option>
-          </select>
-        </label><br>
-        <label>Возраст: <input id="age" type="number" name="students[0][age]" min="16" max="35" required></label><br>
-        <label>Курс: <input id="course" type="number" name="students[0][course]" min="1" max="5" required></label><br><br>
-      </div>
-    </div>
+        </select></label><br>
+        <label>Возраст: <input type="number" id="age" min="16" max="35" required></label><br>
+        <label>Курс: <input type="number" id="course" min="1" max="5" required></label><br>
+        <input type="submit" value="Добавить студента">
+    </form>
+
+    <h2>Список студентов</h2>
+    <div id="students"></div>
+
+    <h2>Результат</h2>
     <div id="top-course"></div>
-    <button type="button" onclick="addStudent()">Добавить студента</button><br><br>
-    <input type="button" onclick="calculate()" value="Отправить данные">
-  </form>
-  <script src="{% static 'js/site.js' %}"></script>
 
-  <h1>Введите размер таблицы, максимальное и минимальное значение</h1>
-  <label>Столбцы: <input id="rows" type="number" required></label><br>
-  <label>Колонки: <input id="cols" type="number" required></label><br><br>
-  <label>Минимальное число: <input id="min" type="number" required></label><br><br>
-  <label>Максимальное число: <input id="max" type="number" required></label><br><br>
-  <label>Максимально количество выделенных ячеек: <input id="num" type="number"></label>
-  <label>Можно выделить соседей слева и справа: <input id="can" type="checkbox"></label>
-  <button type="button" onclick="generateTable()">Создать таблицу</button><br><br>
-  <button type="button" onclick="transposeTable()">Транспонировать</button>
-  <button type="button" onclick="addNewColumn()">Колонка++</button>
-  <button type="button" onclick="addNewRow()">Столбец++</button>
+    <button type="button" id="calculate">Рассчитать</button>
+    <script src="{% static 'js/site.js' %}"></script>
 
-  <div id="table-container"></div>
+    <section class="charts">
+        <input type="number" id="terms" value="5" min="5" max="10000" required>
+        <input type="number" id="step" value="0.01" min="0" required>
+        <input type="number" id="duration" value="3000" min="1000" step="100" required>
+        <input type="checkbox" id="animate" checked>
+         <div style="width: 75%;">
+            <canvas id="fourierChart"></canvas>
+        </div>
+        <button onclick="plot()">Построить анимированный график</button>
+        <table id="resultTable" class="test-table">
+            <thead>
+                <tr>
+                    <th>x</th>
+                    <th>n</th>
+                    <th>F(x) = arcsin(x)</th>
+                    <th>Fourier Series Approximation</th>
+                    <th>eps = |F(x) - Series(x)|</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
 
-  <table class="test-table">
+
+
+    <h1>Введите размер таблицы, максимальное и минимальное значение</h1>
+    <label>Столбцы: <input id="rows" type="number" required></label><br>
+    <label>Колонки: <input id="cols" type="number" required></label><br><br>
+    <label>Минимальное число: <input id="min" type="number" required></label><br><br>
+    <label>Максимальное число: <input id="max" type="number" required></label><br><br>
+    <label>Максимально количество выделенных ячеек: <input id="num" type="number"></label>
+    <label>Можно выделить соседей слева и справа: <input id="can" type="checkbox"></label>
+    <button type="button" onclick="generateTable()">Создать таблицу</button><br><br>
+    <button type="button" onclick="transposeTable()">Транспонировать</button>
+    <button type="button" onclick="addNewColumn()">Колонка++</button>
+    <button type="button" onclick="addNewRow()">Столбец++</button>
+
+    <div id="table-container"></div>
+
+    <table class="test-table">
     <caption>Заголовок таблицы</caption>
     <thead>
         <tr>
@@ -70,8 +96,8 @@
             <td>Ячейка 10</td>
             <td>Ячейка 11</td>
         </tr>
-    </tbody>
-</table>
+        </tbody>
+    </table>
 
   <div class="container-3">
         <h1>Любой текстовый фрагмет</h1>
@@ -84,6 +110,7 @@
             <blockquote>Это пример выделенного текста в формате цитаты. Он отображается курсивом и с вертикальной полосой слева для выделения.</blockquote>
 
             <p>В этом примере показано, как можно управлять <strong>интервалами между словами</strong> и <strong>символами</strong>, а также автоматическим <strong>переносом слов</strong>, если строка оказывается слишком длинной для контейнера.</p>
+            <h1>Mama papa</h1>
         </div>
     </div>
 
