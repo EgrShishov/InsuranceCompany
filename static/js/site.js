@@ -30,6 +30,183 @@ window.addEventListener('scroll',() => {
     text.style.bottom = `-${value}px`;
 })
 
+function checkAge() {
+    document.getElementById('age-checker').style.display = 'none';
+    const ageConfirmed = localStorage.getItem('ageConfirmed');
+    if (ageConfirmed === 'true') {
+        showMainContent();
+    } else {
+        document.getElementById('age-checker').style.display = 'flex';
+        document.getElementById('main-content').style.display = 'none';
+    }
+}
+
+function validateAge() {
+    const month = parseInt(document.getElementById('birthMonth').value);
+    const day = parseInt(document.getElementById('birthDay').value);
+    const year = parseInt(document.getElementById('birthYear').value);
+
+    const birthDate = new Date(year, month, day);
+    const today = new Date();
+
+    let age = parseInt(today.getFullYear() - birthDate.getFullYear());
+    const monthDiff = parseInt(today.getMonth() - birthDate.getMonth());
+
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+
+    console.log(age, birthDate, month, day, year);
+    if (isNaN(birthDate) || age < 0) {
+        document.getElementById('underBox').classList.remove('hidden');
+        return;
+    }
+
+    const daysOfWeek = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
+    const dayOfWeek = daysOfWeek[birthDate.getDay()];
+
+    if (age >= 18) {
+        localStorage.setItem('ageConfirmed', 'true');
+        alert('Вы родились в день недели: ${dayOfWeek}');
+        showMainContent();
+    } else {
+        alert('Извините, вам должно быть 18 лет или старше для просмотра этого сайта. Вам ${age} лет.');
+    }
+}
+
+function showMainContent() {
+    document.getElementById('main-content').style.display = 'block';
+    document.getElementById('age-checker').style.display = 'none';
+}
+
+function moveToNext(current, nextFieldId) {
+    if (current.id === 'number') {
+        let formattedValue = current.value.replace(/\D/g, '');
+        if (formattedValue.length > 0) {
+            formattedValue = formattedValue.match(/.{1,4}/g).join('-');
+        }
+        current.value = formattedValue;
+        if (formattedValue.replace(/[^0-9]/g, '').length === 16) {
+            document.getElementById(nextFieldId).focus();
+        }
+    } else if (current.id === 'date') {
+        let formattedValue = current.value.replace(/\D/g, '');
+        if (formattedValue.length > 2) {
+            formattedValue = formattedValue.slice(0, 2) + '/' + formattedValue.slice(2);
+        }
+        current.value = formattedValue;
+
+        if (formattedValue.replace(/[^0-9]/g, '').length === 4) {
+            document.getElementById(nextFieldId).focus();
+        }
+    } else {
+        if (current.value.length === current.maxLength) {
+            document.getElementById(nextFieldId).focus();
+        }
+    }
+}
+
+function moveToPrev(current, prevFieldId) {
+    if (current.value.length === 0 && event.key === 'Backspace') {
+        document.getElementById(prevFieldId).focus();
+    }
+}
+
+function updateStyles() {
+    if (applySettingsCheckbox.checked) {
+        document.body.style.fontSize = fontSizeSelector.value;
+        document.body.style.color = textColorInput.value;
+        document.body.style.backgroundColor = bgColorInput.value;
+    }
+}
+
+//for promocodes
+function applyPromocode() {
+    const totalElement = document.getElementById('total');
+    const promoCodeInput = document.getElementById('promo_code');
+    const checkoutTotal = document.getElementById('checkout-total');
+
+    if (!promoCode) {
+        promoCode = promoCodeInput.value;
+        localStorage.setItem('promo', promoCode);
+    }
+    let total = parseFloat(totalElement.innerText);
+    console.log(localStorage.getItem('promo'));
+
+    if (promoCodes[promoCode]) {
+        total *= promoCodes[promoCode];
+        totalElement.innerText = total.toFixed(2);
+        checkoutTotal.innerText += ` (Применен купон ${promoCode})`;
+
+    } else {
+        alert('Invalid promocode');
+    }
+}
+
+function cancelPromocode() {
+    const totalElement = document.getElementById('total'); //doesnt work, is null
+    let total = parseFloat(totalElement.innerText);
+
+    const promoCode = localStorage.getItem('promo');
+
+    if (promoCode && promoCodes[promoCode]) {
+        const discount = promoCodes[promoCode];
+        total = total / (1 - discount);
+        totalElement.innerText = total.toFixed(2);
+    }
+    localStorage.removeItem('promo');
+}
+
+function formatTime(time) {
+    const hours = Math.floor(time / (1000 * 60 * 60));
+    const minutes = Math.floor(time % (1000 * 60 * 60) / (1000 * 60));
+    const seconds = Math.floor((time % (1000 * 60)) / 1000);
+    return `${hours < 10 ? '0' : ''}${hours}:${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+}
+
+function updateCountdown() {
+    now = new Date().getTime();
+    const timeLeft = endTime - now;
+
+    countdownElement = document.getElementById('counter');
+    if (timeLeft > 0) {
+        countdownElement.textContent = formatTime(timeLeft);
+        console.log(countdownElement.textContext);
+    } else {
+        countdownElement.textContent = `Ka-boom`;
+        localStorage.removeItem('endTime');
+        clearInterval(interval);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const countdownElement = document.getElementById('counter');
+
+    const slider = new Slider('#slider', '#banner_form');
+    slider.startBannerRotation();
+
+    if (!endTime) {
+       endTime = now + oneHour;
+       localStorage.setItem('endTime', endTime);
+    }
+    const interval = setInterval(updateCountdown, 1000);
+
+    fontSizeSelector = document.getElementById('fontSize');
+    textColorInput = document.getElementById('textColor');
+    bgColorInput = document.getElementById('bgColor');
+    applySettingsCheckbox = document.getElementById('applySettings');
+
+    promoCode = localStorage.getItem('promo');
+    applyPromocode();
+
+    fontSizeSelector.addEventListener('change', () => updateStyles());
+    textColorInput.addEventListener('input', () => updateStyles());
+    bgColorInput.addEventListener('input', () => updateStyles());
+    applySettingsCheckbox.addEventListener('change', () => updateStyles());
+
+    updateStyles();
+});
+
 class Slider {
     #currentIndex;
     #totalSlides;
@@ -262,184 +439,6 @@ class Slider {
         }
     }
 }
-
-function checkAge() {
-    document.getElementById('age-checker').style.display = 'none';
-    const ageConfirmed = localStorage.getItem('ageConfirmed');
-    if (ageConfirmed === 'true') {
-        showMainContent();
-    } else {
-        document.getElementById('age-checker').style.display = 'flex';
-        document.getElementById('main-content').style.display = 'none';
-    }
-}
-
-function validateAge() {
-    const month = parseInt(document.getElementById('birthMonth').value);
-    const day = parseInt(document.getElementById('birthDay').value);
-    const year = parseInt(document.getElementById('birthYear').value);
-
-    const birthDate = new Date(year, month, day);
-    const today = new Date();
-
-    let age = parseInt(today.getFullYear() - birthDate.getFullYear());
-    const monthDiff = parseInt(today.getMonth() - birthDate.getMonth());
-
-    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
-    }
-
-    console.log(age, birthDate, month, day, year);
-    if (isNaN(birthDate) || age < 0) {
-        document.getElementById('underBox').classList.remove('hidden');
-        return;
-    }
-
-    const daysOfWeek = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
-    const dayOfWeek = daysOfWeek[birthDate.getDay()];
-
-    if (age >= 18) {
-        localStorage.setItem('ageConfirmed', 'true');
-        alert('Вы родились в день недели: ${dayOfWeek}');
-        showMainContent();
-    } else {
-        alert('Извините, вам должно быть 18 лет или старше для просмотра этого сайта. Вам ${age} лет.');
-    }
-}
-
-function showMainContent() {
-    document.getElementById('main-content').style.display = 'block';
-    document.getElementById('age-checker').style.display = 'none';
-}
-
-function moveToNext(current, nextFieldId) {
-    if (current.id === 'number') {
-        let formattedValue = current.value.replace(/\D/g, '');
-        if (formattedValue.length > 0) {
-            formattedValue = formattedValue.match(/.{1,4}/g).join('-');
-        }
-        current.value = formattedValue;
-        if (formattedValue.replace(/[^0-9]/g, '').length === 16) {
-            document.getElementById(nextFieldId).focus();
-        }
-    } else if (current.id === 'date') {
-        let formattedValue = current.value.replace(/\D/g, '');
-        if (formattedValue.length > 2) {
-            formattedValue = formattedValue.slice(0, 2) + '/' + formattedValue.slice(2);
-        }
-        current.value = formattedValue;
-
-        if (formattedValue.replace(/[^0-9]/g, '').length === 4) {
-            document.getElementById(nextFieldId).focus();
-        }
-    } else {
-        if (current.value.length === current.maxLength) {
-            document.getElementById(nextFieldId).focus();
-        }
-    }
-}
-
-function moveToPrev(current, prevFieldId) {
-    if (current.value.length === 0 && event.key === 'Backspace') {
-        document.getElementById(prevFieldId).focus();
-    }
-}
-
-function updateStyles() {
-    if (applySettingsCheckbox.checked) {
-        document.body.style.fontSize = fontSizeSelector.value;
-        document.body.style.color = textColorInput.value;
-        document.body.style.backgroundColor = bgColorInput.value;
-    }
-}
-
-//for promocodes
-function applyPromocode() {
-    const totalElement = document.getElementById('total');
-    const promoCodeInput = document.getElementById('promo_code');
-    const checkoutTotal = document.getElementById('checkout-total');
-
-    if (!promoCode) {
-        promoCode = promoCodeInput.value;
-        localStorage.setItem('promo', promoCode);
-    }
-    let total = parseFloat(totalElement.innerText);
-    console.log(localStorage.getItem('promo'));
-
-    if (promoCodes[promoCode]) {
-        total *= promoCodes[promoCode];
-        totalElement.innerText = total.toFixed(2);
-        checkoutTotal.innerText += ` (Применен купон ${promoCode})`;
-
-    } else {
-        alert('Invalid promocode');
-    }
-}
-
-function cancelPromocode() {
-    const totalElement = document.getElementById('total'); //doesnt work, is null
-    let total = parseFloat(totalElement.innerText);
-
-    const promoCode = localStorage.getItem('promo');
-
-    if (promoCode && promoCodes[promoCode]) {
-        const discount = promoCodes[promoCode];
-        total = total / (1 - discount);
-        totalElement.innerText = total.toFixed(2);
-    }
-    localStorage.removeItem('promo');
-}
-
-function formatTime(time) {
-    const hours = Math.floor(time / (1000 * 60 * 60));
-    const minutes = Math.floor(time % (1000 * 60 * 60) / (1000 * 60));
-    const seconds = Math.floor((time % (1000 * 60)) / 1000);
-    return `${hours < 10 ? '0' : ''}${hours}:${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-}
-
-function updateCountdown() {
-    now = new Date().getTime();
-    const timeLeft = endTime - now;
-
-    countdownElement = document.getElementById('counter');
-    if (timeLeft > 0) {
-        countdownElement.textContent = formatTime(timeLeft);
-        console.log(countdownElement.textContext);
-    } else {
-        countdownElement.textContent = `Ka-boom`;
-        localStorage.removeItem('endTime');
-        clearInterval(interval);
-    }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    const countdownElement = document.getElementById('counter');
-
-    const slider = new Slider('#slider', '#banner_form');
-    slider.startBannerRotation();
-
-    if (!endTime) {
-       endTime = now + oneHour;
-       localStorage.setItem('endTime', endTime);
-    }
-    const interval = setInterval(updateCountdown, 1000);
-
-    fontSizeSelector = document.getElementById('fontSize');
-    textColorInput = document.getElementById('textColor');
-    bgColorInput = document.getElementById('bgColor');
-    applySettingsCheckbox = document.getElementById('applySettings');
-
-    promoCode = localStorage.getItem('promo');
-    applyPromocode();
-
-    fontSizeSelector.addEventListener('change', () => updateStyles());
-    textColorInput.addEventListener('input', () => updateStyles());
-    bgColorInput.addEventListener('input', () => updateStyles());
-    applySettingsCheckbox.addEventListener('change', () => updateStyles());
-
-    updateStyles();
-});
-
 
 class Person {
     constructor(surname, name, second_name, gender, age) {
@@ -683,29 +682,170 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-let currentPage = 1;
-const itemsPerPage = 3;
-
-// employees
-function displayEmployeesTable(employee) {
-    const table = document.querySelector('.employeeTable');
-    const tableBody = table.tBodies[0];
-
-    const start = (currentPage - 1) * itemsPerPage;
-    const end = start + itemsPerPage;
-
-    tableBody.innerHtml = ``;
-    employee.slice(start, end).forEach(employee => {
-        tableBody.innerHTML += employee;
+//geolocation api
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('getLocation').addEventListener('click', () => {
+        if (navigator.geolocation) {
+            trackPosition();
+        } else {
+            document.getElementById('locationInfo').textContent = "Геолокация не поддерживается в вашем браузере.";
+        }
     });
 
-    updatePagination(employee.length);
+    document.getElementById('copyToClipboard').addEventListener('click', () => {
+        copyToClipBoard();
+    });
+
+    document.getElementById('pasteFromClipboard').addEventListener('click', () => {
+        pasteFromClipboard();
+    });
+})
+
+//map with openmapapi
+let map, marker, accuracyCircle;
+
+function initMap(lat, lon) {
+    map = L.map('map').setView([lat, lon], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+    }).addTo(map);
+    marker = L.marker([lat, lon]).addTo(map);
+    accuracyCircle = L.circle([lat, lon], { radius: 0 }).addTo(map);
 }
 
-function updatePagination(itemsAmount) {
-    const pagination = document.getElementById('pagination');
-    const pageCount = Math.ceil(itemsAmount / itemsPerPage);
-    //TODO
+function updatePosition(lat, lon, ) {
+    marker.setLatLng([lat, lon]);
+    map.setView([lat, lon], 13);
+
+    accuracyCircle.setLatLng([lat, lon]);
+}
+
+function trackPosition() {
+    if (navigator.geolocation) {
+        navigator.geolocation.watchPosition((position) => {
+            const lat = position.coords.latitude;
+            const lon = position.coords.longitude;
+
+            document.getElementById('locationInfo').textContent = `Широта: ${lat}, долгота: ${lon}`;
+
+            if (!map) initMap(lat, lon);
+            else updatePosition(lat, lon);
+        }, (error) => {
+            document.getElementById('locationInfo').textContent = "невозможно получить координаты.";
+        }, {
+            enableHighAccuracy: true,
+            maximumAge: 0,
+            timeout: 10000
+        });
+    } else document.getElementById('status').textContent = "геолокация не поддерживается в вашем браузере.";
+}
+
+// clipboardApi
+function copyToClipBoard() {
+    const textToCopy = document.querySelector('#editor').value;
+    navigator.clipboard.writeText(textToCopy).then(() => {
+        alert('Скопировано в буфер обмена');
+    }).catch(err => {
+         console.error('Ошибка копирования текста: ', err);
+    });
+}
+
+function pasteFromClipboard() {
+    navigator.clipboard.readText().then((clipText) => {
+        document.querySelector('#second-editor').value += clipText;
+    }).catch(err => {
+        console.error('Ошибка вставки текста: ', err);
+    });
+}
+
+class Pagination {
+    constructor(paginationId, itemsPerPage, listSelector){
+        this.pagination = document.getElementById(paginationId);
+        this.itemsPerPage = itemsPerPage;
+        this.items = document.querySelectorAll(listSelector);
+        this.totalItems = this.items.length;
+        this.currentPage = 1;
+        this.totalPages = Math.ceil(this.totalItems / this.itemsPerPage);
+
+        this.changePage(this.currentPage)
+    }
+
+    renderPagination() {
+        this.pagination.innerHTML = '';
+
+        const prevButton = document.createElement('button');
+        prevButton.classList.add('pagination-btn');
+        prevButton.innerText = '←';
+        if (this.currentPage === 1) prevButton.disabled = true;
+        prevButton.addEventListener('click', () => this.changePage(this.currentPage - 1));
+        this.pagination.appendChild(prevButton);
+
+        for (let i = 1; i <= this.totalPages; i++) {
+            const pageBtn = document.createElement('button');
+
+            pageBtn.innerText = i;
+            pageBtn.classList.add('pagination-btn');
+            if (this.currentPage === i) pageBtn.classList.add('active');
+            pageBtn.addEventListener('click', () => this.changePage(i));
+
+            this.pagination.appendChild(pageBtn);
+        }
+
+        const nextButton = document.createElement('button');
+        nextButton.classList.add('pagination-btn');
+        nextButton.innerText = '→';
+        if (this.currentPage === this.totalPages) nextButton.disabled = true;
+        nextButton.addEventListener('click', () => this.changePage(this.currentPage + 1));
+        this.pagination.appendChild(nextButton);
+    }
+
+    changePage(page) {
+        if (page < 1) this.currentPage = 1;
+        else if (page > this.totalPages) this.currentPage = totalPages;
+        else this.currentPage = page;
+
+        this.items.forEach((item, index) => {
+            item.style.display = 'none';
+        });
+
+        const start = (this.currentPage - 1) * this.itemsPerPage;
+        const end = start + this.itemsPerPage;
+        this.items.forEach((item, index) => {
+            if (index >= start && index < end) {
+                item.style.display = 'block';
+            }
+        });
+
+        this.renderPagination();
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const pagination = new Pagination('pagination', 3, '.employee-card');
+});
+
+function displayDetails() {
+    const table = document.getElementById('employeeTable');
+    const details = document.getElementById('employeeDetails');
+
+    table.addEventListener('click', (e) => {
+        let row = e.target.closest('tr');
+        if (row) {
+            const name = row.cells[1].innerText;
+            const job_position = row.cells[2].innerText;
+            const age = row.cells[3].innerText;
+            const phone = row.cells[4].innerText;
+            const email = row.cells[5].innerText;
+
+            document.getElementById('detailsName').innerText = name;
+            document.getElementById('detailsPosition').innerText = job_position;
+            document.getElementById('detailsAge').innerText = age;
+            document.getElementById('detailsPhone').innerText = phone;
+            document.getElementById('detailsEmail').innerText = email;
+
+            details.style.display = 'block';
+        }
+    });
 }
 
 let currentSortDirection = {};
@@ -718,15 +858,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const sortDirection = currentSortDirection[column] === 'asc' ? 'desc' : 'asc';
 
             sortColumn(column, sortDirection);
-            currentSortDirection[column] === sortDirection;
+            currentSortDirection[column] = sortDirection;
 
-            updateSortSymbol(this, sortDirection);
+            updateSortSymbol(btn, sortDirection);
         });
     });
+
+    displayDetails();
 });
 
 function sortColumn(column, sortDirection) {
-    console.log('sorting');
     const tableRows = Array.from(document.querySelectorAll('#employeeTable tbody tr'));
     const sortedRows = tableRows.sort((a, b) => {
         const cellA = a.cells[column].innerText;
@@ -740,19 +881,57 @@ function sortColumn(column, sortDirection) {
 }
 
 function updateSortSymbol(button, sortDirection) {
-    console.log('updating');
     document.querySelectorAll('.sort-btn').forEach(btn => {
-        btn.innerText = '⇅';
+        btn.textContent = '⇅';
     });
 
-    console.log(button);
-
-    if (sortDirection === 'asc') button.innerText = '▲';
-    else button.innerText = '▼';
+    if (sortDirection === 'asc') button.textContent = '▲';
+    else button.textContent = '▼';
 }
 
+//searchInput
 function filterTable() {
-    // TODO
+    const input = document.querySelector('#searchInput');
+    const searchText = input.value.toLowerCase();
+    const tableBody = document.querySelector('#employeeTable tbody');
+    const rows = tableBody.getElementsByTagName('tr');
+    const searchWords = searchText.split(' ').filter(w => w !== '');
+    let hasResult = false;
+
+    if (searchText !== '') {
+        for (let i = 0; i < rows.length; i++) {
+            const cells = rows[i].getElementsByTagName('td');
+            let rowContainsData = false;
+
+            for (let j = 0; j < cells.length; j++) {
+                const cellText = cells[j].innerText.toLowerCase();
+                const allWordsFound = searchWords.some(w => cellText.includes(w));
+                if (allWordsFound) {
+                    rowContainsData = true;
+                    break;
+                }
+            }
+
+            if (rowContainsData) {
+                rows[i].style.display = '';
+                hasResult = true;
+            } else {
+                rows[i].style.display = 'none';
+            }
+        }
+    } else {
+        for (let i = 0; i < rows.length; i++) {
+            rows[i].style.display = '';
+            hasResult = false;
+        }
+    }
+
+    if (!hasResult) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td><p>Не удалось найти работников соответствующим критериям поиска</p></td>`;
+        tr.style.display = '';
+
+    }
 }
 
 function addEmployee() {
@@ -766,10 +945,15 @@ function hideForm() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('newEmployeeForm');
+    const employeeForm = document.getElementById('newEmployeeForm');
+    employeeForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        addNewEmployee();
+    });
+
     const submitBtn = document.getElementById('employeeSubmitBtn');
 
-    const requireFields = Array.from(form.querySelectorAll('input[required]'));
+    const requireFields = Array.from(employeeForm.querySelectorAll('input[required]'));
 
     function checkFormCompletion() {
         const allFilled = requireFields.every(input => input.value.trim() !== "");
@@ -779,22 +963,101 @@ document.addEventListener('DOMContentLoaded', function() {
     requireFields.forEach(input => {
         input.addEventListener('input', checkFormCompletion);
     });
+
+    document.getElementById('url').addEventListener('input', handleInputValidation);
+    document.getElementById('phone').addEventListener('input', handleInputValidation);
+
+    const searchForm = document.getElementById('searchForm');
+    searchForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        console.log('filtering');
+        filterTable();
+    });
 });
 
-function addNewEmployee() {
+function handleInputValidation() {
+    const phoneNumberInput = document.getElementById('phone');
+    const urlInput = document.getElementById('url');
+    const phoneNumber = phoneNumberInput.value;
+    const url = urlInput.value;
 
+    if (phoneNumber !== '' && !validatePhone(phoneNumber)) {
+        phoneNumberInput.classList.add('input-error');
+    } else {
+        phoneNumberInput.classList.remove('input-error');
+    }
+
+    if (url !== '' && !validateUrl(url)) {
+        urlInput.classList.add('input-error');
+    } else {
+        urlInput.classList.remove('input-error');
+    }
+}
+
+function addNewEmployee() {
+    const name = document.getElementById('name').value;
+    const surname = document.getElementById('surname').value;
+    const second_name = document.getElementById('second_name').value;
+    const age = parseInt(document.getElementById('age').value);
+    const job_position = document.getElementById('job_position').value;
+    const photo = document.getElementById('photo').value;
+    const email = document.getElementById('email').value;
+    const phoneNumber = document.getElementById('phone').value;
+    const url = document.getElementById('url').value;
+
+    if (!validatePhone(phoneNumber) || !validateUrl(url)) {
+        return
+    }
+
+    const employee = {
+        name: name,
+        surname: surname,
+        second_name: second_name,
+        age: age,
+        job_position: job_position,
+        photo: photo,
+        email: email,
+        phoneNumber: phoneNumber,
+        url: url
+    };
+
+
+    // TODO: preloader + adding logic
+    console.log('added');
 }
 
 function rewardEmployee() {
+    const checkedCheckboxes = document.querySelectorAll('.select-checkbox:checked');
+    const selectedEmployees = [];
+    const rewardText = document.getElementById('reward-text');
+    const reward = document.getElementById('reward').value;
 
+    if (checkedCheckboxes) {
+        checkedCheckboxes.forEach(checkbox => {
+            const row = checkbox.closest('tr');
+            const fullNameCell = row.querySelectorAll('td')[1];
+            const fullName = fullNameCell.textContent;
+            selectedEmployees.push(fullName);
+        });
+    }
+
+    rewardText.innerHTML = ``;
+    if (selectedEmployees.length > 0) {
+        const employeeList = selectedEmployees.join(', ');
+        rewardText.innerHTML += `<p>Премировать сотрудников баксами $ ${reward}: <strong>${employeeList}</strong></p>`;
+    } else {
+        rewardText.innerHTML += `<p>Не выбрано сотрудников для премирования</p>`;
+    }
 }
 
 function validatePhone(phoneNumber) {
-
+    const pattern = /^(\+375|8)?[\s-]?\(?\d{2,3}\)?[\s-]?\d{3}[\s-]?\d{2}[\s-]?\d{2}$/;
+    return pattern.test(phoneNumber);
 }
 
 function validateUrl(url) {
-
+    const pattern = /^(https?:\/\/).+(\.php|\.html)$/;
+    return pattern.test(url);
 }
 
 //charts

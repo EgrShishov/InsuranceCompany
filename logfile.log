@@ -26347,3 +26347,2877 @@ Not Found: /media/C:/django/insurance_company/media/images
 ews
 atamog.jpg
 "GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+Watching for file changes with StatReloader
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 31198
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/js/site.js HTTP/1.1" 200 31204
+"GET /static/css/site.css HTTP/1.1" 200 65879
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/js/site.js HTTP/1.1" 200 31204
+"GET /static/css/site.css HTTP/1.1" 200 65879
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/js/site.js HTTP/1.1" 200 31279
+"GET /static/css/site.css HTTP/1.1" 200 65879
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/js/site.js HTTP/1.1" 200 31364
+"GET /static/css/site.css HTTP/1.1" 200 65879
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/js/site.js HTTP/1.1" 200 31362
+"GET /static/css/site.css HTTP/1.1" 200 65879
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/css/site.css HTTP/1.1" 200 65879
+"GET /static/js/site.js HTTP/1.1" 200 31335
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/js/site.js HTTP/1.1" 200 31277
+"GET /static/css/site.css HTTP/1.1" 200 65879
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/js/site.js HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 19863
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/js/site.js HTTP/1.1" 200 31277
+"GET /static/css/site.css HTTP/1.1" 200 65878
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/js/site.js HTTP/1.1" 200 31277
+"GET /static/css/site.css HTTP/1.1" 200 65906
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/js/site.js HTTP/1.1" 200 31277
+"GET /static/css/site.css HTTP/1.1" 200 65974
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/js/site.js HTTP/1.1" 200 31277
+"GET /static/css/site.css HTTP/1.1" 200 65974
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19863
+"GET /static/css/site.css HTTP/1.1" 200 65929
+"GET /static/js/site.js HTTP/1.1" 200 31277
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 19943
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 32845
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 19943
+"GET /static/js/site.js HTTP/1.1" 200 32865
+"GET /static/css/site.css HTTP/1.1" 200 65929
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/js/site.js HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/js/site.js HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/js/site.js HTTP/1.1" 200 32861
+"GET /static/css/site.css HTTP/1.1" 200 66002
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+- Broken pipe from ('127.0.0.1', 13752)
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 33025
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/js/site.js HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 33057
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/js/site.js HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 33086
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 33014
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+- Broken pipe from ('127.0.0.1', 13781)
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/js/site.js HTTP/1.1" 200 33016
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 33101
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 33097
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 33203
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 33193
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/js/site.js HTTP/1.1" 200 33275
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/js/site.js HTTP/1.1" 200 33304
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/? HTTP/1.1" 200 19943
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 33390
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/? HTTP/1.1" 200 20946
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 34111
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/js/site.js HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/js/site.js HTTP/1.1" 200 34149
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 34150
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/js/site.js HTTP/1.1" 200 34149
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 34188
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/js/site.js HTTP/1.1" 200 34290
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 34339
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 34345
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 34349
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 34364
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+- Broken pipe from ('127.0.0.1', 17582)
+- Broken pipe from ('127.0.0.1', 17595)
+- Broken pipe from ('127.0.0.1', 17594)
+- Broken pipe from ('127.0.0.1', 17596)
+- Broken pipe from ('127.0.0.1', 17597)
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/js/site.js HTTP/1.1" 200 34364
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 34293
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 34294
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 20946
+"GET /static/js/site.js HTTP/1.1" 200 34295
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 20836
+"GET /static/js/site.js HTTP/1.1" 200 34295
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 20836
+"GET /static/js/site.js HTTP/1.1" 200 34295
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 20836
+"GET /static/js/site.js HTTP/1.1" 200 34288
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 20836
+"GET /static/js/site.js HTTP/1.1" 200 34368
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 20836
+"GET /static/js/site.js HTTP/1.1" 200 34369
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 20836
+"GET /static/js/site.js HTTP/1.1" 200 34370
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 20836
+"GET /static/js/site.js HTTP/1.1" 200 34376
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 20836
+"GET /static/js/site.js HTTP/1.1" 200 34376
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 20836
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 35609
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /polygon/ HTTP/1.1" 200 13342
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /polygon/ HTTP/1.1" 200 13336
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /polygon/ HTTP/1.1" 200 13336
+"GET /static/js/site.js HTTP/1.1" 200 35610
+"GET /polygon/ HTTP/1.1" 200 13258
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 35610
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 35610
+"GET /polygon/ HTTP/1.1" 200 13336
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 35607
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13336
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 35607
+"GET /polygon/ HTTP/1.1" 200 13336
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 35694
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 35694
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13527
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 35861
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 35861
+"GET /polygon/ HTTP/1.1" 200 13563
+"GET /static/js/site.js HTTP/1.1" 200 35861
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13563
+"GET /static/js/site.js HTTP/1.1" 200 35861
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13563
+"GET /static/js/site.js HTTP/1.1" 200 35861
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 35861
+"GET /polygon/ HTTP/1.1" 200 13686
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 36266
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 36266
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13686
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 36232
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 36232
+"GET /polygon/ HTTP/1.1" 200 13686
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 36232
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 36232
+"GET /polygon/ HTTP/1.1" 200 13686
+"GET /static/js/site.js HTTP/1.1" 200 36270
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 36270
+"GET /polygon/ HTTP/1.1" 200 13686
+"GET /static/js/site.js HTTP/1.1" 200 36397
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 36397
+"GET /polygon/ HTTP/1.1" 200 13686
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 36399
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 36399
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13686
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 36548
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 36548
+"GET /polygon/ HTTP/1.1" 200 13686
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 36547
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 36547
+"GET /polygon/ HTTP/1.1" 200 13686
+"GET /static/js/site.js HTTP/1.1" 200 36643
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 36643
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 38050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 38050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 38087
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 38087
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/js/site.js HTTP/1.1" 200 38171
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 38171
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 38077
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 38077
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 38173
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 38173
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66002
+"GET /static/js/site.js HTTP/1.1" 200 38167
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 38167
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66051
+"GET /static/js/site.js HTTP/1.1" 200 38167
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 38167
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/js/site.js HTTP/1.1" 200 38167
+"GET /static/css/site.css HTTP/1.1" 200 66050
+- Broken pipe from ('127.0.0.1', 20091)
+"GET /polygon/ HTTP/1.1" 200 13829
+- Broken pipe from ('127.0.0.1', 20196)
+"GET /static/css/site.css HTTP/1.1" 200 66050
+- Broken pipe from ('127.0.0.1', 20072)
+"GET /static/js/site.js HTTP/1.1" 200 38130
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66050
+"GET /static/js/site.js HTTP/1.1" 200 38196
+"GET /static/js/site.js HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 21571)
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66050
+"GET /static/js/site.js HTTP/1.1" 200 38219
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 38219
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66050
+"GET /static/js/site.js HTTP/1.1" 200 38162
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 38162
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66050
+"GET /static/js/site.js HTTP/1.1" 200 38060
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66050
+"GET /static/js/site.js HTTP/1.1" 200 38060
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 38060
+"GET /polygon/ HTTP/1.1" 200 13829
+"GET /static/css/site.css HTTP/1.1" 200 66302
+"GET /static/js/site.js HTTP/1.1" 200 38060
+- Broken pipe from ('127.0.0.1', 21687)
+"GET /polygon/ HTTP/1.1" 200 13890
+"GET /static/js/site.js HTTP/1.1" 200 38060
+"GET /static/css/site.css HTTP/1.1" 200 67435
+- Broken pipe from ('127.0.0.1', 21763)
+"GET /polygon/ HTTP/1.1" 200 13890
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 200 67432
+"GET /polygon/ HTTP/1.1" 200 13890
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /about_company/ HTTP/1.1" 200 9773
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/images/money-left.png HTTP/1.1" 304 0
+"GET /static/images/money-right.png HTTP/1.1" 304 0
+"GET /static/images/signature.png HTTP/1.1" 200 8710
+"GET /static/images/insurance.avif HTTP/1.1" 200 161825
+- Broken pipe from ('127.0.0.1', 21775)
+"GET /static/images/border.png HTTP/1.1" 304 0
+"GET /static/images/insurance.png HTTP/1.1" 200 16024
+"GET /static/images/registred_stamp.png HTTP/1.1" 200 179562
+"GET /news/ HTTP/1.1" 200 6367
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 200 67430
+- Broken pipe from ('127.0.0.1', 21816)
+- Broken pipe from ('127.0.0.1', 21815)
+- Broken pipe from ('127.0.0.1', 21686)
+Not Found: /
+"GET / HTTP/1.1" 404 8004
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3682
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 16835
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/insurance_company_app/news/add/ HTTP/1.1" 200 16384
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"POST /admin/insurance_company_app/news/add/ HTTP/1.1" 200 17806
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 21852)
+"POST /admin/insurance_company_app/news/add/ HTTP/1.1" 302 0
+"GET /admin/insurance_company_app/news/add/ HTTP/1.1" 200 17890
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"POST /admin/insurance_company_app/news/add/ HTTP/1.1" 302 0
+"GET /admin/insurance_company_app/news/add/ HTTP/1.1" 200 17793
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 21853)
+"GET /news/ HTTP/1.1" 200 7717
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 38060
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/news/6.jpg HTTP/1.1" 200 148248
+"GET /media/images/news/1.jpg HTTP/1.1" 200 316043
+"GET /news/details/76/ HTTP/1.1" 200 6207
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /media/images/news/1.jpg HTTP/1.1" 304 0
+"GET /news/details/75/ HTTP/1.1" 200 6298
+"GET /media/images/news/6.jpg HTTP/1.1" 304 0
+"POST /admin/insurance_company_app/news/add/ HTTP/1.1" 302 0
+"GET /admin/insurance_company_app/news/add/ HTTP/1.1" 200 17125
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 21988)
+"GET /news/ HTTP/1.1" 200 8384
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /media/images/news/2.jpg HTTP/1.1" 200 367314
+"GET /media/images/news/6.jpg HTTP/1.1" 304 0
+"GET /media/images/news/1.jpg HTTP/1.1" 304 0
+"GET /news/details/77/ HTTP/1.1" 200 5531
+"GET /media/images/news/2.jpg HTTP/1.1" 304 0
+"POST /admin/insurance_company_app/news/add/ HTTP/1.1" 302 0
+"GET /admin/insurance_company_app/news/ HTTP/1.1" 200 33608
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /news/ HTTP/1.1" 200 9036
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /media/images/news/images.jpg HTTP/1.1" 200 6804
+"GET /media/images/news/1.jpg HTTP/1.1" 304 0
+"GET /media/images/news/6.jpg HTTP/1.1" 304 0
+"GET /media/images/news/2.jpg HTTP/1.1" 304 0
+"GET /news/details/78/ HTTP/1.1" 200 5554
+"GET /media/images/news/images.jpg HTTP/1.1" 304 0
+"GET /news/details/77/ HTTP/1.1" 200 5531
+"GET /media/images/news/2.jpg HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 18561
+"GET /contacts/ HTTP/1.1" 200 20836
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /polygon/ HTTP/1.1" 200 13890
+"GET /static/js/site.js HTTP/1.1" 200 37133
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 37133
+"GET /polygon/ HTTP/1.1" 200 13890
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 37074
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/js/site.js HTTP/1.1" 200 37074
+"GET /static/js/site.js HTTP/1.1" 200 37074
+"GET /static/js/site.js HTTP/1.1" 200 37074
+"GET /polygon/ HTTP/1.1" 200 13890
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 21989)
+"GET /home/ HTTP/1.1" 200 10934
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/images/crying_man.png HTTP/1.1" 304 0
+"GET /static/images/happy.png HTTP/1.1" 304 0
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad3.png HTTP/1.1" 304 0
+"GET /static/images/new_house.png HTTP/1.1" 304 0
+"GET /static/images/ad4.png HTTP/1.1" 304 0
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+- Broken pipe from ('127.0.0.1', 22527)
+"GET /news/ HTTP/1.1" 200 9036
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 38037
+"GET /media/images/news/1.jpg HTTP/1.1" 200 316043
+"GET /media/images/news/2.jpg HTTP/1.1" 200 367314
+"GET /media/images/news/6.jpg HTTP/1.1" 200 148248
+"GET /media/images/news/images.jpg HTTP/1.1" 200 6804
+- Broken pipe from ('127.0.0.1', 24083)
+"GET /polygon/ HTTP/1.1" 200 13890
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+- Broken pipe from ('127.0.0.1', 24084)
+- Broken pipe from ('127.0.0.1', 24087)
+- Broken pipe from ('127.0.0.1', 24081)
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 38062
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 38063
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 30130
+"GET /static/css/site.css HTTP/1.1" 200 67430
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+- Broken pipe from ('127.0.0.1', 24262)
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 30132
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 30132
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 30128
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 30129
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21523
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 30129
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/js/slider HTTP/1.1" 404 1887
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21523
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 30132
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /static/js/slider.js HTTP/1.1" 200 8120
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21523
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 30132
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /static/js/slider.js HTTP/1.1" 200 8112
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 10823
+"GET /static/js/site.js HTTP/1.1" 200 30132
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/js/slider.js HTTP/1.1" 200 8112
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 10766
+"GET /static/js/site.js HTTP/1.1" 200 30132
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/js/slider.js HTTP/1.1" 200 8112
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 10884
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 38198
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /home/ HTTP/1.1" 200 11075
+"GET /static/js/site.js HTTP/1.1" 200 38198
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /home/ HTTP/1.1" 200 10880
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 39175
+- Broken pipe from ('127.0.0.1', 32289)
+"GET /polygon/ HTTP/1.1" 200 13890
+"GET /static/js/site.js HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 32283)
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 304 0
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39183
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39183
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39218
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/? HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39218
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39218
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39055
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 21509
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 39054
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/? HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39113
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts HTTP/1.1" 301 0
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39113
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39209
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 39234
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39119
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 39120
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39120
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 39482
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+- Broken pipe from ('127.0.0.1', 33440)
+"GET /static/js/site.js HTTP/1.1" 200 39533
+- Broken pipe from ('127.0.0.1', 33447)
+- Broken pipe from ('127.0.0.1', 33446)
+- Broken pipe from ('127.0.0.1', 33445)
+- Broken pipe from ('127.0.0.1', 33443)
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39533
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39557
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39665
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39666
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39738
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 39737
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39618
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+- Broken pipe from ('127.0.0.1', 33967)
+"GET /home/ HTTP/1.1" 200 10765
+"GET /static/js/site.js HTTP/1.1" 200 39618
+- Broken pipe from ('127.0.0.1', 33977)
+"GET /contacts/ HTTP/1.1" 200 21509
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+- Broken pipe from ('127.0.0.1', 33985)
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /home HTTP/1.1" 301 0
+"GET /home/ HTTP/1.1" 200 9030
+"GET /static/js/site.js HTTP/1.1" 200 39659
+- Broken pipe from ('127.0.0.1', 34225)
+"GET /login/ HTTP/1.1" 200 1389
+"POST /login/ HTTP/1.1" 302 0
+"GET /accounts/profile/ HTTP/1.1" 200 10205
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /contacts/ HTTP/1.1" 200 10225
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 39659
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3682
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8055
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 18561
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8055
+"GET /home/ HTTP/1.1" 200 10807
+"GET /static/js/site.js HTTP/1.1" 200 39659
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/videos/video.mp4 HTTP/1.1" 200 13495092
+"GET /contacts/ HTTP/1.1" 200 30139
+"GET /static/js/site.js HTTP/1.1" 200 39659
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 21509
+"GET /static/js/site.js HTTP/1.1" 200 39659
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /home HTTP/1.1" 301 0
+"GET /home/ HTTP/1.1" 200 9039
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 39659
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/fire1.png HTTP/1.1" 200 97292
+"GET /static/images/fire2.png HTTP/1.1" 200 96443
+"GET /static/images/man_with_suitcase.png HTTP/1.1" 200 72560
+"GET /static/images/suitcase.png HTTP/1.1" 200 215325
+"GET /static/images/crying_man.png HTTP/1.1" 200 409113
+"GET /static/images/ad2.png HTTP/1.1" 200 73185
+"GET /static/images/ad3.png HTTP/1.1" 200 275243
+"GET /static/images/ad1.png HTTP/1.1" 200 99622
+"GET /static/images/BNS.jpg HTTP/1.1" 200 3976
+"GET /static/images/ASOBA.jpg HTTP/1.1" 200 2330
+"GET /static/images/happy.png HTTP/1.1" 200 904049
+"GET /static/images/BGS.png HTTP/1.1" 200 11275
+"GET /static/images/new_house.png HTTP/1.1" 200 913437
+"GET /static/images/home.png HTTP/1.1" 200 1206047
+"GET /static/images/ad4.png HTTP/1.1" 200 364802
+"GET /static/images/burnt_home.png HTTP/1.1" 200 1462050
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /login/ HTTP/1.1" 200 1389
+"GET /static/css/login.css HTTP/1.1" 200 2710
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8055
+"POST /login/ HTTP/1.1" 302 0
+"GET /accounts/profile/ HTTP/1.1" 200 10205
+"GET /static/js/site.js HTTP/1.1" 200 39659
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 67430
+"GET /static/js/site.js HTTP/1.1" 200 39659
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 40761
+"GET /static/css/site.css HTTP/1.1" 200 67811
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+- Broken pipe from ('127.0.0.1', 34916)
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 67811
+"GET /static/js/site.js HTTP/1.1" 200 40403
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 67811
+"GET /static/js/site.js HTTP/1.1" 200 40403
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 40403
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41038
+"GET /static/css/site.css HTTP/1.1" 200 67867
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+- Broken pipe from ('127.0.0.1', 36247)
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 67867
+"GET /static/js/site.js HTTP/1.1" 200 41015
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41040
+"GET /static/css/site.css HTTP/1.1" 200 67867
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 67867
+"GET /static/js/site.js HTTP/1.1" 200 41036
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41036
+"GET /static/css/site.css HTTP/1.1" 200 67867
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41057
+"GET /static/css/site.css HTTP/1.1" 200 67867
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 67898
+"GET /static/js/site.js HTTP/1.1" 200 41057
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 67937
+"GET /static/js/site.js HTTP/1.1" 200 41057
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /static/js/site.js HTTP/1.1" 200 41057
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41057
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /static/js/site.js HTTP/1.1" 200 41032
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41150
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41142
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /static/js/site.js HTTP/1.1" 200 41183
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41224
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /static/js/site.js HTTP/1.1" 200 41226
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41233
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /static/js/site.js HTTP/1.1" 200 41487
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41459
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /static/js/site.js HTTP/1.1" 200 41528
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /static/js/site.js HTTP/1.1" 200 41532
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41387
+"GET /static/css/site.css HTTP/1.1" 200 68087
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41387
+"GET /static/css/site.css HTTP/1.1" 200 68071
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41387
+"GET /static/css/site.css HTTP/1.1" 200 68068
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 41387
+"GET /static/css/site.css HTTP/1.1" 200 68068
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68083
+"GET /static/js/site.js HTTP/1.1" 200 41387
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68024
+"GET /static/js/site.js HTTP/1.1" 200 41387
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68024
+"GET /static/js/site.js HTTP/1.1" 200 41516
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68119
+"GET /static/js/site.js HTTP/1.1" 200 41516
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68119
+"GET /static/js/site.js HTTP/1.1" 200 41516
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 44424
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 44433
+"GET /static/css/site.css HTTP/1.1" 200 68119
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68119
+"GET /static/js/site.js HTTP/1.1" 200 43581
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 43586
+"GET /static/css/site.css HTTP/1.1" 200 68119
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 200 68119
+"GET /static/js/site.js HTTP/1.1" 200 43591
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 43596
+"GET /static/css/site.css HTTP/1.1" 200 68119
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/js/site.js HTTP/1.1" 200 43616
+"GET /static/css/site.css HTTP/1.1" 200 68119
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /media/images/agents_photos/4.jpg HTTP/1.1" 200 160469
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /media/images/agents_photos/511955.jpg HTTP/1.1" 200 8504
+"GET /media/images/agents_photos/bsuir.png HTTP/1.1" 200 11360
+"GET /media/images/agents_photos/1f442.png HTTP/1.1" 200 4319
+"GET /media/images/agents_photos/12_100229_1_65937.jpg HTTP/1.1" 200 45115
+"GET /media/images/agents_photos/12.jpg HTTP/1.1" 200 343620
+"GET /media/images/agents_photos/mamamia.png HTTP/1.1" 200 6002085
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /contacts/ HTTP/1.1" 200 18855
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 200 41443
+Not Found: /media/C:/django/insurance_company/media/images
+ews
+atamog.jpg
+"GET /media/C%3A/django/insurance_company/media/images%0Aews%0Aatamog.jpg HTTP/1.1" 404 8209
+"GET /insurance_types/ HTTP/1.1" 200 10861
+"GET /insurance_types/ HTTP/1.1" 200 10860
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 10863
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 10888
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 10887
+"GET /insurance_types/ HTTP/1.1" 200 10888
+"GET /insurance_types/ HTTP/1.1" 200 10891
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /insurance_types/ HTTP/1.1" 200 10891
+"GET /insurance_types/ HTTP/1.1" 200 10888
+"GET /insurance_types/ HTTP/1.1" 200 10863
+"GET /insurance_types/?search=%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B5 HTTP/1.1" 200 7979
+"GET /static/css/site.css HTTP/1.1" 304 0
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /insurance_types/?search= HTTP/1.1" 200 10863
+"GET /insurance_types/?search= HTTP/1.1" 200 11050
+"GET /insurance_types/?search= HTTP/1.1" 200 11050
+"GET /static/css/site.css HTTP/1.1" 200 68193
+"GET /static/js/site.js HTTP/1.1" 200 41443
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /insurance_types/?search= HTTP/1.1" 200 11050
+"GET /static/js/site.js HTTP/1.1" 200 41443
+"GET /static/css/site.css HTTP/1.1" 200 68261
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /static/images/logo.png HTTP/1.1" 200 68764
+"GET /insurance_types/?search= HTTP/1.1" 200 11050
+"GET /static/js/site.js HTTP/1.1" 304 0
+"GET /static/css/site.css HTTP/1.1" 200 68254
+"GET /insurance_types/?search= HTTP/1.1" 200 11050
+"GET /static/css/site.css HTTP/1.1" 200 68261
+"GET /insurance_types/?search= HTTP/1.1" 200 11050
+"GET /static/css/site.css HTTP/1.1" 200 68262
+"GET /insurance_types/?search= HTTP/1.1" 200 11050
+"GET /static/css/site.css HTTP/1.1" 200 68261

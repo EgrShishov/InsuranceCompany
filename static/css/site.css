@@ -3061,8 +3061,10 @@ blockquote[lang="en"] {
         background: none;
         border: none;
         cursor: pointer;
-        color: white;
-        font-size: 14px;
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        outline: none;
     }
 
 #searchForm {
@@ -3195,3 +3197,122 @@ blockquote[lang="en"] {
         #employeeSubmitBtn:disabled#employeeSubmitBtn:hover {
             background-color: #ccc;
         }
+
+.input-error {
+    border: 2px solid red;
+    background-color: pink;
+}
+
+#map {
+    width: 1200px%;
+    height: 450px;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+#locationInfo {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#editor, #second-editor {
+    margin-bottom: 15px;
+}
+
+#clipboard-test {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+    #clipboard-test button {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 20px;
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+        #clipboard-test button:hover {
+            background-color: #218838;
+        }
+
+    #clipboard-test input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        margin: 10px 0;
+        width: 100%;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease;
+    }
+
+        #clipboard-test input[type="text"]:focus {
+            border-color: #28a745;
+            outline: none;
+        }
+
+    #clipboard-test label {
+        font-size: 18px;
+        font-weight: bold;
+        display: block;
+        margin: 10px 0 5px 0;
+    }
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    background-color: #cbe0dd;
+    max-width: 90vw;
+    margin: 2rem;
+}
+
+.pagination-btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+    .pagination-btn:active {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .pagination-btn:hover {
+        background-color: #ddd;
+    }
+
+    .pagination-btn.active {
+        color: #23adade1;
+        font-weight: 600;
+    }
+
+    .pagination-btn:disabled {
+        background-color: #007bff;
+        color: white;
+    }
+
+.paginated-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}

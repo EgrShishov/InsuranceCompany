@@ -24,24 +24,29 @@
         </form>
     </div>
 
-    <div class="grid-container">
-      {% if types %}
-        {% for type in types %}
-           <div class="grid-item">
-            <div class="card-content">
-              <h3>{{ type.name }}</h3>
-              <p>{{ type.description }}</p>
-              <p><strong>Комиссионные:</strong> {{ type.percentage }}%</p>
+    <div class="paginated-container">
+      <div class="grid-container">
+        {% if types %}
+          {% for type in types %}
+             <div class="grid-item">
+              <div class="card-content">
+                <h3>{{ type.name }}</h3>
+                <p>{{ type.description }}</p>
+                <p><strong>Комиссионные:</strong> {{ type.percentage }}%</p>
+              </div>
             </div>
-          </div>
-        {% endfor %}
-      {% else %}
-        <p>Ничего не найдено</p>
-      {% endif %}
+          {% endfor %}
+        {% else %}
+          <p>Ничего не найдено</p>
+        {% endif %}
+      </div>
+      <div id="types-pagination"></div>
     </div>
   </div>
 
 <script>
+const pagination = new Pagination('types-pagination', 3, '.grid-item');
+
 const cards = document.querySelectorAll('.grid-item');
 cards.forEach(card => {
      card.addEventListener('mousemove', e => {

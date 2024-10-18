@@ -3,7 +3,22 @@
 {% block content %}
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+<script src="{% static 'js/site.js' %}"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 <div>
+    <button id="getLocation">Получить местоположение</button>
+    <p id="locationInfo">Ваше местоположение: </p>
+    <div id="map"></div>
+
+    <div id="clipboard-test">
+        <button id="copyToClipboard">Скопировать в буфер</button>
+        <label for="editor">Попробуйте напечатать:</label>
+        <input type="text" id="editor">
+        <button id="pasteFromClipboard">Вставить из буфера</button>
+        <input type="text" id="second-editor">
+    </div>
+
     <h1>Введите данные студентов</h1>
     <form class="form" id="studentsForm">
         <label>Фамилия: <input type="text" id="surname" maxlength="12" required></label><br>
@@ -25,7 +40,6 @@
     <div id="top-course"></div>
 
     <button type="button" id="calculate">Рассчитать</button>
-    <script src="{% static 'js/site.js' %}"></script>
 
     <section class="charts">
         <input type="number" id="terms" value="5" min="5" max="10000" required>
@@ -49,8 +63,6 @@
             <tbody></tbody>
         </table>
     </section>
-
-
 
     <h1>Введите размер таблицы, максимальное и минимальное значение</h1>
     <label>Столбцы: <input id="rows" type="number" required></label><br>
