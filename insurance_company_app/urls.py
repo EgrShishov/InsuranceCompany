@@ -3,7 +3,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from .views import news, company_branches, insurance_contract, accounts, insurance_types, \
     discounts, reviews, faq, vacancies, news, about_company, contacts, privacy_policy, cart, \
-    common
+    common, insurance_agents
 
 branches_patterns = [
     re_path(r'^branches/$', company_branches.index, name='company_branches'),
@@ -48,6 +48,7 @@ urlpatterns = [
     re_path(r'^about_company/$', about_company.index, name='about_company'),
     re_path(r'^privacy_policy/$', privacy_policy.privacy_policy, name='privacy_policy'),
     re_path(r'^polygon/$', common.polygon, name='polygon'),
+    re_path(r'^create_agent/$', insurance_agents.create, name='create_agent'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + static(settings.STATIC_URL,
                                                                            document_root=settings.STATIC_ROOT)
 

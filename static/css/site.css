@@ -82,7 +82,7 @@ nav {
 }
 
 #main-content {
-    display: none;
+
 }
 
 .hidden {
@@ -1257,13 +1257,15 @@ body {
     --posy: 50%;
     --rotateX: 0;
     --rotateY: 0;
+    --gradientColor1: lightblue;
+    --gradientColor2: white;
+    perspective: 500em;
+    background: linear-gradient(135deg, var(--gradientColor1), var(--gradientColor2));
+    background-position: var(--posx) var(--posy);
+    background-size: 200% 200%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-position 0.2s ease-out, background 0.3s ease;
     transform: perspective(100em) translateZ(0em) rotateY(var(--rotateX)) rotateX(var(--rotateY));
 }
-
-    .grid-item:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    }
 
     .card-content h3 {
         color: #333;

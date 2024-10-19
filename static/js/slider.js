@@ -1,4 +1,4 @@
-export class Slider {
+export default class Slider {
     #currentIndex;
     #totalSlides;
     #banners = [];
@@ -13,8 +13,6 @@ export class Slider {
     constructor(sliderSelector, formSelector) {
         this.slider = document.querySelector(sliderSelector);
         this.#banners = document.querySelectorAll(`${sliderSelector} .banner`);
-
-        console.log(this.#banners);
         this.#totalSlides = this.#banners.length;
         this.#currentIndex = 0;
         this.#intervalTime = 5000;

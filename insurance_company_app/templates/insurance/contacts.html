@@ -75,9 +75,9 @@
     <section class="contacts-section">
         <h2>Наши работники страховой передовой</h2>
 
-            {% if user|is_employee or user|is_superuser %}
+            {% if user|is_superuser %}
                 <div class="employeeManagement">
-                    <button id="addEmployeeBtn" onclick="addEmployee()">Добавить сотрудника</button>
+                    <button id="addEmployeeBtn" >Добавить сотрудника</button>
                     <form id="newEmployeeForm">
                         <input type="text" id="name" placeholder="Имя" required>
                         <input type="text" id="surname" placeholder="Фамилия" required>
@@ -88,8 +88,9 @@
                         <input type="text" id="url" placeholder="URL" required>
                         <input type="text" id="email" placeholder="Почта" required>
                         <input type="file" id="photo" accept="image/*">
+                        <input type="text" id="branch_name" placeholder="Филиал" required>
                         <button type="submit" id="employeeSubmitBtn" disabled>Добавить в таблицу</button>
-                        <button onclick="hideForm()">Спрятать</button>
+                        <button id="hide-btn">Спрятать</button>
                     </form>
 
                     <form id="searchForm">
@@ -139,7 +140,7 @@
                         <p><strong>Email:</strong> <span id="detailsEmail"></span></p>
                     </div>
 
-                    <button id="premiateBtn" onclick="rewardEmployee()">Премировать</button>
+                    <button id="premiateBtn">Премировать</button>
                     <label for="reward">Количество баксов для премирования:</label>
                     <input type="number" id="reward" required>
                     <label id="reward-text"></label>
